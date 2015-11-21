@@ -1,0 +1,7 @@
+{
+    "firstName" : "Jon",
+    "lastName" : "DeJong",
+    "email" : "jon@notarealemail.com",
+    "password" : "Password1",
+    "roles": ["admin"]
+}
