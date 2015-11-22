@@ -3,6 +3,7 @@ package com.jondejong.scoreindex.team
 
 import com.google.inject.Singleton
 import com.jondejong.scoreindex.datastore.MongoConnection
+import org.bson.types.ObjectId
 
 import javax.inject.Inject
 
@@ -40,6 +41,14 @@ class TeamRepository {
         database.team << teamToDocument(team)
     }
 
+    def updateTeam(team) {
+        def doc = teamToDocument(team)
+        database.team.update(
+                [_id: new ObjectId(team.id)],
+                [$set: doc]
+        )
+    }
+
     protected Team documentToTeam(team) {
         if (!team) {
             return null
@@ -47,12 +56,17 @@ class TeamRepository {
 
         new Team(
                 id: team._id,
-                name: team.name)
+                name: team.name,
+                gameScores: team.gameScores,
+                score: team.score
+        )
     }
 
     protected teamToDocument(Team team) {
         [
-                name: team.name
+                name      : team.name,
+                gameScores: team.gameScores,
+                score     : team.score
         ]
     }
 

@@ -80,6 +80,47 @@ class TeamService {
             startDate++
         }
 
+        // Calculate each score
+        gameRepository.getGames().each { Game game ->
+            // For each game...
+            // Calculate the home team point value
+
+            BigDecimal homeTeamValue = new BigDecimal(game.homeScore)/new BigDecimal(game.homeScore + game.awayScore)
+            def homeTeam = teamRepository.load(game.home)
+            if(!homeTeam.gameScores) {
+                homeTeam.gameScores = []
+            }
+            homeTeam.gameScores << [game: game.id, score: homeTeamValue.doubleValue()]
+            teamRepository.updateTeam(homeTeam)
+
+            // Calculate the away team point value
+            BigDecimal awayTeamValue = new BigDecimal(game.awayScore)/new BigDecimal(game.homeScore + game.awayScore)
+            def awayTeam = teamRepository.load(game.away)
+            if(!awayTeam.gameScores) {
+                awayTeam.gameScores = []
+            }
+            awayTeam.gameScores << [game: game.id, score: awayTeamValue.doubleValue()]
+            teamRepository.updateTeam(awayTeam)
+
+        }
+
+        teamRepository.getTeams().each { Team team ->
+            // For each team...
+            // Average out it's points values
+            BigDecimal total = 0;
+            team.gameScores.each {
+                total += it.score
+            }
+
+            team.score = new BigDecimal(total/team.gameScores.size()).doubleValue()
+            teamRepository.updateTeam(team)
+        }
+
+        // For some number of loops...
+        [0..1000].each {
+            //
+        }
+
         [message: 'initialization complete']
     }
 
