@@ -25,8 +25,18 @@ class TeamService {
         this.gameRepository = gameRepository
     }
 
+    def get(String id) {
+        teamRepository.load(new ObjectId(id))
+    }
+
+    def getByName(String name) {
+        teamRepository.getTeamByName(name)
+    }
+
     def list() {
-        teamRepository.getTeams()
+        teamRepository.getShortTeams().sort {Team a, Team b ->
+            a.rank <=> b.rank
+        }
     }
 
     def getGamesByTeam(name) {
@@ -35,7 +45,7 @@ class TeamService {
 
         def team = teamRepository.getTeamByName(name)
 
-        def homeGames = gameRepository.find(home: new ObjectId(team.id))
+        def homeGames = gameRepository.find(home: team.id)
 
         homeGames.each {Game game ->
             games << [
@@ -47,7 +57,7 @@ class TeamService {
 
         }
 
-        def awayGames = gameRepository.find(away: new ObjectId(team.id))
+        def awayGames = gameRepository.find(away: team.id)
 
         awayGames.each {Game game ->
             games << [
@@ -77,9 +87,52 @@ class TeamService {
 
         while(startDate <= endDate) {
             parseFile(startDate)
-            startDate++
+              startDate++
         }
 
+        calculateBaseScores()
+
+        // For some number of loops...
+        [0..2].each {
+            adjustScores()
+        }
+
+        // Add rankings
+        teamRepository.getTeams().sort {Team a, Team b ->
+            b.score <=> a.score
+        }.eachWithIndex {Team t, i ->
+            t.rank = i + 1
+            teamRepository.updateTeam(t)
+        }
+
+        [message: 'initialization complete']
+    }
+
+    protected adjustScores() {
+        teamRepository.getTeams().each {Team team ->
+
+            team.gameScores.each {
+                Game game = gameRepository.load(it.game)
+                Team otherTeam
+
+                // TODO: Test this comparison thoroughly
+                if(game.home == team.id) {
+                    otherTeam = teamRepository.load(game.away)
+                } else {
+                    otherTeam = teamRepository.load(game.home)
+                }
+
+                // Add .5 to the other teams score. That way a "positive" team increases the value
+                // of this game to a team, while a "negative" team decreases it
+                BigDecimal score = new BigDecimal(it.adjustedScore) * (new BigDecimal(0.5D) + new BigDecimal(otherTeam.score))
+                it.adjustedScore = score.doubleValue()
+            }
+            updateTeamScore(team)
+            teamRepository.updateTeam(team)
+        }
+    }
+
+    protected calculateBaseScores() {
         // Calculate each score
         gameRepository.getGames().each { Game game ->
             // For each game...
@@ -90,7 +143,9 @@ class TeamService {
             if(!homeTeam.gameScores) {
                 homeTeam.gameScores = []
             }
-            homeTeam.gameScores << [game: game.id, score: homeTeamValue.doubleValue()]
+            homeTeam.gameScores << [game: game.id,
+                                    baseScore: homeTeamValue.doubleValue(),
+                                    adjustedScore: homeTeamValue.doubleValue()]
             teamRepository.updateTeam(homeTeam)
 
             // Calculate the away team point value
@@ -99,7 +154,10 @@ class TeamService {
             if(!awayTeam.gameScores) {
                 awayTeam.gameScores = []
             }
-            awayTeam.gameScores << [game: game.id, score: awayTeamValue.doubleValue()]
+            awayTeam.gameScores << [game: game.id,
+                                    baseScore: awayTeamValue.doubleValue(),
+                                    adjustedScore: awayTeamValue.doubleValue()]
+
             teamRepository.updateTeam(awayTeam)
 
         }
@@ -107,21 +165,20 @@ class TeamService {
         teamRepository.getTeams().each { Team team ->
             // For each team...
             // Average out it's points values
-            BigDecimal total = 0;
-            team.gameScores.each {
-                total += it.score
-            }
-
-            team.score = new BigDecimal(total/team.gameScores.size()).doubleValue()
+            updateTeamScore(team)
+            team.baseScore = team.score
             teamRepository.updateTeam(team)
         }
+    }
 
-        // For some number of loops...
-        [0..1000].each {
-            //
+    protected updateTeamScore(Team team) {
+        BigDecimal total = 0;
+        team.gameScores.each {
+            total += it.adjustedScore
         }
 
-        [message: 'initialization complete']
+        team.score = new BigDecimal(total/team.gameScores.size()).doubleValue()
+        team
     }
 
     protected parseFile(Date date) {
@@ -158,8 +215,8 @@ class TeamService {
             }
 
             def game = new Game(
-                    home: new ObjectId(homeTeam.id),
-                    away: new ObjectId(awayTeam.id),
+                    home: homeTeam.id,
+                    away: awayTeam.id,
                     homeScore: Integer.parseInt(line.HomeScore),
                     awayScore: Integer.parseInt(line.AwayScore),
                     date: date

@@ -33,6 +33,15 @@ class TeamRepository {
         teams
     }
 
+    def getShortTeams() {
+        def teams = []
+        def results = database.team.find().asList()
+        results.each { team ->
+            teams << documentToShortTeam(team)
+        }
+        teams
+    }
+
     def getTeamByName(name) {
         documentToTeam(database.team.findOne(name: name))
     }
@@ -44,7 +53,7 @@ class TeamRepository {
     def updateTeam(team) {
         def doc = teamToDocument(team)
         database.team.update(
-                [_id: new ObjectId(team.id)],
+                [_id: team.id],
                 [$set: doc]
         )
     }
@@ -58,7 +67,22 @@ class TeamRepository {
                 id: team._id,
                 name: team.name,
                 gameScores: team.gameScores,
-                score: team.score
+                score: team.score,
+                baseScore: team.baseScore
+        )
+    }
+
+    protected documentToShortTeam(team) {
+        if (!team) {
+            return null
+        }
+
+        new Team(
+                id: team._id,
+                name: team.name,
+                score: team.score,
+                baseScore: team.baseScore,
+                rank: team.rank
         )
     }
 
@@ -66,7 +90,9 @@ class TeamRepository {
         [
                 name      : team.name,
                 gameScores: team.gameScores,
-                score     : team.score
+                score     : team.score,
+                baseScore : team.baseScore,
+                rank      : team.rank
         ]
     }
 

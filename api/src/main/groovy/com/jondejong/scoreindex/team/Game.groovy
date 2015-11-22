@@ -3,7 +3,7 @@ package com.jondejong.scoreindex.team
 import org.bson.types.ObjectId
 
 class Game {
-    String id
+    ObjectId id
 
     Date date
 

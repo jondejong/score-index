@@ -26,6 +26,10 @@ class GameRepository {
         games
     }
 
+    def load(id) {
+        documentToGame(database.game.findOne(_id: id))
+    }
+
     def getGames() {
         def games = []
         def results = database.game.find().asList()

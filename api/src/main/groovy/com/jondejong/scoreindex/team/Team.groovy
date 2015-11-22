@@ -1,8 +1,12 @@
 package com.jondejong.scoreindex.team
 
+import org.bson.types.ObjectId
+
 class Team {
-    String id
+    ObjectId id
+    Integer rank
     String name
     List gameScores
+    Double baseScore
     Double score
 }

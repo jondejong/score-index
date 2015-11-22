@@ -46,16 +46,6 @@ ratpack {
             next()
         }
 
-        post('create') { UserService userService ->
-            parse(User).then { user ->
-                Blocking.get {
-                    userService.createNewUser(user)
-                }.then {
-                    render json(message: 'user created')
-                }
-            }
-        }
-
         post('login') { UserService userService ->
             parse(LoginCommand).then { command ->
                 User user
@@ -80,33 +70,6 @@ ratpack {
         }
 
         prefix('api') {
-            def user
-            all { UserService userService ->
-                def tokenString = request.headers.get('X-Auth-Token')
-                Blocking.get {
-                    user = userService.getUserByToken(tokenString)
-                }.then {
-                    next()
-                }
-            }
-            get('init/:start/:end') { TeamService teamService ->
-                def teams
-                Blocking.get {
-                    init = teamService.init(pathTokens.start, pathTokens.end)
-                }.then {
-                    println "${init}"
-                }
-
-                render json([message: 'initialization started'])
-            }
-            get('users') { UserService userService ->
-                def users
-                Blocking.get {
-                    users = userService.list()
-                }.then {
-                    render json(users)
-                }
-            }
 
             get('teams') { TeamService teamService ->
                 def teams
@@ -117,12 +80,60 @@ ratpack {
                 }
             }
 
+            get('teams/:name') { TeamService teamService ->
+                def team
+                Blocking.get {
+                    team = teamService.getByName(pathTokens.name)
+                }.then {
+                    render json(team    )
+                }
+            }
+
             get('games/:name') { TeamService teamService ->
                 def teams
                 Blocking.get {
                     teams = teamService.getGamesByTeam(pathTokens.name)
                 }.then {
                     render json(teams)
+                }
+            }
+
+            prefix('admin') {
+                def user
+                all { UserService userService ->
+                    def tokenString = request.headers.get('X-Auth-Token')
+                    Blocking.get {
+                        user = userService.getUserByToken(tokenString)
+                    }.then {
+                        next()
+                    }
+                }
+                get('init/:start/:end') { TeamService teamService ->
+                    def teams
+                    Blocking.get {
+                        init = teamService.init(pathTokens.start, pathTokens.end)
+                    }.then {
+                        println "${init}"
+                    }
+
+                    render json([message: 'initialization started'])
+                }
+                get('users') { UserService userService ->
+                    def users
+                    Blocking.get {
+                        users = userService.list()
+                    }.then {
+                        render json(users)
+                    }
+                }
+                post('create') { UserService userService ->
+                    parse(User).then { newUser ->
+                        Blocking.get {
+                            userService.createNewUser(newUser)
+                        }.then {
+                            render json(message: 'user created')
+                        }
+                    }
                 }
             }
         }
