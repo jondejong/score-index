@@ -29,6 +29,39 @@ class TeamService {
         teamRepository.getTeams()
     }
 
+    def getGamesByTeam(name) {
+
+        def games = []
+
+        def team = teamRepository.getTeamByName(name)
+
+        def homeGames = gameRepository.find(home: new ObjectId(team.id))
+
+        homeGames.each {Game game ->
+            games << [
+                    home: name,
+                    homeScore: game.homeScore,
+                    away: teamRepository.load(game.away).name,
+                    awayScore: game.awayScore
+            ]
+
+        }
+
+        def awayGames = gameRepository.find(away: new ObjectId(team.id))
+
+        awayGames.each {Game game ->
+            games << [
+                    home: teamRepository.load(game.home).name,
+                    homeScore: game.homeScore,
+                    away: name,
+                    awayScore: game.awayScore
+            ]
+
+        }
+
+        games
+    }
+
     def createTeam(Team team) {
         teamRepository.saveTeam(team)
     }
@@ -39,21 +72,20 @@ class TeamService {
         teamRepository.clear()
         gameRepository.clear()
 
-        parseFile(end)
-
         Date startDate = format.parse(start)
         Date endDate = format.parse(end)
 
         while(startDate <= endDate) {
-            parseFile(format.format(startDate))
+            parseFile(startDate)
             startDate++
         }
 
         [message: 'initialization complete']
     }
 
-    protected parseFile(fileDate) {
+    protected parseFile(Date date) {
 
+        def fileDate = format.format(date)
         println "parsing games from ${fileDate}"
 
         String fileName = "${initialTeams.fileLocation}/${fileDate}.csv"
@@ -88,7 +120,8 @@ class TeamService {
                     home: new ObjectId(homeTeam.id),
                     away: new ObjectId(awayTeam.id),
                     homeScore: Integer.parseInt(line.HomeScore),
-                    awayScore: Integer.parseInt(line.AwayScore)
+                    awayScore: Integer.parseInt(line.AwayScore),
+                    date: date
             )
 
             gameRepository.saveGame(game)
@@ -98,6 +131,6 @@ class TeamService {
     }
 
     protected scrubTeamName(String name) {
-        name.split('\\(')[0]
+        name.split('\\(')[0].trim()
     }
 }

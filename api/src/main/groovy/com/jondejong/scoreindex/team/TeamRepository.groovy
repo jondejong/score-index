@@ -19,6 +19,10 @@ class TeamRepository {
         database.team.drop()
     }
 
+    def load(id) {
+        documentToTeam(database.team.findOne(_id: id))
+    }
+
     def getTeams() {
         def teams = []
         def results = database.team.find().asList()

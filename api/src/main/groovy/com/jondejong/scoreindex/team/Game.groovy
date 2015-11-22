@@ -4,6 +4,9 @@ import org.bson.types.ObjectId
 
 class Game {
     String id
+
+    Date date
+
     ObjectId home
     ObjectId away
 

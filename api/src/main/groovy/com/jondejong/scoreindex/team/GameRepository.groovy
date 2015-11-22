@@ -4,9 +4,6 @@ import com.jondejong.scoreindex.datastore.MongoConnection
 
 import javax.inject.Inject
 
-/**
- * Created by jondejong on 11/21/15.
- */
 class GameRepository {
 
     def database
@@ -18,6 +15,15 @@ class GameRepository {
 
     def clear() {
         database.game.drop()
+    }
+
+    def find(params) {
+        def games = []
+        def results = database.game.find(params).asList()
+        results.each { game ->
+            games << documentToGame(game)
+        }
+        games
     }
 
     def getGames() {
@@ -43,7 +49,8 @@ class GameRepository {
                 home: game.home,
                 away: game.away,
                 homeScore: game.homeScore,
-                awayScore: game.awayScore
+                awayScore: game.awayScore,
+                date: game.date
 
         )
     }
@@ -53,7 +60,8 @@ class GameRepository {
                 home: game.home,
                 away: game.away,
                 homeScore: game.homeScore,
-                awayScore: game.awayScore
+                awayScore: game.awayScore,
+                date: game.date
         ]
     }
 }

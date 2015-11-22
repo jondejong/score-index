@@ -94,8 +94,10 @@ ratpack {
                 Blocking.get {
                     init = teamService.init(pathTokens.start, pathTokens.end)
                 }.then {
-                    render json(init)
+                    println "${init}"
                 }
+
+                render json([message: 'initialization started'])
             }
             get('users') { UserService userService ->
                 def users
@@ -115,7 +117,14 @@ ratpack {
                 }
             }
 
-
+            get('games/:name') { TeamService teamService ->
+                def teams
+                Blocking.get {
+                    teams = teamService.getGamesByTeam(pathTokens.name)
+                }.then {
+                    render json(teams)
+                }
+            }
         }
 
     }
