@@ -1,0 +1,3989 @@
+{
+  "date": "2015-11-15",
+  "teams": [
+    {
+      "id": "5653c6bf77c81a43683d11d8",
+      "rank": 1,
+      "name": "Louisville",
+      "gameScores": null,
+      "baseScore": 0.6252403878333334,
+      "score": 0.6165170387210742
+    },
+    {
+      "id": "5653c6bf77c81a43683d1253",
+      "rank": 2,
+      "name": "Villanova",
+      "gameScores": null,
+      "baseScore": 0.600823424175,
+      "score": 0.6077387482147746
+    },
+    {
+      "id": "5653c6bf77c81a43683d11c0",
+      "rank": 3,
+      "name": "Cincinnati",
+      "gameScores": null,
+      "baseScore": 0.642280211075,
+      "score": 0.607509485490165
+    },
+    {
+      "id": "5653c6bf77c81a43683d12bf",
+      "rank": 4,
+      "name": "Purdue",
+      "gameScores": null,
+      "baseScore": 0.60290847396,
+      "score": 0.6026607703161375
+    },
+    {
+      "id": "5653c6bf77c81a43683d11f3",
+      "rank": 5,
+      "name": "Vanderbilt",
+      "gameScores": null,
+      "baseScore": 0.5989452775666667,
+      "score": 0.5990451695353914
+    },
+    {
+      "id": "5653c6bf77c81a43683d1160",
+      "rank": 6,
+      "name": "Iowa St",
+      "gameScores": null,
+      "baseScore": 0.57330316745,
+      "score": 0.5973816053258062
+    },
+    {
+      "id": "5653c6c077c81a43683d14b7",
+      "rank": 7,
+      "name": "Gonzaga",
+      "gameScores": null,
+      "baseScore": 0.63983786915,
+      "score": 0.597039736688652
+    },
+    {
+      "id": "5653c6c077c81a43683d14e0",
+      "rank": 8,
+      "name": "Houston",
+      "gameScores": null,
+      "baseScore": 0.63276592555,
+      "score": 0.5963929255903195
+    },
+    {
+      "id": "5653c6c077c81a43683d1322",
+      "rank": 9,
+      "name": "Texas A&M",
+      "gameScores": null,
+      "baseScore": 0.6106176714,
+      "score": 0.5932647091147254
+    },
+    {
+      "id": "5653c6bf77c81a43683d12bc",
+      "rank": 10,
+      "name": "Clemson",
+      "gameScores": null,
+      "baseScore": 0.6196755747666667,
+      "score": 0.5893031585925628
+    },
+    {
+      "id": "5653c6bf77c81a43683d1292",
+      "rank": 11,
+      "name": "Connecticut",
+      "gameScores": null,
+      "baseScore": 0.5975306768666667,
+      "score": 0.584028802568384
+    },
+    {
+      "id": "5653c6bf77c81a43683d1163",
+      "rank": 12,
+      "name": "Michigan St",
+      "gameScores": null,
+      "baseScore": 0.5949812182666667,
+      "score": 0.5802214666917749
+    },
+    {
+      "id": "5653c6bf77c81a43683d1217",
+      "rank": 13,
+      "name": "West Virginia",
+      "gameScores": null,
+      "baseScore": 0.6006758964,
+      "score": 0.5798709025538493
+    },
+    {
+      "id": "5653c6bf77c81a43683d11c3",
+      "rank": 14,
+      "name": "Dayton",
+      "gameScores": null,
+      "baseScore": 0.5830832657333334,
+      "score": 0.576672195290301
+    },
+    {
+      "id": "5653c6bf77c81a43683d11ba",
+      "rank": 15,
+      "name": "Indiana",
+      "gameScores": null,
+      "baseScore": 0.5949686327,
+      "score": 0.5739503881557292
+    },
+    {
+      "id": "5653c6bf77c81a43683d12b6",
+      "rank": 16,
+      "name": "Virginia",
+      "gameScores": null,
+      "baseScore": 0.57938697328,
+      "score": 0.5715944934166971
+    },
+    {
+      "id": "5653c6bf77c81a43683d121d",
+      "rank": 17,
+      "name": "Kentucky",
+      "gameScores": null,
+      "baseScore": 0.5607396717500001,
+      "score": 0.5698982082427184
+    },
+    {
+      "id": "5653c6bf77c81a43683d1304",
+      "rank": 18,
+      "name": "Notre Dame",
+      "gameScores": null,
+      "baseScore": 0.5752129984,
+      "score": 0.569780279952122
+    },
+    {
+      "id": "5653c6bf77c81a43683d1313",
+      "rank": 19,
+      "name": "Miami Fla",
+      "gameScores": null,
+      "baseScore": 0.56379750452,
+      "score": 0.5690902452605254
+    },
+    {
+      "id": "5653c6bf77c81a43683d1277",
+      "rank": 20,
+      "name": "Oregon",
+      "gameScores": null,
+      "baseScore": 0.5546220857749999,
+      "score": 0.5687571436867029
+    },
+    {
+      "id": "5653c6c077c81a43683d1325",
+      "rank": 21,
+      "name": "Byu",
+      "gameScores": null,
+      "baseScore": 0.5805603085333333,
+      "score": 0.5679062663525146
+    },
+    {
+      "id": "5653c6bf77c81a43683d125c",
+      "rank": 22,
+      "name": "Iowa",
+      "gameScores": null,
+      "baseScore": 0.5862118258666666,
+      "score": 0.5664472872099506
+    },
+    {
+      "id": "5653c6c077c81a43683d13a2",
+      "rank": 23,
+      "name": "Boston College",
+      "gameScores": null,
+      "baseScore": 0.5822555891,
+      "score": 0.565679308887149
+    },
+    {
+      "id": "5653c6bf77c81a43683d12a7",
+      "rank": 24,
+      "name": "Louisiana Tech",
+      "gameScores": null,
+      "baseScore": 0.6149398479333333,
+      "score": 0.5651871146596387
+    },
+    {
+      "id": "5653c6bf77c81a43683d12f2",
+      "rank": 25,
+      "name": "Duquesne",
+      "gameScores": null,
+      "baseScore": 0.5778912762666667,
+      "score": 0.5650006856453468
+    },
+    {
+      "id": "5653c6bf77c81a43683d12d7",
+      "rank": 26,
+      "name": "Grand Canyon",
+      "gameScores": null,
+      "baseScore": 0.5714891775000001,
+      "score": 0.5639786608749833
+    },
+    {
+      "id": "5653c6c077c81a43683d139c",
+      "rank": 27,
+      "name": "Smu",
+      "gameScores": null,
+      "baseScore": 0.5617198611666666,
+      "score": 0.5628153156017056
+    },
+    {
+      "id": "5653c6bf77c81a43683d12ec",
+      "rank": 28,
+      "name": "St Marys Ca",
+      "gameScores": null,
+      "baseScore": 0.5783042296666667,
+      "score": 0.5615089501068312
+    },
+    {
+      "id": "5653c6bf77c81a43683d121b",
+      "rank": 29,
+      "name": "Florida",
+      "gameScores": null,
+      "baseScore": 0.559996684175,
+      "score": 0.5610996383236834
+    },
+    {
+      "id": "5653c6bf77c81a43683d118d",
+      "rank": 30,
+      "name": "Usc",
+      "gameScores": null,
+      "baseScore": 0.5668297084999999,
+      "score": 0.5609721345894717
+    },
+    {
+      "id": "5653c6bf77c81a43683d11a5",
+      "rank": 31,
+      "name": "Washington",
+      "gameScores": null,
+      "baseScore": 0.5757532666666667,
+      "score": 0.5608253555364747
+    },
+    {
+      "id": "5653c6bf77c81a43683d122c",
+      "rank": 32,
+      "name": "Rhode Island",
+      "gameScores": null,
+      "baseScore": 0.570948789,
+      "score": 0.5602699957074261
+    },
+    {
+      "id": "5653c6c077c81a43683d1384",
+      "rank": 33,
+      "name": "Texas El Paso",
+      "gameScores": null,
+      "baseScore": 0.5989046924,
+      "score": 0.5585750912664587
+    },
+    {
+      "id": "5653c6bf77c81a43683d1199",
+      "rank": 34,
+      "name": "Nev Las Vegas",
+      "gameScores": null,
+      "baseScore": 0.5927880837,
+      "score": 0.5585508254552881
+    },
+    {
+      "id": "5653c6bf77c81a43683d123e",
+      "rank": 35,
+      "name": "South Dakota St",
+      "gameScores": null,
+      "baseScore": 0.5665641752499999,
+      "score": 0.5583030740453941
+    },
+    {
+      "id": "5653c6bf77c81a43683d1310",
+      "rank": 36,
+      "name": "New Mexico",
+      "gameScores": null,
+      "baseScore": 0.55051082575,
+      "score": 0.5574419539401938
+    },
+    {
+      "id": "5653c6c077c81a43683d134f",
+      "rank": 37,
+      "name": "Butler",
+      "gameScores": null,
+      "baseScore": 0.566960516175,
+      "score": 0.556787389096618
+    },
+    {
+      "id": "5653c6bf77c81a43683d11e7",
+      "rank": 38,
+      "name": "Valparaiso",
+      "gameScores": null,
+      "baseScore": 0.5783667140000001,
+      "score": 0.5562378751397142
+    },
+    {
+      "id": "5653c6bf77c81a43683d1196",
+      "rank": 39,
+      "name": "Arizona",
+      "gameScores": null,
+      "baseScore": 0.5732760224750001,
+      "score": 0.5560594378138454
+    },
+    {
+      "id": "5653c6c077c81a43683d1453",
+      "rank": 40,
+      "name": "Oklahoma",
+      "gameScores": null,
+      "baseScore": 0.56067769895,
+      "score": 0.555991742259953
+    },
+    {
+      "id": "5653c6bf77c81a43683d129e",
+      "rank": 41,
+      "name": "Kansas St",
+      "gameScores": null,
+      "baseScore": 0.5660116199333333,
+      "score": 0.5557963553345273
+    },
+    {
+      "id": "5653c6c077c81a43683d148f",
+      "rank": 42,
+      "name": "Pittsburgh",
+      "gameScores": null,
+      "baseScore": 0.60369716715,
+      "score": 0.5548242912363777
+    },
+    {
+      "id": "5653c6bf77c81a43683d11fc",
+      "rank": 43,
+      "name": "Kansas",
+      "gameScores": null,
+      "baseScore": 0.54123655135,
+      "score": 0.5543982827257954
+    },
+    {
+      "id": "5653c6c077c81a43683d136b",
+      "rank": 44,
+      "name": "Arkansas Lr",
+      "gameScores": null,
+      "baseScore": 0.5879198297666667,
+      "score": 0.5540427076819142
+    },
+    {
+      "id": "5653c6bf77c81a43683d1307",
+      "rank": 45,
+      "name": "Baylor",
+      "gameScores": null,
+      "baseScore": 0.5584596650999999,
+      "score": 0.55393311023038
+    },
+    {
+      "id": "5653c6c077c81a43683d139f",
+      "rank": 46,
+      "name": "Cs-Bakersfield",
+      "gameScores": null,
+      "baseScore": 0.5731560489,
+      "score": 0.5534501082257659
+    },
+    {
+      "id": "5653c6bf77c81a43683d12a4",
+      "rank": 47,
+      "name": "Nc Wilmington",
+      "gameScores": null,
+      "baseScore": 0.5664825097,
+      "score": 0.5522133881729164
+    },
+    {
+      "id": "5653c6bf77c81a43683d1178",
+      "rank": 48,
+      "name": "Xavier",
+      "gameScores": null,
+      "baseScore": 0.5407868275666666,
+      "score": 0.5501131111640448
+    },
+    {
+      "id": "5653c6bf77c81a43683d1185",
+      "rank": 49,
+      "name": "William & Mary",
+      "gameScores": null,
+      "baseScore": 0.5433217499999999,
+      "score": 0.5499063314174273
+    },
+    {
+      "id": "5653c6c077c81a43683d13d7",
+      "rank": 50,
+      "name": "Florida St",
+      "gameScores": null,
+      "baseScore": 0.557177319975,
+      "score": 0.5494965323331267
+    },
+    {
+      "id": "5653c6bf77c81a43683d11a8",
+      "rank": 51,
+      "name": "California",
+      "gameScores": null,
+      "baseScore": 0.5627596629,
+      "score": 0.5489364085042149
+    },
+    {
+      "id": "5653c6c077c81a43683d1328",
+      "rank": 52,
+      "name": "East Michigan",
+      "gameScores": null,
+      "baseScore": 0.5844595367,
+      "score": 0.5480357358507632
+    },
+    {
+      "id": "5653c6c077c81a43683d1390",
+      "rank": 53,
+      "name": "South Carolina",
+      "gameScores": null,
+      "baseScore": 0.547963505225,
+      "score": 0.5475257424881397
+    },
+    {
+      "id": "5653c6bf77c81a43683d11bd",
+      "rank": 54,
+      "name": "Georgia",
+      "gameScores": null,
+      "baseScore": 0.52116579075,
+      "score": 0.5469091805932491
+    },
+    {
+      "id": "5653c6bf77c81a43683d11b8",
+      "rank": 55,
+      "name": "Nevada",
+      "gameScores": null,
+      "baseScore": 0.5359940109,
+      "score": 0.546559811811555
+    },
+    {
+      "id": "5653c6bf77c81a43683d1229",
+      "rank": 56,
+      "name": "Mercer",
+      "gameScores": null,
+      "baseScore": 0.5671440893333334,
+      "score": 0.5464580616322752
+    },
+    {
+      "id": "5653c6bf77c81a43683d11de",
+      "rank": 57,
+      "name": "Cal Davis",
+      "gameScores": null,
+      "baseScore": 0.5516349475666666,
+      "score": 0.5455338265109555
+    },
+    {
+      "id": "5653c6bf77c81a43683d11e4",
+      "rank": 58,
+      "name": "Arizona St",
+      "gameScores": null,
+      "baseScore": 0.5496596526,
+      "score": 0.5454785603878498
+    },
+    {
+      "id": "5653c6bf77c81a43683d1173",
+      "rank": 59,
+      "name": "North Carolina",
+      "gameScores": null,
+      "baseScore": 0.5552433216,
+      "score": 0.5445859742000575
+    },
+    {
+      "id": "5653c6c077c81a43683d131c",
+      "rank": 60,
+      "name": "Cal Irvine",
+      "gameScores": null,
+      "baseScore": 0.5486075465666667,
+      "score": 0.5441353559390976
+    },
+    {
+      "id": "5653c6bf77c81a43683d12fb",
+      "rank": 61,
+      "name": "Coll Charleston",
+      "gameScores": null,
+      "baseScore": 0.5429678897,
+      "score": 0.5437118650917949
+    },
+    {
+      "id": "5653c6bf77c81a43683d1202",
+      "rank": 62,
+      "name": "Washington St",
+      "gameScores": null,
+      "baseScore": 0.54934210525,
+      "score": 0.5436686056302988
+    },
+    {
+      "id": "5653c6bf77c81a43683d1206",
+      "rank": 63,
+      "name": "Western Illinois",
+      "gameScores": null,
+      "baseScore": 0.5717335191999999,
+      "score": 0.543319069043354
+    },
+    {
+      "id": "5653c6c077c81a43683d1357",
+      "rank": 64,
+      "name": "Hawaii",
+      "gameScores": null,
+      "baseScore": 0.5257331916666668,
+      "score": 0.5426421559823428
+    },
+    {
+      "id": "5653c6bf77c81a43683d1175",
+      "rank": 65,
+      "name": "Georgia Tech",
+      "gameScores": null,
+      "baseScore": 0.54351438315,
+      "score": 0.5421761157530285
+    },
+    {
+      "id": "5653c6bf77c81a43683d127a",
+      "rank": 66,
+      "name": "North Texas",
+      "gameScores": null,
+      "baseScore": 0.6102972207,
+      "score": 0.5418956091709772
+    },
+    {
+      "id": "5653c6bf77c81a43683d1289",
+      "rank": 67,
+      "name": "Syracuse",
+      "gameScores": null,
+      "baseScore": 0.5461196849333333,
+      "score": 0.54172625961588
+    },
+    {
+      "id": "5653c6bf77c81a43683d11e5",
+      "rank": 68,
+      "name": "Sacramento St",
+      "gameScores": null,
+      "baseScore": 0.5618201251666667,
+      "score": 0.541610073313584
+    },
+    {
+      "id": "5653c6bf77c81a43683d1161",
+      "rank": 69,
+      "name": "Colorado",
+      "gameScores": null,
+      "baseScore": 0.5215100751499999,
+      "score": 0.5403915876457366
+    },
+    {
+      "id": "5653c6bf77c81a43683d1271",
+      "rank": 70,
+      "name": "New Mexico St",
+      "gameScores": null,
+      "baseScore": 0.558926282825,
+      "score": 0.5397380961221696
+    },
+    {
+      "id": "5653c6bf77c81a43683d1220",
+      "rank": 71,
+      "name": "St Johns",
+      "gameScores": null,
+      "baseScore": 0.5436187330666667,
+      "score": 0.5397216604686587
+    },
+    {
+      "id": "5653c6bf77c81a43683d11b1",
+      "rank": 72,
+      "name": "Denver",
+      "gameScores": null,
+      "baseScore": 0.54127600405,
+      "score": 0.5396588504901696
+    },
+    {
+      "id": "5653c6bf77c81a43683d1187",
+      "rank": 73,
+      "name": "Auburn",
+      "gameScores": null,
+      "baseScore": 0.5269194340333333,
+      "score": 0.538763601066237
+    },
+    {
+      "id": "5653c6c077c81a43683d13d1",
+      "rank": 74,
+      "name": "St Louis",
+      "gameScores": null,
+      "baseScore": 0.5509468745,
+      "score": 0.5386569458290329
+    },
+    {
+      "id": "5653c6bf77c81a43683d11ae",
+      "rank": 75,
+      "name": "Northern Illinois",
+      "gameScores": null,
+      "baseScore": 0.561649192375,
+      "score": 0.5377682984956682
+    },
+    {
+      "id": "5653c6c077c81a43683d137e",
+      "rank": 76,
+      "name": "Massachusetts",
+      "gameScores": null,
+      "baseScore": 0.5434746430333334,
+      "score": 0.5375676113675958
+    },
+    {
+      "id": "5653c6c077c81a43683d1379",
+      "rank": 77,
+      "name": "Winthrop",
+      "gameScores": null,
+      "baseScore": 0.5435887352333334,
+      "score": 0.5374339199012927
+    },
+    {
+      "id": "5653c6c077c81a43683d13c3",
+      "rank": 78,
+      "name": "Ohio St",
+      "gameScores": null,
+      "baseScore": 0.5551416780333334,
+      "score": 0.5370892345239812
+    },
+    {
+      "id": "5653c6c077c81a43683d1370",
+      "rank": 79,
+      "name": "Ohio",
+      "gameScores": null,
+      "baseScore": 0.530218551825,
+      "score": 0.5369124587764585
+    },
+    {
+      "id": "5653c6c077c81a43683d138a",
+      "rank": 80,
+      "name": "Nebraska",
+      "gameScores": null,
+      "baseScore": 0.554237055525,
+      "score": 0.5366365237033826
+    },
+    {
+      "id": "5653c6bf77c81a43683d11c9",
+      "rank": 81,
+      "name": "Duke",
+      "gameScores": null,
+      "baseScore": 0.5295367463,
+      "score": 0.5358276859157164
+    },
+    {
+      "id": "5653c6c077c81a43683d1387",
+      "rank": 82,
+      "name": "Stony Brook",
+      "gameScores": null,
+      "baseScore": 0.5805728366666667,
+      "score": 0.5356773461903126
+    },
+    {
+      "id": "5653c6bf77c81a43683d119f",
+      "rank": 83,
+      "name": "Fresno St",
+      "gameScores": null,
+      "baseScore": 0.5296849907,
+      "score": 0.5356755844889676
+    },
+    {
+      "id": "5653c6bf77c81a43683d11be",
+      "rank": 84,
+      "name": "Tennessee Chat",
+      "gameScores": null,
+      "baseScore": 0.5496750721666667,
+      "score": 0.5354701141559037
+    },
+    {
+      "id": "5653c6bf77c81a43683d12d8",
+      "rank": 85,
+      "name": "Portland St",
+      "gameScores": null,
+      "baseScore": 0.5560606060666666,
+      "score": 0.5354113232449941
+    },
+    {
+      "id": "5653c6c077c81a43683d1368",
+      "rank": 86,
+      "name": "Tulsa",
+      "gameScores": null,
+      "baseScore": 0.529893066225,
+      "score": 0.5348257594025974
+    },
+    {
+      "id": "5653c6c077c81a43683d1337",
+      "rank": 87,
+      "name": "Providence",
+      "gameScores": null,
+      "baseScore": 0.5366443583666667,
+      "score": 0.5340918616152568
+    },
+    {
+      "id": "5653c6bf77c81a43683d11d5",
+      "rank": 88,
+      "name": "Yale",
+      "gameScores": null,
+      "baseScore": 0.536908533925,
+      "score": 0.5338650776582814
+    },
+    {
+      "id": "5653c6c077c81a43683d14a8",
+      "rank": 89,
+      "name": "Oakland",
+      "gameScores": null,
+      "baseScore": 0.5063827098,
+      "score": 0.5335733916145664
+    },
+    {
+      "id": "5653c6bf77c81a43683d1280",
+      "rank": 90,
+      "name": "Columbia",
+      "gameScores": null,
+      "baseScore": 0.545410732675,
+      "score": 0.5334294492343372
+    },
+    {
+      "id": "5653c6c077c81a43683d1340",
+      "rank": 91,
+      "name": "Fordham",
+      "gameScores": null,
+      "baseScore": 0.5442937801333333,
+      "score": 0.5332196766734423
+    },
+    {
+      "id": "5653c6c077c81a43683d133c",
+      "rank": 92,
+      "name": "Memphis",
+      "gameScores": null,
+      "baseScore": 0.5399594997333333,
+      "score": 0.5329274410150445
+    },
+    {
+      "id": "5653c6bf77c81a43683d1286",
+      "rank": 93,
+      "name": "Geo Washington",
+      "gameScores": null,
+      "baseScore": 0.5247253215000001,
+      "score": 0.5318598024538606
+    },
+    {
+      "id": "5653c6bf77c81a43683d11cc",
+      "rank": 94,
+      "name": "Hofstra",
+      "gameScores": null,
+      "baseScore": 0.529505030775,
+      "score": 0.5317440872065078
+    },
+    {
+      "id": "5653c6c077c81a43683d135a",
+      "rank": 95,
+      "name": "Virginia Tech",
+      "gameScores": null,
+      "baseScore": 0.5395341835333333,
+      "score": 0.5315638717970697
+    },
+    {
+      "id": "5653c6bf77c81a43683d11b2",
+      "rank": 96,
+      "name": "Wisc Milwaukee",
+      "gameScores": null,
+      "baseScore": 0.53046135616,
+      "score": 0.5312548784321856
+    },
+    {
+      "id": "5653c6bf77c81a43683d12a1",
+      "rank": 97,
+      "name": "Georgia St",
+      "gameScores": null,
+      "baseScore": 0.5725867600000001,
+      "score": 0.5310196298898434
+    },
+    {
+      "id": "5653c6bf77c81a43683d1181",
+      "rank": 98,
+      "name": "Southern Ill",
+      "gameScores": null,
+      "baseScore": 0.5364559172,
+      "score": 0.5306232151364374
+    },
+    {
+      "id": "5653c6bf77c81a43683d1295",
+      "rank": 99,
+      "name": "Northwestern",
+      "gameScores": null,
+      "baseScore": 0.5377545382666667,
+      "score": 0.5304465148666396
+    },
+    {
+      "id": "5653c6bf77c81a43683d1209",
+      "rank": 100,
+      "name": "Utah St",
+      "gameScores": null,
+      "baseScore": 0.556163906,
+      "score": 0.5304123225628722
+    },
+    {
+      "id": "5653c6bf77c81a43683d1205",
+      "rank": 101,
+      "name": "Wisconsin",
+      "gameScores": null,
+      "baseScore": 0.5186905334199999,
+      "score": 0.5301469792955329
+    },
+    {
+      "id": "5653c6bf77c81a43683d124d",
+      "rank": 102,
+      "name": "Liberty",
+      "gameScores": null,
+      "baseScore": 0.557864151775,
+      "score": 0.5300214267291141
+    },
+    {
+      "id": "5653c6bf77c81a43683d116c",
+      "rank": 103,
+      "name": "Richmond",
+      "gameScores": null,
+      "baseScore": 0.532564840575,
+      "score": 0.5297451469174392
+    },
+    {
+      "id": "5653c6c077c81a43683d133f",
+      "rank": 104,
+      "name": "Texas Arlington",
+      "gameScores": null,
+      "baseScore": 0.49798949316666663,
+      "score": 0.529623660669635
+    },
+    {
+      "id": "5653c6c077c81a43683d1393",
+      "rank": 105,
+      "name": "Oregon St",
+      "gameScores": null,
+      "baseScore": 0.555273414425,
+      "score": 0.5294734166980144
+    },
+    {
+      "id": "5653c6bf77c81a43683d11f6",
+      "rank": 106,
+      "name": "Oklahoma St",
+      "gameScores": null,
+      "baseScore": 0.54686969996,
+      "score": 0.529459386100966
+    },
+    {
+      "id": "5653c6bf77c81a43683d1184",
+      "rank": 107,
+      "name": "No Carolina St",
+      "gameScores": null,
+      "baseScore": 0.5288638849666666,
+      "score": 0.5292471314018082
+    },
+    {
+      "id": "5653c6c077c81a43683d1334",
+      "rank": 108,
+      "name": "Akron",
+      "gameScores": null,
+      "baseScore": 0.566882439,
+      "score": 0.5285260998839753
+    },
+    {
+      "id": "5653c6c077c81a43683d13bf",
+      "rank": 109,
+      "name": "Evansville",
+      "gameScores": null,
+      "baseScore": 0.5509829599999999,
+      "score": 0.5285029109849547
+    },
+    {
+      "id": "5653c6c077c81a43683d13ac",
+      "rank": 110,
+      "name": "Cal Riverside",
+      "gameScores": null,
+      "baseScore": 0.5469634230333333,
+      "score": 0.528255468488588
+    },
+    {
+      "id": "5653c6bf77c81a43683d12c8",
+      "rank": 111,
+      "name": "Michigan",
+      "gameScores": null,
+      "baseScore": 0.5422852001666667,
+      "score": 0.5282001763479778
+    },
+    {
+      "id": "5653c6bf77c81a43683d1241",
+      "rank": 112,
+      "name": "Wichita St",
+      "gameScores": null,
+      "baseScore": 0.5442248731333333,
+      "score": 0.5277480375565011
+    },
+    {
+      "id": "5653c6bf77c81a43683d11d2",
+      "rank": 113,
+      "name": "Old Dominion",
+      "gameScores": null,
+      "baseScore": 0.52947497588,
+      "score": 0.5266509965206152
+    },
+    {
+      "id": "5653c6bf77c81a43683d1265",
+      "rank": 114,
+      "name": "Murray St",
+      "gameScores": null,
+      "baseScore": 0.5491436684,
+      "score": 0.5263913328943105
+    },
+    {
+      "id": "5653c6bf77c81a43683d1214",
+      "rank": 115,
+      "name": "Ucla",
+      "gameScores": null,
+      "baseScore": 0.5176087570666666,
+      "score": 0.526331512017293
+    },
+    {
+      "id": "5653c6c077c81a43683d132f",
+      "rank": 116,
+      "name": "Colorado St",
+      "gameScores": null,
+      "baseScore": 0.5200464406666666,
+      "score": 0.5261123535272786
+    },
+    {
+      "id": "5653c6bf77c81a43683d11df",
+      "rank": 117,
+      "name": "North Dakota St",
+      "gameScores": null,
+      "baseScore": 0.5306439699666666,
+      "score": 0.5260584172242909
+    },
+    {
+      "id": "5653c6bf77c81a43683d1226",
+      "rank": 118,
+      "name": "Tulane",
+      "gameScores": null,
+      "baseScore": 0.5255708943499999,
+      "score": 0.5260485973456048
+    },
+    {
+      "id": "5653c6bf77c81a43683d12fe",
+      "rank": 119,
+      "name": "Arkansas",
+      "gameScores": null,
+      "baseScore": 0.5294011544,
+      "score": 0.5257141038447565
+    },
+    {
+      "id": "5653c6bf77c81a43683d12da",
+      "rank": 120,
+      "name": "Va Commonwealth",
+      "gameScores": null,
+      "baseScore": 0.531037210075,
+      "score": 0.5256420954422094
+    },
+    {
+      "id": "5653c6bf77c81a43683d11a6",
+      "rank": 121,
+      "name": "Texas",
+      "gameScores": null,
+      "baseScore": 0.51222258845,
+      "score": 0.5254718164045455
+    },
+    {
+      "id": "5653c6bf77c81a43683d12b9",
+      "rank": 122,
+      "name": "Tennessee",
+      "gameScores": null,
+      "baseScore": 0.5296229937,
+      "score": 0.5253519645968805
+    },
+    {
+      "id": "5653c6bf77c81a43683d129b",
+      "rank": 123,
+      "name": "Lsu",
+      "gameScores": null,
+      "baseScore": 0.5489468359333333,
+      "score": 0.5251764180909285
+    },
+    {
+      "id": "5653c6c077c81a43683d134d",
+      "rank": 124,
+      "name": "Central Florida",
+      "gameScores": null,
+      "baseScore": 0.5092668472333334,
+      "score": 0.5251450876150269
+    },
+    {
+      "id": "5653c6bf77c81a43683d11a0",
+      "rank": 125,
+      "name": "Pepperdine",
+      "gameScores": null,
+      "baseScore": 0.5305305305333333,
+      "score": 0.5246271738980451
+    },
+    {
+      "id": "5653c6bf77c81a43683d1223",
+      "rank": 126,
+      "name": "Maryland",
+      "gameScores": null,
+      "baseScore": 0.5434630696,
+      "score": 0.5243517423287147
+    },
+    {
+      "id": "5653c6bf77c81a43683d121e",
+      "rank": 127,
+      "name": "Albany Ny",
+      "gameScores": null,
+      "baseScore": 0.53899316675,
+      "score": 0.5242686680154626
+    },
+    {
+      "id": "5653c6bf77c81a43683d1235",
+      "rank": 128,
+      "name": "Lamar",
+      "gameScores": null,
+      "baseScore": 0.5491219582666667,
+      "score": 0.5241396402333509
+    },
+    {
+      "id": "5653c6bf77c81a43683d1244",
+      "rank": 129,
+      "name": "Morehead St",
+      "gameScores": null,
+      "baseScore": 0.5533362391333333,
+      "score": 0.5231477773591905
+    },
+    {
+      "id": "5653c6bf77c81a43683d116f",
+      "rank": 130,
+      "name": "Seton Hall",
+      "gameScores": null,
+      "baseScore": 0.5322048086400001,
+      "score": 0.522851262414129
+    },
+    {
+      "id": "5653c6bf77c81a43683d1169",
+      "rank": 131,
+      "name": "St Josephs Pa",
+      "gameScores": null,
+      "baseScore": 0.5163734736399999,
+      "score": 0.5227969094260401
+    },
+    {
+      "id": "5653c6bf77c81a43683d11db",
+      "rank": 132,
+      "name": "Central Mich",
+      "gameScores": null,
+      "baseScore": 0.5349447064499999,
+      "score": 0.5223960202233677
+    },
+    {
+      "id": "5653c6c077c81a43683d134c",
+      "rank": 133,
+      "name": "Davidson",
+      "gameScores": null,
+      "baseScore": 0.5086765995,
+      "score": 0.5218673771714749
+    },
+    {
+      "id": "5653c6bf77c81a43683d1298",
+      "rank": 134,
+      "name": "La Monroe",
+      "gameScores": null,
+      "baseScore": 0.5608652778666666,
+      "score": 0.521842375835431
+    },
+    {
+      "id": "5653c6bf77c81a43683d124a",
+      "rank": 135,
+      "name": "Eastern Ky",
+      "gameScores": null,
+      "baseScore": 0.51730309158,
+      "score": 0.5218129934872027
+    },
+    {
+      "id": "5653c6bf77c81a43683d1188",
+      "rank": 136,
+      "name": "Ala Birmingham",
+      "gameScores": null,
+      "baseScore": 0.5214716615,
+      "score": 0.5211360921285815
+    },
+    {
+      "id": "5653c6bf77c81a43683d11e8",
+      "rank": 137,
+      "name": "Iupu Fort Wayne",
+      "gameScores": null,
+      "baseScore": 0.53528386485,
+      "score": 0.5210978171521794
+    },
+    {
+      "id": "5653c6bf77c81a43683d1208",
+      "rank": 138,
+      "name": "Weber St",
+      "gameScores": null,
+      "baseScore": 0.5302964135,
+      "score": 0.5209330899325076
+    },
+    {
+      "id": "5653c6bf77c81a43683d1227",
+      "rank": 139,
+      "name": "Alabama A&M",
+      "gameScores": null,
+      "baseScore": 0.53646723645,
+      "score": 0.5206984341918368
+    },
+    {
+      "id": "5653c6c077c81a43683d1365",
+      "rank": 140,
+      "name": "Western Kentucky",
+      "gameScores": null,
+      "baseScore": 0.5156483162,
+      "score": 0.5206829768425036
+    },
+    {
+      "id": "5653c6c077c81a43683d137a",
+      "rank": 141,
+      "name": "Hampton",
+      "gameScores": null,
+      "baseScore": 0.5384310344666666,
+      "score": 0.5206664107217059
+    },
+    {
+      "id": "5653c6c077c81a43683d13a9",
+      "rank": 142,
+      "name": "Toledo",
+      "gameScores": null,
+      "baseScore": 0.5402306994,
+      "score": 0.5206597742553372
+    },
+    {
+      "id": "5653c6bf77c81a43683d118b",
+      "rank": 143,
+      "name": "San Francisco",
+      "gameScores": null,
+      "baseScore": 0.52191918505,
+      "score": 0.5206356273870654
+    },
+    {
+      "id": "5653c6bf77c81a43683d124e",
+      "rank": 144,
+      "name": "Covenant",
+      "gameScores": null,
+      "baseScore": 0.4920634921,
+      "score": 0.5205363286898109
+    },
+    {
+      "id": "5653c6bf77c81a43683d1256",
+      "rank": 145,
+      "name": "Army",
+      "gameScores": null,
+      "baseScore": 0.5467008623999999,
+      "score": 0.5198163829649398
+    },
+    {
+      "id": "5653c6bf77c81a43683d11cd",
+      "rank": 146,
+      "name": "Canisius",
+      "gameScores": null,
+      "baseScore": 0.5258566827333334,
+      "score": 0.5196972330588875
+    },
+    {
+      "id": "5653c6bf77c81a43683d12c3",
+      "rank": 147,
+      "name": "North Florida",
+      "gameScores": null,
+      "baseScore": 0.5214676273500001,
+      "score": 0.5193362532227592
+    },
+    {
+      "id": "5653c6c077c81a43683d1447",
+      "rank": 148,
+      "name": "Texas State",
+      "gameScores": null,
+      "baseScore": 0.5388110564499999,
+      "score": 0.5193176909410039
+    },
+    {
+      "id": "5653c6bf77c81a43683d12e9",
+      "rank": 149,
+      "name": "Rutgers",
+      "gameScores": null,
+      "baseScore": 0.522382650325,
+      "score": 0.5186131864404455
+    },
+    {
+      "id": "5653c6bf77c81a43683d125f",
+      "rank": 150,
+      "name": "East Carolina",
+      "gameScores": null,
+      "baseScore": 0.5159981885,
+      "score": 0.5184941121484233
+    },
+    {
+      "id": "5653c6bf77c81a43683d1319",
+      "rank": 151,
+      "name": "Florida Intl",
+      "gameScores": null,
+      "baseScore": 0.54148415356,
+      "score": 0.5183463369209821
+    },
+    {
+      "id": "5653c6c077c81a43683d1371",
+      "rank": 152,
+      "name": "Fla Gulf Coast",
+      "gameScores": null,
+      "baseScore": 0.52579263655,
+      "score": 0.517588016807936
+    },
+    {
+      "id": "5653c6bf77c81a43683d11b7",
+      "rank": 153,
+      "name": "Coast Carolina",
+      "gameScores": null,
+      "baseScore": 0.567590399175,
+      "score": 0.5166207385223034
+    },
+    {
+      "id": "5653c6c077c81a43683d1411",
+      "rank": 154,
+      "name": "Detroit Mercy",
+      "gameScores": null,
+      "baseScore": 0.5145931936,
+      "score": 0.5165180245371459
+    },
+    {
+      "id": "5653c6c077c81a43683d132e",
+      "rank": 155,
+      "name": "Northern Iowa",
+      "gameScores": null,
+      "baseScore": 0.5114785911999999,
+      "score": 0.5164986802540739
+    },
+    {
+      "id": "5653c6bf77c81a43683d119a",
+      "rank": 156,
+      "name": "Cal Poly Slo",
+      "gameScores": null,
+      "baseScore": 0.51813332984,
+      "score": 0.516492993511724
+    },
+    {
+      "id": "5653c6bf77c81a43683d12c6",
+      "rank": 157,
+      "name": "Northeastern",
+      "gameScores": null,
+      "baseScore": 0.52593522766,
+      "score": 0.5155320570431958
+    },
+    {
+      "id": "5653c6bf77c81a43683d12ef",
+      "rank": 158,
+      "name": "Tcu",
+      "gameScores": null,
+      "baseScore": 0.5279042901333333,
+      "score": 0.5151150175150921
+    },
+    {
+      "id": "5653c6c077c81a43683d1339",
+      "rank": 159,
+      "name": "Kent",
+      "gameScores": null,
+      "baseScore": 0.5142472841000001,
+      "score": 0.515087869845804
+    },
+    {
+      "id": "5653c6c077c81a43683d1399",
+      "rank": 160,
+      "name": "Georgetown",
+      "gameScores": null,
+      "baseScore": 0.50303124135,
+      "score": 0.5148406569226381
+    },
+    {
+      "id": "5653c6bf77c81a43683d126c",
+      "rank": 161,
+      "name": "High Point",
+      "gameScores": null,
+      "baseScore": 0.528372241925,
+      "score": 0.5146385985034754
+    },
+    {
+      "id": "5653c6bf77c81a43683d117f",
+      "rank": 162,
+      "name": "Ball St",
+      "gameScores": null,
+      "baseScore": 0.52421494878,
+      "score": 0.5140354200588643
+    },
+    {
+      "id": "5653c6bf77c81a43683d1215",
+      "rank": 163,
+      "name": "Monmouth",
+      "gameScores": null,
+      "baseScore": 0.5019787077333334,
+      "score": 0.5135998290066593
+    },
+    {
+      "id": "5653c6bf77c81a43683d128f",
+      "rank": 164,
+      "name": "New Hampshire",
+      "gameScores": null,
+      "baseScore": 0.5322799636666666,
+      "score": 0.5135685643721709
+    },
+    {
+      "id": "5653c6bf77c81a43683d11e2",
+      "rank": 165,
+      "name": "Princeton",
+      "gameScores": null,
+      "baseScore": 0.5217687074499999,
+      "score": 0.5135520815524839
+    },
+    {
+      "id": "5653c6bf77c81a43683d1274",
+      "rank": 166,
+      "name": "Chicago St",
+      "gameScores": null,
+      "baseScore": 0.559187988775,
+      "score": 0.5130883687099494
+    },
+    {
+      "id": "5653c6bf77c81a43683d12f5",
+      "rank": 167,
+      "name": "Bucknell",
+      "gameScores": null,
+      "baseScore": 0.543447550475,
+      "score": 0.5130770101138951
+    },
+    {
+      "id": "5653c6bf77c81a43683d130b",
+      "rank": 168,
+      "name": "Tennessee St",
+      "gameScores": null,
+      "baseScore": 0.52466362745,
+      "score": 0.5127991212950119
+    },
+    {
+      "id": "5653c6c077c81a43683d1331",
+      "rank": 169,
+      "name": "Lasalle",
+      "gameScores": null,
+      "baseScore": 0.5276828435,
+      "score": 0.5126670603611206
+    },
+    {
+      "id": "5653c6bf77c81a43683d12b0",
+      "rank": 170,
+      "name": "Minnesota",
+      "gameScores": null,
+      "baseScore": 0.51369932068,
+      "score": 0.5124827749102147
+    },
+    {
+      "id": "5653c6bf77c81a43683d12f8",
+      "rank": 171,
+      "name": "Drake",
+      "gameScores": null,
+      "baseScore": 0.5383100000000001,
+      "score": 0.5122823934765341
+    },
+    {
+      "id": "5653c6c077c81a43683d131f",
+      "rank": 172,
+      "name": "Wake Forest",
+      "gameScores": null,
+      "baseScore": 0.5046001815666666,
+      "score": 0.5122207943391915
+    },
+    {
+      "id": "5653c6bf77c81a43683d11ea",
+      "rank": 173,
+      "name": "Nebraska-Omaha",
+      "gameScores": null,
+      "baseScore": 0.5348212690749999,
+      "score": 0.5121201609061086
+    },
+    {
+      "id": "5653c6bf77c81a43683d11c6",
+      "rank": 174,
+      "name": "Indiana St",
+      "gameScores": null,
+      "baseScore": 0.51389071495,
+      "score": 0.5117527315950212
+    },
+    {
+      "id": "5653c6bf77c81a43683d11ff",
+      "rank": 175,
+      "name": "Oral Roberts",
+      "gameScores": null,
+      "baseScore": 0.51264196992,
+      "score": 0.5116743942864607
+    },
+    {
+      "id": "5653c6c077c81a43683d1376",
+      "rank": 176,
+      "name": "Nc Greensboro",
+      "gameScores": null,
+      "baseScore": 0.5276961024666668,
+      "score": 0.5116345595601853
+    },
+    {
+      "id": "5653c6bf77c81a43683d126b",
+      "rank": 177,
+      "name": "Texas Tech",
+      "gameScores": null,
+      "baseScore": 0.5067605259,
+      "score": 0.5112230937859747
+    },
+    {
+      "id": "5653c6bf77c81a43683d12cb",
+      "rank": 178,
+      "name": "Mississippi",
+      "gameScores": null,
+      "baseScore": 0.51338091052,
+      "score": 0.5111200194912233
+    },
+    {
+      "id": "5653c6bf77c81a43683d1259",
+      "rank": 179,
+      "name": "Savannah St",
+      "gameScores": null,
+      "baseScore": 0.500861946275,
+      "score": 0.5106587992018453
+    },
+    {
+      "id": "5653c6bf77c81a43683d120f",
+      "rank": 180,
+      "name": "Arkansas St",
+      "gameScores": null,
+      "baseScore": 0.545885080575,
+      "score": 0.5103897078419806
+    },
+    {
+      "id": "5653c6bf77c81a43683d1179",
+      "rank": 181,
+      "name": "Miami-Ohio",
+      "gameScores": null,
+      "baseScore": 0.5150187884799999,
+      "score": 0.5098031583055139
+    },
+    {
+      "id": "5653c6bf77c81a43683d117b",
+      "rank": 182,
+      "name": "Loyola Chi",
+      "gameScores": null,
+      "baseScore": 0.5241397068,
+      "score": 0.5093316616785117
+    },
+    {
+      "id": "5653c6bf77c81a43683d1193",
+      "rank": 183,
+      "name": "Stanford",
+      "gameScores": null,
+      "baseScore": 0.5033232351,
+      "score": 0.5093308157018726
+    },
+    {
+      "id": "5653c6c077c81a43683d13a7",
+      "rank": 184,
+      "name": "Creighton",
+      "gameScores": null,
+      "baseScore": 0.5233588322999999,
+      "score": 0.5092080220563336
+    },
+    {
+      "id": "5653c6bf77c81a43683d12c2",
+      "rank": 185,
+      "name": "Illinois",
+      "gameScores": null,
+      "baseScore": 0.4920344631,
+      "score": 0.5091068243737721
+    },
+    {
+      "id": "5653c6bf77c81a43683d11f1",
+      "rank": 186,
+      "name": "Eastern Wash",
+      "gameScores": null,
+      "baseScore": 0.5457713624333334,
+      "score": 0.5089984379611477
+    },
+    {
+      "id": "5653c6bf77c81a43683d11f9",
+      "rank": 187,
+      "name": "Missouri",
+      "gameScores": null,
+      "baseScore": 0.5191027512333333,
+      "score": 0.5082734949197619
+    },
+    {
+      "id": "5653c6bf77c81a43683d12c5",
+      "rank": 188,
+      "name": "Boston U",
+      "gameScores": null,
+      "baseScore": 0.502380763675,
+      "score": 0.5080835533971588
+    },
+    {
+      "id": "5653c6bf77c81a43683d116d",
+      "rank": 189,
+      "name": "James Madison",
+      "gameScores": null,
+      "baseScore": 0.49242414564,
+      "score": 0.507881173443896
+    },
+    {
+      "id": "5653c6bf77c81a43683d128c",
+      "rank": 190,
+      "name": "La Lafayette",
+      "gameScores": null,
+      "baseScore": 0.5120915032666666,
+      "score": 0.5073504814094311
+    },
+    {
+      "id": "5653c6c077c81a43683d1353",
+      "rank": 191,
+      "name": "Idaho",
+      "gameScores": null,
+      "baseScore": 0.5222109554333333,
+      "score": 0.5072611852793639
+    },
+    {
+      "id": "5653c6bf77c81a43683d1211",
+      "rank": 192,
+      "name": "Utah",
+      "gameScores": null,
+      "baseScore": 0.50656793378,
+      "score": 0.5072097550901036
+    },
+    {
+      "id": "5653c6c077c81a43683d137f",
+      "rank": 193,
+      "name": "Howard",
+      "gameScores": null,
+      "baseScore": 0.5219210149,
+      "score": 0.5068510094451382
+    },
+    {
+      "id": "5653c6bf77c81a43683d120c",
+      "rank": 194,
+      "name": "Boise St",
+      "gameScores": null,
+      "baseScore": 0.5026716204666667,
+      "score": 0.5067417359083444
+    },
+    {
+      "id": "5653c6bf77c81a43683d12ce",
+      "rank": 195,
+      "name": "Portland",
+      "gameScores": null,
+      "baseScore": 0.50467692155,
+      "score": 0.5062861027569597
+    },
+    {
+      "id": "5653c6bf77c81a43683d11a2",
+      "rank": 196,
+      "name": "San Diego St",
+      "gameScores": null,
+      "baseScore": 0.507832814525,
+      "score": 0.5061749923625898
+    },
+    {
+      "id": "5653c6bf77c81a43683d11ee",
+      "rank": 197,
+      "name": "Belmont",
+      "gameScores": null,
+      "baseScore": 0.4952533983,
+      "score": 0.5055440887799946
+    },
+    {
+      "id": "5653c6bf77c81a43683d12aa",
+      "rank": 198,
+      "name": "North Dakota",
+      "gameScores": null,
+      "baseScore": 0.5143235574499999,
+      "score": 0.5054804283353935
+    },
+    {
+      "id": "5653c6bf77c81a43683d12b3",
+      "rank": 199,
+      "name": "Campbell",
+      "gameScores": null,
+      "baseScore": 0.5478913404,
+      "score": 0.5052493249142854
+    },
+    {
+      "id": "5653c6c077c81a43683d135d",
+      "rank": 200,
+      "name": "E Tennessee St",
+      "gameScores": null,
+      "baseScore": 0.5146795747499999,
+      "score": 0.505081842535863
+    },
+    {
+      "id": "5653c6c077c81a43683d1469",
+      "rank": 201,
+      "name": "Middle Tenn St",
+      "gameScores": null,
+      "baseScore": 0.48605200945,
+      "score": 0.5036823777627004
+    },
+    {
+      "id": "5653c6bf77c81a43683d12de",
+      "rank": 202,
+      "name": "Presbyterian",
+      "gameScores": null,
+      "baseScore": 0.52840119165,
+      "score": 0.5034937628432667
+    },
+    {
+      "id": "5653c6bf77c81a43683d11af",
+      "rank": 203,
+      "name": "Northridge St",
+      "gameScores": null,
+      "baseScore": 0.511539055075,
+      "score": 0.503304934558071
+    },
+    {
+      "id": "5653c6bf77c81a43683d1182",
+      "rank": 204,
+      "name": "Air Force",
+      "gameScores": null,
+      "baseScore": 0.5205886232,
+      "score": 0.5032435262879728
+    },
+    {
+      "id": "5653c6c077c81a43683d1326",
+      "rank": 205,
+      "name": "Utah Valley St",
+      "gameScores": null,
+      "baseScore": 0.5181264327,
+      "score": 0.5028535733535365
+    },
+    {
+      "id": "5653c6bf77c81a43683d130d",
+      "rank": 206,
+      "name": "Incarnate Word",
+      "gameScores": null,
+      "baseScore": 0.5188107037666666,
+      "score": 0.50233105015264
+    },
+    {
+      "id": "5653c6c077c81a43683d1362",
+      "rank": 207,
+      "name": "Long Beach St",
+      "gameScores": null,
+      "baseScore": 0.49732264957999994,
+      "score": 0.5023099352304607
+    },
+    {
+      "id": "5653c6bf77c81a43683d1238",
+      "rank": 208,
+      "name": "St Bonaventure",
+      "gameScores": null,
+      "baseScore": 0.5107889237333333,
+      "score": 0.5021996231302109
+    },
+    {
+      "id": "5653c6bf77c81a43683d120b",
+      "rank": 209,
+      "name": "Montana",
+      "gameScores": null,
+      "baseScore": 0.5108986575333333,
+      "score": 0.5017050901523231
+    },
+    {
+      "id": "5653c6bf77c81a43683d12ff",
+      "rank": 210,
+      "name": "Southern",
+      "gameScores": null,
+      "baseScore": 0.4927759230333333,
+      "score": 0.501634339247088
+    },
+    {
+      "id": "5653c6bf77c81a43683d11dc",
+      "rank": 211,
+      "name": "Jacksonville St",
+      "gameScores": null,
+      "baseScore": 0.5074929181333333,
+      "score": 0.5011244744250445
+    },
+    {
+      "id": "5653c6c077c81a43683d1355",
+      "rank": 212,
+      "name": "Njit",
+      "gameScores": null,
+      "baseScore": 0.499691931575,
+      "score": 0.5010769779162854
+    },
+    {
+      "id": "5653c6bf77c81a43683d1316",
+      "rank": 213,
+      "name": "Bethune Cookman",
+      "gameScores": null,
+      "baseScore": 0.5353931471666666,
+      "score": 0.5010262125683757
+    },
+    {
+      "id": "5653c6bf77c81a43683d11f0",
+      "rank": 214,
+      "name": "Mississippi St",
+      "gameScores": null,
+      "baseScore": 0.50016625912,
+      "score": 0.5004144030872557
+    },
+    {
+      "id": "5653c6bf77c81a43683d12e3",
+      "rank": 215,
+      "name": "Longwood",
+      "gameScores": null,
+      "baseScore": 0.51491716798,
+      "score": 0.49991135707628603
+    },
+    {
+      "id": "5653c6bf77c81a43683d1305",
+      "rank": 216,
+      "name": "St Francis Pa",
+      "gameScores": null,
+      "baseScore": 0.5221289056,
+      "score": 0.4998567117244217
+    },
+    {
+      "id": "5653c6bf77c81a43683d12ad",
+      "rank": 217,
+      "name": "Harvard",
+      "gameScores": null,
+      "baseScore": 0.49611410017499996,
+      "score": 0.4991110306782307
+    },
+    {
+      "id": "5653c6bf77c81a43683d11b5",
+      "rank": 218,
+      "name": "Lipscomb",
+      "gameScores": null,
+      "baseScore": 0.5035420492285715,
+      "score": 0.49903006784639975
+    },
+    {
+      "id": "5653c6bf77c81a43683d1167",
+      "rank": 219,
+      "name": "Elon",
+      "gameScores": null,
+      "baseScore": 0.505194691575,
+      "score": 0.49901306737236745
+    },
+    {
+      "id": "5653c6bf77c81a43683d11cf",
+      "rank": 220,
+      "name": "St Peters",
+      "gameScores": null,
+      "baseScore": 0.5063499669,
+      "score": 0.4987485478436198
+    },
+    {
+      "id": "5653c6bf77c81a43683d12b1",
+      "rank": 221,
+      "name": "Mo Kansas City",
+      "gameScores": null,
+      "baseScore": 0.49732465454999997,
+      "score": 0.49775327130249486
+    },
+    {
+      "id": "5653c6bf77c81a43683d11a3",
+      "rank": 222,
+      "name": "Illinois St",
+      "gameScores": null,
+      "baseScore": 0.49273533309999995,
+      "score": 0.49730417763944296
+    },
+    {
+      "id": "5653c6c077c81a43683d1396",
+      "rank": 223,
+      "name": "Tennessee Tech",
+      "gameScores": null,
+      "baseScore": 0.5080998937333333,
+      "score": 0.4969196499736234
+    },
+    {
+      "id": "5653c6bf77c81a43683d1247",
+      "rank": 224,
+      "name": "George Mason",
+      "gameScores": null,
+      "baseScore": 0.4774631481,
+      "score": 0.49631665842018186
+    },
+    {
+      "id": "5653c6bf77c81a43683d11ca",
+      "rank": 225,
+      "name": "Siena",
+      "gameScores": null,
+      "baseScore": 0.4949658937,
+      "score": 0.495130067797648
+    },
+    {
+      "id": "5653c6c077c81a43683d149b",
+      "rank": 226,
+      "name": "Warner",
+      "gameScores": null,
+      "baseScore": 0.5102040816,
+      "score": 0.49506659206015247
+    },
+    {
+      "id": "5653c6bf77c81a43683d12d4",
+      "rank": 227,
+      "name": "Buffalo",
+      "gameScores": null,
+      "baseScore": 0.5255404111,
+      "score": 0.49418693162215294
+    },
+    {
+      "id": "5653c6bf77c81a43683d1262",
+      "rank": 228,
+      "name": "Idaho St",
+      "gameScores": null,
+      "baseScore": 0.5082973459333334,
+      "score": 0.4941506055416138
+    },
+    {
+      "id": "5653c6c077c81a43683d1343",
+      "rank": 229,
+      "name": "Western Michigan",
+      "gameScores": null,
+      "baseScore": 0.5028566205333332,
+      "score": 0.49398676938828956
+    },
+    {
+      "id": "5653c6bf77c81a43683d121a",
+      "rank": 230,
+      "name": "Navy",
+      "gameScores": null,
+      "baseScore": 0.50580508825,
+      "score": 0.49397319390307787
+    },
+    {
+      "id": "5653c6c077c81a43683d1329",
+      "rank": 231,
+      "name": "Vermont",
+      "gameScores": null,
+      "baseScore": 0.48456435312,
+      "score": 0.4937529054475937
+    },
+    {
+      "id": "5653c6bf77c81a43683d123b",
+      "rank": 232,
+      "name": "Wyoming",
+      "gameScores": null,
+      "baseScore": 0.527483733025,
+      "score": 0.4933965688710925
+    },
+    {
+      "id": "5653c6bf77c81a43683d11ab",
+      "rank": 233,
+      "name": "Wright St",
+      "gameScores": null,
+      "baseScore": 0.48300665275,
+      "score": 0.4931291240207354
+    },
+    {
+      "id": "5653c6c077c81a43683d1358",
+      "rank": 234,
+      "name": "Montana St",
+      "gameScores": null,
+      "baseScore": 0.49023197858000006,
+      "score": 0.4926968866666795
+    },
+    {
+      "id": "5653c6bf77c81a43683d1191",
+      "rank": 235,
+      "name": "Troy St",
+      "gameScores": null,
+      "baseScore": 0.5004282278333334,
+      "score": 0.4926901539155986
+    },
+    {
+      "id": "5653c6bf77c81a43683d126e",
+      "rank": 236,
+      "name": "Marist",
+      "gameScores": null,
+      "baseScore": 0.5007118387666667,
+      "score": 0.49226169206290077
+    },
+    {
+      "id": "5653c6bf77c81a43683d11c1",
+      "rank": 237,
+      "name": "Westrn Carolina",
+      "gameScores": null,
+      "baseScore": 0.4771726530666667,
+      "score": 0.4920154016456691
+    },
+    {
+      "id": "5653c6bf77c81a43683d1248",
+      "rank": 238,
+      "name": "Colgate",
+      "gameScores": null,
+      "baseScore": 0.4931140749333333,
+      "score": 0.4915224608134725
+    },
+    {
+      "id": "5653c6c077c81a43683d1427",
+      "rank": 239,
+      "name": "Long Island",
+      "gameScores": null,
+      "baseScore": 0.5086032022000001,
+      "score": 0.49093451960962947
+    },
+    {
+      "id": "5653c6bf77c81a43683d12dd",
+      "rank": 240,
+      "name": "Furman",
+      "gameScores": null,
+      "baseScore": 0.48840445637499996,
+      "score": 0.49085308416740764
+    },
+    {
+      "id": "5653c6bf77c81a43683d12fc",
+      "rank": 241,
+      "name": "So Carolina St",
+      "gameScores": null,
+      "baseScore": 0.49746278863999993,
+      "score": 0.4908380347001575
+    },
+    {
+      "id": "5653c6bf77c81a43683d119d",
+      "rank": 242,
+      "name": "Fullerton",
+      "gameScores": null,
+      "baseScore": 0.5120361441666667,
+      "score": 0.4906452194155939
+    },
+    {
+      "id": "5653c6bf77c81a43683d1301",
+      "rank": 243,
+      "name": "Abliene Christian",
+      "gameScores": null,
+      "baseScore": 0.5167050011666666,
+      "score": 0.49004343508449993
+    },
+    {
+      "id": "5653c6bf77c81a43683d1172",
+      "rank": 244,
+      "name": "Temple",
+      "gameScores": null,
+      "baseScore": 0.47567068352499997,
+      "score": 0.4897248797974937
+    },
+    {
+      "id": "5653c6c077c81a43683d1349",
+      "rank": 245,
+      "name": "Penn St",
+      "gameScores": null,
+      "baseScore": 0.49221611723333325,
+      "score": 0.4893454012810265
+    },
+    {
+      "id": "5653c6c077c81a43683d15a3",
+      "rank": 246,
+      "name": "Bob Jones University",
+      "gameScores": null,
+      "baseScore": 0.512345679,
+      "score": 0.4887809816684691
+    },
+    {
+      "id": "5653c6bf77c81a43683d1197",
+      "rank": 247,
+      "name": "Pacific",
+      "gameScores": null,
+      "baseScore": 0.4744880919666666,
+      "score": 0.4887016862316597
+    },
+    {
+      "id": "5653c6bf77c81a43683d120e",
+      "rank": 248,
+      "name": "Siu-Edwardsville",
+      "gameScores": null,
+      "baseScore": 0.4756015796333333,
+      "score": 0.4883354128229837
+    },
+    {
+      "id": "5653c6bf77c81a43683d11ac",
+      "rank": 249,
+      "name": "South Dakota",
+      "gameScores": null,
+      "baseScore": 0.474233111075,
+      "score": 0.488220372470821
+    },
+    {
+      "id": "5653c6c077c81a43683d135b",
+      "rank": 250,
+      "name": "Alabama St",
+      "gameScores": null,
+      "baseScore": 0.47123482943333334,
+      "score": 0.4877918893175534
+    },
+    {
+      "id": "5653c6bf77c81a43683d1221",
+      "rank": 251,
+      "name": "Wagner",
+      "gameScores": null,
+      "baseScore": 0.48936737803333336,
+      "score": 0.48692408123885517
+    },
+    {
+      "id": "5653c6bf77c81a43683d1260",
+      "rank": 252,
+      "name": "Grambling",
+      "gameScores": null,
+      "baseScore": 0.50184711728,
+      "score": 0.4866291447787866
+    },
+    {
+      "id": "5653c6bf77c81a43683d1232",
+      "rank": 253,
+      "name": "South Alabama",
+      "gameScores": null,
+      "baseScore": 0.4884912907,
+      "score": 0.4865542621501506
+    },
+    {
+      "id": "5653c6bf77c81a43683d116a",
+      "rank": 254,
+      "name": "Drexel",
+      "gameScores": null,
+      "baseScore": 0.4797921987,
+      "score": 0.48616528311707197
+    },
+    {
+      "id": "5653c6c077c81a43683d132b",
+      "rank": 255,
+      "name": "Geo Southern",
+      "gameScores": null,
+      "baseScore": 0.5243867243666668,
+      "score": 0.4854400804781119
+    },
+    {
+      "id": "5653c6bf77c81a43683d119c",
+      "rank": 256,
+      "name": "Loyola Marymnt",
+      "gameScores": null,
+      "baseScore": 0.49494920059999997,
+      "score": 0.48535888103589747
+    },
+    {
+      "id": "5653c6bf77c81a43683d12d1",
+      "rank": 257,
+      "name": "Texas A&M Cc",
+      "gameScores": null,
+      "baseScore": 0.48193067906666665,
+      "score": 0.4849980776437186
+    },
+    {
+      "id": "5653c6bf77c81a43683d1166",
+      "rank": 258,
+      "name": "Nc Charlotte",
+      "gameScores": null,
+      "baseScore": 0.48441113709999994,
+      "score": 0.48464142171805413
+    },
+    {
+      "id": "5653c6bf77c81a43683d12ba",
+      "rank": 259,
+      "name": "Nc Asheville",
+      "gameScores": null,
+      "baseScore": 0.492163083575,
+      "score": 0.48425101316262825
+    },
+    {
+      "id": "5653c6c077c81a43683d139a",
+      "rank": 260,
+      "name": "Radford",
+      "gameScores": null,
+      "baseScore": 0.49316293351999996,
+      "score": 0.4841705738985461
+    },
+    {
+      "id": "5653c6bf77c81a43683d1283",
+      "rank": 261,
+      "name": "Alabama",
+      "gameScores": null,
+      "baseScore": 0.4838007737,
+      "score": 0.4840650718957251
+    },
+    {
+      "id": "5653c6c077c81a43683d1342",
+      "rank": 262,
+      "name": "Depaul",
+      "gameScores": null,
+      "baseScore": 0.47289312270000006,
+      "score": 0.48281346209732706
+    },
+    {
+      "id": "5653c6c077c81a43683d14f3",
+      "rank": 263,
+      "name": "Marshall",
+      "gameScores": null,
+      "baseScore": 0.4683544304,
+      "score": 0.4822284907411063
+    },
+    {
+      "id": "5653c6c077c81a43683d1472",
+      "rank": 264,
+      "name": "Black Hills State",
+      "gameScores": null,
+      "baseScore": 0.45,
+      "score": 0.482170129875
+    },
+    {
+      "id": "5653c6c077c81a43683d138e",
+      "rank": 265,
+      "name": "New Orleans",
+      "gameScores": null,
+      "baseScore": 0.49980243753333325,
+      "score": 0.48208709439604586
+    },
+    {
+      "id": "5653c6c077c81a43683d1382",
+      "rank": 266,
+      "name": "Jacksonville",
+      "gameScores": null,
+      "baseScore": 0.4936833019333333,
+      "score": 0.48182590031996236
+    },
+    {
+      "id": "5653c6bf77c81a43683d12e0",
+      "rank": 267,
+      "name": "Sacred Heart",
+      "gameScores": null,
+      "baseScore": 0.489809883525,
+      "score": 0.4813293552349133
+    },
+    {
+      "id": "5653c6c077c81a43683d137c",
+      "rank": 268,
+      "name": "Hawaii Hilo",
+      "gameScores": null,
+      "baseScore": 0.4857142857,
+      "score": 0.48096981815328244
+    },
+    {
+      "id": "5653c6bf77c81a43683d1164",
+      "rank": 269,
+      "name": "Fla Atlantic",
+      "gameScores": null,
+      "baseScore": 0.4703305205,
+      "score": 0.4808745177005145
+    },
+    {
+      "id": "5653c6bf77c81a43683d12e6",
+      "rank": 270,
+      "name": "Pennsylvania",
+      "gameScores": null,
+      "baseScore": 0.49485273195,
+      "score": 0.480672524313975
+    },
+    {
+      "id": "5653c6bf77c81a43683d1287",
+      "rank": 271,
+      "name": "Lafayette",
+      "gameScores": null,
+      "baseScore": 0.4756648857666667,
+      "score": 0.4806305257304646
+    },
+    {
+      "id": "5653c6bf77c81a43683d1194",
+      "rank": 272,
+      "name": "Wisc Green Bay",
+      "gameScores": null,
+      "baseScore": 0.483333575725,
+      "score": 0.4805105105823949
+    },
+    {
+      "id": "5653c6c077c81a43683d1429",
+      "rank": 273,
+      "name": "Lsu-Alexandria",
+      "gameScores": null,
+      "baseScore": 0.5051020408,
+      "score": 0.48047083059773493
+    },
+    {
+      "id": "5653c6bf77c81a43683d1190",
+      "rank": 274,
+      "name": "South Florida",
+      "gameScores": null,
+      "baseScore": 0.477090244675,
+      "score": 0.48033557266028704
+    },
+    {
+      "id": "5653c6c077c81a43683d1391",
+      "rank": 275,
+      "name": "Norfolk St",
+      "gameScores": null,
+      "baseScore": 0.480771372075,
+      "score": 0.4802901300095944
+    },
+    {
+      "id": "5653c6bf77c81a43683d11eb",
+      "rank": 276,
+      "name": "Santa Barbara",
+      "gameScores": null,
+      "baseScore": 0.46627910273333334,
+      "score": 0.47996512141876463
+    },
+    {
+      "id": "5653c6c077c81a43683d138d",
+      "rank": 277,
+      "name": "Bowling Green",
+      "gameScores": null,
+      "baseScore": 0.4743069753,
+      "score": 0.4797809149589732
+    },
+    {
+      "id": "5653c6bf77c81a43683d11ed",
+      "rank": 278,
+      "name": "Marquette",
+      "gameScores": null,
+      "baseScore": 0.4703876142666667,
+      "score": 0.4792889338326607
+    },
+    {
+      "id": "5653c6bf77c81a43683d11d0",
+      "rank": 279,
+      "name": "Brown",
+      "gameScores": null,
+      "baseScore": 0.48161234932499997,
+      "score": 0.4790955386006253
+    },
+    {
+      "id": "5653c6bf77c81a43683d11c7",
+      "rank": 280,
+      "name": "Indiana Purdue",
+      "gameScores": null,
+      "baseScore": 0.480015800025,
+      "score": 0.4784376642717397
+    },
+    {
+      "id": "5653c6c077c81a43683d15b3",
+      "rank": 281,
+      "name": "Kentucky St",
+      "gameScores": null,
+      "baseScore": 0.4880952381,
+      "score": 0.47834104525496435
+    },
+    {
+      "id": "5653c6c077c81a43683d14e3",
+      "rank": 282,
+      "name": "Roanoke",
+      "gameScores": null,
+      "baseScore": 0.5193370166,
+      "score": 0.4768681088184742
+    },
+    {
+      "id": "5653c6c077c81a43683d1332",
+      "rank": 283,
+      "name": "Towson St",
+      "gameScores": null,
+      "baseScore": 0.48068019646,
+      "score": 0.4765760216754956
+    },
+    {
+      "id": "5653c6bf77c81a43683d126f",
+      "rank": 284,
+      "name": "Holy Cross",
+      "gameScores": null,
+      "baseScore": 0.4771125206,
+      "score": 0.476474029135149
+    },
+    {
+      "id": "5653c6bf77c81a43683d11f7",
+      "rank": 285,
+      "name": "Tenn Martin",
+      "gameScores": null,
+      "baseScore": 0.46646069916000005,
+      "score": 0.4764064372887452
+    },
+    {
+      "id": "5653c6c077c81a43683d133a",
+      "rank": 286,
+      "name": "Youngstown St",
+      "gameScores": null,
+      "baseScore": 0.47204160325,
+      "score": 0.4757894041776531
+    },
+    {
+      "id": "5653c6c077c81a43683d13b9",
+      "rank": 287,
+      "name": "Iona",
+      "gameScores": null,
+      "baseScore": 0.4651617506666666,
+      "score": 0.4753304183197105
+    },
+    {
+      "id": "5653c6bf77c81a43683d11d6",
+      "rank": 288,
+      "name": "Fairfield",
+      "gameScores": null,
+      "baseScore": 0.4629996269,
+      "score": 0.4749510545505914
+    },
+    {
+      "id": "5653c6c077c81a43683d14c5",
+      "rank": 289,
+      "name": "Cs-Monterey",
+      "gameScores": null,
+      "baseScore": 0.4661654135,
+      "score": 0.4746185447029955
+    },
+    {
+      "id": "5653c6bf77c81a43683d130a",
+      "rank": 290,
+      "name": "Loyola Md",
+      "gameScores": null,
+      "baseScore": 0.4702973378333333,
+      "score": 0.47398141154142337
+    },
+    {
+      "id": "5653c6bf77c81a43683d12bd",
+      "rank": 291,
+      "name": "Nc Central",
+      "gameScores": null,
+      "baseScore": 0.47952015913333335,
+      "score": 0.473761330585499
+    },
+    {
+      "id": "5653c6bf77c81a43683d11fa",
+      "rank": 292,
+      "name": "Wofford",
+      "gameScores": null,
+      "baseScore": 0.47819095790000005,
+      "score": 0.47338915197145043
+    },
+    {
+      "id": "5653c6bf77c81a43683d1176",
+      "rank": 293,
+      "name": "Cornell",
+      "gameScores": null,
+      "baseScore": 0.47444388667500004,
+      "score": 0.4731506192533027
+    },
+    {
+      "id": "5653c6bf77c81a43683d1251",
+      "rank": 294,
+      "name": "Delaware",
+      "gameScores": null,
+      "baseScore": 0.4905225153,
+      "score": 0.47301299319509876
+    },
+    {
+      "id": "5653c6bf77c81a43683d1269",
+      "rank": 295,
+      "name": "Hartford",
+      "gameScores": null,
+      "baseScore": 0.462004712,
+      "score": 0.4725724009738895
+    },
+    {
+      "id": "5653c6c077c81a43683d131d",
+      "rank": 296,
+      "name": "Uc-San Diego",
+      "gameScores": null,
+      "baseScore": 0.450617284,
+      "score": 0.47252068461577484
+    },
+    {
+      "id": "5653c6c077c81a43683d14e9",
+      "rank": 297,
+      "name": "Thomas University",
+      "gameScores": null,
+      "baseScore": 0.4927536232,
+      "score": 0.4723730037908248
+    },
+    {
+      "id": "5653c6c077c81a43683d1320",
+      "rank": 298,
+      "name": "Umbc",
+      "gameScores": null,
+      "baseScore": 0.47036585695000005,
+      "score": 0.472253261314481
+    },
+    {
+      "id": "5653c6bf77c81a43683d12e1",
+      "rank": 299,
+      "name": "Quinnipiac",
+      "gameScores": null,
+      "baseScore": 0.48002764193333336,
+      "score": 0.4721095075793709
+    },
+    {
+      "id": "5653c6bf77c81a43683d122f",
+      "rank": 300,
+      "name": "Seattle",
+      "gameScores": null,
+      "baseScore": 0.4761422013,
+      "score": 0.4720047896423356
+    },
+    {
+      "id": "5653c6c077c81a43683d13a3",
+      "rank": 301,
+      "name": "St Francis Ny",
+      "gameScores": null,
+      "baseScore": 0.47252925363333337,
+      "score": 0.4710778737685218
+    },
+    {
+      "id": "5653c6bf77c81a43683d11e1",
+      "rank": 302,
+      "name": "Rider",
+      "gameScores": null,
+      "baseScore": 0.46311306719999995,
+      "score": 0.4709536350170065
+    },
+    {
+      "id": "5653c6bf77c81a43683d118a",
+      "rank": 303,
+      "name": "Illinois Chi",
+      "gameScores": null,
+      "baseScore": 0.4508123249,
+      "score": 0.4709412838395922
+    },
+    {
+      "id": "5653c6c077c81a43683d15a7",
+      "rank": 304,
+      "name": "Carroll",
+      "gameScores": null,
+      "baseScore": 0.465648855,
+      "score": 0.47072380240143374
+    },
+    {
+      "id": "5653c6bf77c81a43683d11f4",
+      "rank": 305,
+      "name": "Austin Peay",
+      "gameScores": null,
+      "baseScore": 0.45366371829999996,
+      "score": 0.4701425856579828
+    },
+    {
+      "id": "5653c6c077c81a43683d139d",
+      "rank": 306,
+      "name": "Sam Houston",
+      "gameScores": null,
+      "baseScore": 0.4695994562666666,
+      "score": 0.46981563926714026
+    },
+    {
+      "id": "5653c6bf77c81a43683d1254",
+      "rank": 307,
+      "name": "Fair Dickinson",
+      "gameScores": null,
+      "baseScore": 0.4692638572,
+      "score": 0.4696172976060285
+    },
+    {
+      "id": "5653c6bf77c81a43683d1278",
+      "rank": 308,
+      "name": "Jackson St",
+      "gameScores": null,
+      "baseScore": 0.46662518617500004,
+      "score": 0.46920688547406364
+    },
+    {
+      "id": "5653c6bf77c81a43683d11d9",
+      "rank": 309,
+      "name": "Samford",
+      "gameScores": null,
+      "baseScore": 0.47637252423333337,
+      "score": 0.4688098498771714
+    },
+    {
+      "id": "5653c6c077c81a43683d1352",
+      "rank": 310,
+      "name": "San Jose St",
+      "gameScores": null,
+      "baseScore": 0.464625,
+      "score": 0.4684886424490589
+    },
+    {
+      "id": "5653c6bf77c81a43683d117e",
+      "rank": 311,
+      "name": "Bradley",
+      "gameScores": null,
+      "baseScore": 0.45496041732,
+      "score": 0.4682362130763936
+    },
+    {
+      "id": "5653c6bf77c81a43683d1314",
+      "rank": 312,
+      "name": "Texas-Rio Grande Valley",
+      "gameScores": null,
+      "baseScore": 0.4667014132,
+      "score": 0.46800239330680476
+    },
+    {
+      "id": "5653c6bf77c81a43683d1250",
+      "rank": 313,
+      "name": "Delaware St",
+      "gameScores": null,
+      "baseScore": 0.4635608469,
+      "score": 0.4678088617361875
+    },
+    {
+      "id": "5653c6c077c81a43683d1360",
+      "rank": 314,
+      "name": "Bryant",
+      "gameScores": null,
+      "baseScore": 0.48075676475,
+      "score": 0.46649074814555125
+    },
+    {
+      "id": "5653c6bf77c81a43683d125d",
+      "rank": 315,
+      "name": "Gardner Webb",
+      "gameScores": null,
+      "baseScore": 0.46389569715,
+      "score": 0.46632893251240176
+    },
+    {
+      "id": "5653c6c077c81a43683d136c",
+      "rank": 316,
+      "name": "Cntrl Baptist",
+      "gameScores": null,
+      "baseScore": 0.4285714286,
+      "score": 0.4662513556453692
+    },
+    {
+      "id": "5653c6bf77c81a43683d128a",
+      "rank": 317,
+      "name": "Lehigh",
+      "gameScores": null,
+      "baseScore": 0.44903974714999995,
+      "score": 0.466209027311181
+    },
+    {
+      "id": "5653c6bf77c81a43683d11d3",
+      "rank": 318,
+      "name": "Niagara",
+      "gameScores": null,
+      "baseScore": 0.47255246597999995,
+      "score": 0.46561480540407735
+    },
+    {
+      "id": "5653c6bf77c81a43683d1203",
+      "rank": 319,
+      "name": "Northrn Arizona",
+      "gameScores": null,
+      "baseScore": 0.47036563062500003,
+      "score": 0.4655731654836037
+    },
+    {
+      "id": "5653c6c077c81a43683d14c1",
+      "rank": 320,
+      "name": "Catawba",
+      "gameScores": null,
+      "baseScore": 0.46875,
+      "score": 0.46554512508749996
+    },
+    {
+      "id": "5653c6c077c81a43683d1369",
+      "rank": 321,
+      "name": "Central Arkansas",
+      "gameScores": null,
+      "baseScore": 0.45144602106666665,
+      "score": 0.4648885457772293
+    },
+    {
+      "id": "5653c6c077c81a43683d1335",
+      "rank": 322,
+      "name": "Cleveland St",
+      "gameScores": null,
+      "baseScore": 0.46947381976666663,
+      "score": 0.46477993491913644
+    },
+    {
+      "id": "5653c6c077c81a43683d1323",
+      "rank": 323,
+      "name": "Usc Upstate",
+      "gameScores": null,
+      "baseScore": 0.4540062534,
+      "score": 0.4642615304974588
+    },
+    {
+      "id": "5653c6bf77c81a43683d1212",
+      "rank": 324,
+      "name": "Southern Utah",
+      "gameScores": null,
+      "baseScore": 0.4623893166,
+      "score": 0.46413353383439837
+    },
+    {
+      "id": "5653c6bf77c81a43683d1218",
+      "rank": 325,
+      "name": "Northern Ky",
+      "gameScores": null,
+      "baseScore": 0.4562409812666666,
+      "score": 0.46358070697317455
+    },
+    {
+      "id": "5653c6bf77c81a43683d12cc",
+      "rank": 326,
+      "name": "Northwestern St",
+      "gameScores": null,
+      "baseScore": 0.4512351798,
+      "score": 0.46256932230473513
+    },
+    {
+      "id": "5653c6bf77c81a43683d11b4",
+      "rank": 327,
+      "name": "Santa Clara",
+      "gameScores": null,
+      "baseScore": 0.44878216912499996,
+      "score": 0.4618590936385992
+    },
+    {
+      "id": "5653c6c077c81a43683d1404",
+      "rank": 328,
+      "name": "Manhattan",
+      "gameScores": null,
+      "baseScore": 0.43512799855,
+      "score": 0.46125683235186066
+    },
+    {
+      "id": "5653c6bf77c81a43683d1170",
+      "rank": 329,
+      "name": "Dartmouth",
+      "gameScores": null,
+      "baseScore": 0.4534719517,
+      "score": 0.46078160154742787
+    },
+    {
+      "id": "5653c6bf77c81a43683d12ea",
+      "rank": 330,
+      "name": "Rutgers-Newark",
+      "gameScores": null,
+      "baseScore": 0.4503816794,
+      "score": 0.46046241504279645
+    },
+    {
+      "id": "5653c6c077c81a43683d13cb",
+      "rank": 331,
+      "name": "Fort Valley St",
+      "gameScores": null,
+      "baseScore": 0.4563758389,
+      "score": 0.459795425698909
+    },
+    {
+      "id": "5653c6bf77c81a43683d1308",
+      "rank": 332,
+      "name": "Stephen Austin",
+      "gameScores": null,
+      "baseScore": 0.4674426450666667,
+      "score": 0.45860506358129083
+    },
+    {
+      "id": "5653c6c077c81a43683d13d8",
+      "rank": 333,
+      "name": "Nicholls St",
+      "gameScores": null,
+      "baseScore": 0.47114162215,
+      "score": 0.45840271138437105
+    },
+    {
+      "id": "5653c6c077c81a43683d13dc",
+      "rank": 334,
+      "name": "Reinhardt",
+      "gameScores": null,
+      "baseScore": 0.4581005587,
+      "score": 0.4582967301097009
+    },
+    {
+      "id": "5653c6bf77c81a43683d12f3",
+      "rank": 335,
+      "name": "Seton Hill",
+      "gameScores": null,
+      "baseScore": 0.4251497006,
+      "score": 0.45826515338412527
+    },
+    {
+      "id": "5653c6bf77c81a43683d11fd",
+      "rank": 336,
+      "name": "Northern Colorado",
+      "gameScores": null,
+      "baseScore": 0.467963801925,
+      "score": 0.45787302920677103
+    },
+    {
+      "id": "5653c6c077c81a43683d1470",
+      "rank": 337,
+      "name": "Alma",
+      "gameScores": null,
+      "baseScore": 0.4475524476,
+      "score": 0.45757584126746736
+    },
+    {
+      "id": "5653c6c077c81a43683d1377",
+      "rank": 338,
+      "name": "Greensboro",
+      "gameScores": null,
+      "baseScore": 0.4451612903,
+      "score": 0.4574905230103424
+    },
+    {
+      "id": "5653c6bf77c81a43683d12f0",
+      "rank": 339,
+      "name": "Se Louisiana",
+      "gameScores": null,
+      "baseScore": 0.444573292425,
+      "score": 0.4570196833322223
+    },
+    {
+      "id": "5653c6c077c81a43683d134a",
+      "rank": 340,
+      "name": "Vmi",
+      "gameScores": null,
+      "baseScore": 0.4630879791,
+      "score": 0.45617349069781366
+    },
+    {
+      "id": "5653c6bf77c81a43683d124b",
+      "rank": 341,
+      "name": "Coppin St",
+      "gameScores": null,
+      "baseScore": 0.45048077709999995,
+      "score": 0.4557065760228034
+    },
+    {
+      "id": "5653c6c077c81a43683d1381",
+      "rank": 342,
+      "name": "Appalachian St",
+      "gameScores": null,
+      "baseScore": 0.45281165907500004,
+      "score": 0.45562867107327343
+    },
+    {
+      "id": "5653c6bf77c81a43683d1296",
+      "rank": 343,
+      "name": "Massachusetts Lowell",
+      "gameScores": null,
+      "baseScore": 0.4450108113333333,
+      "score": 0.45556818275150085
+    },
+    {
+      "id": "5653c6bf77c81a43683d12cf",
+      "rank": 344,
+      "name": "Oregon Tech",
+      "gameScores": null,
+      "baseScore": 0.4525139665,
+      "score": 0.4546303388215998
+    },
+    {
+      "id": "5653c6bf77c81a43683d1242",
+      "rank": 345,
+      "name": "Charleston Sou",
+      "gameScores": null,
+      "baseScore": 0.46264261030000003,
+      "score": 0.4538312665912979
+    },
+    {
+      "id": "5653c6bf77c81a43683d1200",
+      "rank": 346,
+      "name": "Sw Missouri St",
+      "gameScores": null,
+      "baseScore": 0.44337417345,
+      "score": 0.4528416397287443
+    },
+    {
+      "id": "5653c6c077c81a43683d1350",
+      "rank": 347,
+      "name": "The Citadel",
+      "gameScores": null,
+      "baseScore": 0.49360733585,
+      "score": 0.45276704654341104
+    },
+    {
+      "id": "5653c6bf77c81a43683d117c",
+      "rank": 348,
+      "name": "Texas San Ant",
+      "gameScores": null,
+      "baseScore": 0.44081312807500006,
+      "score": 0.4522455097566465
+    },
+    {
+      "id": "5653c6c077c81a43683d147a",
+      "rank": 349,
+      "name": "Howard Payne",
+      "gameScores": null,
+      "baseScore": 0.4444444444,
+      "score": 0.4518688893622205
+    },
+    {
+      "id": "5653c6bf77c81a43683d129c",
+      "rank": 350,
+      "name": "Mcneese St",
+      "gameScores": null,
+      "baseScore": 0.4500832563333333,
+      "score": 0.4512732194961348
+    },
+    {
+      "id": "5653c6c077c81a43683d14cf",
+      "rank": 351,
+      "name": "Goldey-Beacom",
+      "gameScores": null,
+      "baseScore": 0.474025974,
+      "score": 0.4505525761331044
+    },
+    {
+      "id": "5653c6bf77c81a43683d127d",
+      "rank": 352,
+      "name": "Florida A&M",
+      "gameScores": null,
+      "baseScore": 0.4586393312,
+      "score": 0.4503982044423877
+    },
+    {
+      "id": "5653c6c077c81a43683d141b",
+      "rank": 353,
+      "name": "Florida Memorial",
+      "gameScores": null,
+      "baseScore": 0.4322033898,
+      "score": 0.45013298159161574
+    },
+    {
+      "id": "5653c6c077c81a43683d14dd",
+      "rank": 354,
+      "name": "Mississippi College",
+      "gameScores": null,
+      "baseScore": 0.475862069,
+      "score": 0.4494866012555025
+    },
+    {
+      "id": "5653c6c077c81a43683d1366",
+      "rank": 355,
+      "name": "Campbellsville",
+      "gameScores": null,
+      "baseScore": 0.4425287356,
+      "score": 0.449453565182255
+    },
+    {
+      "id": "5653c6c077c81a43683d156d",
+      "rank": 356,
+      "name": "Trinity International",
+      "gameScores": null,
+      "baseScore": 0.43890410960000004,
+      "score": 0.4484437069528203
+    },
+    {
+      "id": "5653c6c077c81a43683d14c9",
+      "rank": 357,
+      "name": "Emerson",
+      "gameScores": null,
+      "baseScore": 0.4569536424,
+      "score": 0.44816037596095243
+    },
+    {
+      "id": "5653c6bf77c81a43683d11a9",
+      "rank": 358,
+      "name": "Rice",
+      "gameScores": null,
+      "baseScore": 0.429749813225,
+      "score": 0.44806552173302244
+    },
+    {
+      "id": "5653c6c077c81a43683d148d",
+      "rank": 359,
+      "name": "Queens College",
+      "gameScores": null,
+      "baseScore": 0.4285714286,
+      "score": 0.447554477229837
+    },
+    {
+      "id": "5653c6bf77c81a43683d1263",
+      "rank": 360,
+      "name": "Great Falls",
+      "gameScores": null,
+      "baseScore": 0.4413422819,
+      "score": 0.4469832622465248
+    },
+    {
+      "id": "5653c6bf77c81a43683d1239",
+      "rank": 361,
+      "name": "Binghamton",
+      "gameScores": null,
+      "baseScore": 0.4461260110333334,
+      "score": 0.4467935208867877
+    },
+    {
+      "id": "5653c6c077c81a43683d1499",
+      "rank": 362,
+      "name": "Tusculum",
+      "gameScores": null,
+      "baseScore": 0.4634146341,
+      "score": 0.44630906344073495
+    },
+    {
+      "id": "5653c6bf77c81a43683d1268",
+      "rank": 363,
+      "name": "Central Conn",
+      "gameScores": null,
+      "baseScore": 0.4421288807333334,
+      "score": 0.44618850951003025
+    },
+    {
+      "id": "5653c6c077c81a43683d13e7",
+      "rank": 364,
+      "name": "William Jewell",
+      "gameScores": null,
+      "baseScore": 0.446969697,
+      "score": 0.4457738986548432
+    },
+    {
+      "id": "5653c6bf77c81a43683d12b7",
+      "rank": 365,
+      "name": "Morgan St",
+      "gameScores": null,
+      "baseScore": 0.431879093525,
+      "score": 0.4454915208226623
+    },
+    {
+      "id": "5653c6c077c81a43683d13e3",
+      "rank": 366,
+      "name": "Stetson",
+      "gameScores": null,
+      "baseScore": 0.4378327622666667,
+      "score": 0.4443734641170625
+    },
+    {
+      "id": "5653c6bf77c81a43683d12ed",
+      "rank": 367,
+      "name": "San Francisco St",
+      "gameScores": null,
+      "baseScore": 0.4117647059,
+      "score": 0.4440076239994211
+    },
+    {
+      "id": "5653c6bf77c81a43683d12e7",
+      "rank": 368,
+      "name": "Robert Morris",
+      "gameScores": null,
+      "baseScore": 0.43059359255,
+      "score": 0.4436430161091929
+    },
+    {
+      "id": "5653c6bf77c81a43683d11c4",
+      "rank": 369,
+      "name": "Se Missouri St",
+      "gameScores": null,
+      "baseScore": 0.4219688022666666,
+      "score": 0.44327292902223064
+    },
+    {
+      "id": "5653c6c077c81a43683d14cd",
+      "rank": 370,
+      "name": "Fresno Pacific",
+      "gameScores": null,
+      "baseScore": 0.4167125096,
+      "score": 0.4431402935210961
+    },
+    {
+      "id": "5653c6c077c81a43683d1516",
+      "rank": 371,
+      "name": "Emmanuel",
+      "gameScores": null,
+      "baseScore": 0.4296296296,
+      "score": 0.44295658169990254
+    },
+    {
+      "id": "5653c6bf77c81a43683d1293",
+      "rank": 372,
+      "name": "Maine",
+      "gameScores": null,
+      "baseScore": 0.43329564523333336,
+      "score": 0.44275162781695804
+    },
+    {
+      "id": "5653c6bf77c81a43683d125a",
+      "rank": 373,
+      "name": "Florida National",
+      "gameScores": null,
+      "baseScore": 0.4423076923,
+      "score": 0.44268893776778184
+    },
+    {
+      "id": "5653c6c077c81a43683d1497",
+      "rank": 374,
+      "name": "Truett-Mcconnell",
+      "gameScores": null,
+      "baseScore": 0.4239130435,
+      "score": 0.442390876915078
+    },
+    {
+      "id": "5653c6c077c81a43683d1495",
+      "rank": 375,
+      "name": "Tiffin",
+      "gameScores": null,
+      "baseScore": 0.461038961,
+      "score": 0.44086434846880446
+    },
+    {
+      "id": "5653c6bf77c81a43683d127b",
+      "rank": 376,
+      "name": "Jarvis Christ",
+      "gameScores": null,
+      "baseScore": 0.4226804124,
+      "score": 0.44038886576213787
+    },
+    {
+      "id": "5653c6c077c81a43683d1417",
+      "rank": 377,
+      "name": "Dickinson State",
+      "gameScores": null,
+      "baseScore": 0.4358974359,
+      "score": 0.43951422771711535
+    },
+    {
+      "id": "5653c6bf77c81a43683d1311",
+      "rank": 378,
+      "name": "Texas Southern",
+      "gameScores": null,
+      "baseScore": 0.41743055853333333,
+      "score": 0.43900955752317716
+    },
+    {
+      "id": "5653c6bf77c81a43683d130e",
+      "rank": 379,
+      "name": "Texas Lutheran",
+      "gameScores": null,
+      "baseScore": 0.4304635762,
+      "score": 0.4385608990142381
+    },
+    {
+      "id": "5653c6bf77c81a43683d12a2",
+      "rank": 380,
+      "name": "Middle Georgia State",
+      "gameScores": null,
+      "baseScore": 0.4251968504,
+      "score": 0.4383862993297351
+    },
+    {
+      "id": "5653c6bf77c81a43683d128d",
+      "rank": 381,
+      "name": "Louisiana Coll",
+      "gameScores": null,
+      "baseScore": 0.44842657345000003,
+      "score": 0.4380214450157506
+    },
+    {
+      "id": "5653c6c077c81a43683d13da",
+      "rank": 382,
+      "name": "North Carolina Wesleyan",
+      "gameScores": null,
+      "baseScore": 0.4259259259,
+      "score": 0.43801039931176444
+    },
+    {
+      "id": "5653c6c077c81a43683d1474",
+      "rank": 383,
+      "name": "Chowan",
+      "gameScores": null,
+      "baseScore": 0.4255319149,
+      "score": 0.4373174904179073
+    },
+    {
+      "id": "5653c6c077c81a43683d1476",
+      "rank": 384,
+      "name": "Colorado Christian",
+      "gameScores": null,
+      "baseScore": 0.4516129032,
+      "score": 0.437144942779859
+    },
+    {
+      "id": "5653c6bf77c81a43683d1233",
+      "rank": 385,
+      "name": "Auburn-Montgomery",
+      "gameScores": null,
+      "baseScore": 0.44627241735,
+      "score": 0.436220485562848
+    },
+    {
+      "id": "5653c6c077c81a43683d146e",
+      "rank": 386,
+      "name": "Adams State",
+      "gameScores": null,
+      "baseScore": 0.40817209885,
+      "score": 0.43556133935890123
+    },
+    {
+      "id": "5653c6c077c81a43683d1394",
+      "rank": 387,
+      "name": "Northwest Christian",
+      "gameScores": null,
+      "baseScore": 0.4126984127,
+      "score": 0.4355096630977068
+    },
+    {
+      "id": "5653c6bf77c81a43683d129f",
+      "rank": 388,
+      "name": "Md Eastrn Shore",
+      "gameScores": null,
+      "baseScore": 0.4304730115666667,
+      "score": 0.43496053529185685
+    },
+    {
+      "id": "5653c6c077c81a43683d155c",
+      "rank": 389,
+      "name": "Florida College",
+      "gameScores": null,
+      "baseScore": 0.4375,
+      "score": 0.4347364445958333
+    },
+    {
+      "id": "5653c6bf77c81a43683d1272",
+      "rank": 390,
+      "name": "Houston Baptist",
+      "gameScores": null,
+      "baseScore": 0.4268382353,
+      "score": 0.43423205610390575
+    },
+    {
+      "id": "5653c6c077c81a43683d15ac",
+      "rank": 391,
+      "name": "Emporia State",
+      "gameScores": null,
+      "baseScore": 0.4153846154,
+      "score": 0.43375494731760345
+    },
+    {
+      "id": "5653c6c077c81a43683d1484",
+      "rank": 392,
+      "name": "Marian-In",
+      "gameScores": null,
+      "baseScore": 0.4125874126,
+      "score": 0.43362234015308926
+    },
+    {
+      "id": "5653c6c077c81a43683d1607",
+      "rank": 393,
+      "name": "Minnesota-Duluth",
+      "gameScores": null,
+      "baseScore": 0.4404761905,
+      "score": 0.4331350274260913
+    },
+    {
+      "id": "5653c6c077c81a43683d1492",
+      "rank": 394,
+      "name": "St. Thomas",
+      "gameScores": null,
+      "baseScore": 0.4466019417,
+      "score": 0.43302499983995757
+    },
+    {
+      "id": "5653c6bf77c81a43683d1284",
+      "rank": 395,
+      "name": "Kennesaw State",
+      "gameScores": null,
+      "baseScore": 0.427738185925,
+      "score": 0.43265786734103506
+    },
+    {
+      "id": "5653c6c077c81a43683d1444",
+      "rank": 396,
+      "name": "Texas Wesleyan",
+      "gameScores": null,
+      "baseScore": 0.4217687075,
+      "score": 0.43264723448071074
+    },
+    {
+      "id": "5653c6c077c81a43683d150d",
+      "rank": 397,
+      "name": "Alcorn St",
+      "gameScores": null,
+      "baseScore": 0.39828571430000004,
+      "score": 0.4326335856185558
+    },
+    {
+      "id": "5653c6c077c81a43683d1412",
+      "rank": 398,
+      "name": "Central State",
+      "gameScores": null,
+      "baseScore": 0.4248366013,
+      "score": 0.43185406270455107
+    },
+    {
+      "id": "5653c6bf77c81a43683d12db",
+      "rank": 399,
+      "name": "Prairie View",
+      "gameScores": null,
+      "baseScore": 0.42543848252500005,
+      "score": 0.4316786442589548
+    },
+    {
+      "id": "5653c6c077c81a43683d133d",
+      "rank": 400,
+      "name": "Southern Miss",
+      "gameScores": null,
+      "baseScore": 0.4285982009,
+      "score": 0.4297825285165127
+    },
+    {
+      "id": "5653c6c077c81a43683d1423",
+      "rank": 401,
+      "name": "La Roche",
+      "gameScores": null,
+      "baseScore": 0.4220779221,
+      "score": 0.42837412936461505
+    },
+    {
+      "id": "5653c6c077c81a43683d14ee",
+      "rank": 402,
+      "name": "Valley City State",
+      "gameScores": null,
+      "baseScore": 0.4152542373,
+      "score": 0.42797927567635224
+    },
+    {
+      "id": "5653c6c077c81a43683d13a0",
+      "rank": 403,
+      "name": "San Diego Christian",
+      "gameScores": null,
+      "baseScore": 0.41268237933333335,
+      "score": 0.42758182550163104
+    },
+    {
+      "id": "5653c6bf77c81a43683d122d",
+      "rank": 404,
+      "name": "American",
+      "gameScores": null,
+      "baseScore": 0.4155611468,
+      "score": 0.42646077830506873
+    },
+    {
+      "id": "5653c6c077c81a43683d149d",
+      "rank": 405,
+      "name": "Washington Adventist",
+      "gameScores": null,
+      "baseScore": 0.42013184579999996,
+      "score": 0.42625445375418614
+    },
+    {
+      "id": "5653c6bf77c81a43683d12d2",
+      "rank": 406,
+      "name": "Our Lady Of The Lake",
+      "gameScores": null,
+      "baseScore": 0.4337349398,
+      "score": 0.42589764397275376
+    },
+    {
+      "id": "5653c6bf77c81a43683d122a",
+      "rank": 407,
+      "name": "Allen",
+      "gameScores": null,
+      "baseScore": 0.41538882805,
+      "score": 0.42535665599644135
+    },
+    {
+      "id": "5653c6bf77c81a43683d118e",
+      "rank": 408,
+      "name": "San Diego",
+      "gameScores": null,
+      "baseScore": 0.4194215083333333,
+      "score": 0.42493356651970166
+    },
+    {
+      "id": "5653c6bf77c81a43683d11bb",
+      "rank": 409,
+      "name": "Eastern Ill",
+      "gameScores": null,
+      "baseScore": 0.40775987,
+      "score": 0.4248381298102106
+    },
+    {
+      "id": "5653c6bf77c81a43683d1230",
+      "rank": 410,
+      "name": "Ark Pine Bluff",
+      "gameScores": null,
+      "baseScore": 0.40834298384999995,
+      "score": 0.42384269650596024
+    },
+    {
+      "id": "5653c6c077c81a43683d13ad",
+      "rank": 411,
+      "name": "William Jessup",
+      "gameScores": null,
+      "baseScore": 0.4047619048,
+      "score": 0.42377090936290024
+    },
+    {
+      "id": "5653c6bf77c81a43683d12c0",
+      "rank": 412,
+      "name": "No Carolina A&T",
+      "gameScores": null,
+      "baseScore": 0.41822476268,
+      "score": 0.42296139461786986
+    },
+    {
+      "id": "5653c6bf77c81a43683d1224",
+      "rank": 413,
+      "name": "Mt St Marys",
+      "gameScores": null,
+      "baseScore": 0.39625870605,
+      "score": 0.4227103289619593
+    },
+    {
+      "id": "5653c6c077c81a43683d14c7",
+      "rank": 414,
+      "name": "Edward Waters",
+      "gameScores": null,
+      "baseScore": 0.4131736527,
+      "score": 0.42204351070700197
+    },
+    {
+      "id": "5653c6bf77c81a43683d12e4",
+      "rank": 415,
+      "name": "Randolph College",
+      "gameScores": null,
+      "baseScore": 0.4152542373,
+      "score": 0.42144865451221086
+    },
+    {
+      "id": "5653c6c077c81a43683d14f0",
+      "rank": 416,
+      "name": "Vanguard",
+      "gameScores": null,
+      "baseScore": 0.4193548387,
+      "score": 0.4207407789985139
+    },
+    {
+      "id": "5653c6c077c81a43683d14a1",
+      "rank": 417,
+      "name": "Westminster",
+      "gameScores": null,
+      "baseScore": 0.4114285714,
+      "score": 0.42053303541765347
+    },
+    {
+      "id": "5653c6c077c81a43683d13aa",
+      "rank": 418,
+      "name": "West Va Tech",
+      "gameScores": null,
+      "baseScore": 0.4037267081,
+      "score": 0.41996891593332264
+    },
+    {
+      "id": "5653c6c077c81a43683d14cb",
+      "rank": 419,
+      "name": "Fisk",
+      "gameScores": null,
+      "baseScore": 0.4098360656,
+      "score": 0.41994410963753215
+    },
+    {
+      "id": "5653c6c077c81a43683d148a",
+      "rank": 420,
+      "name": "Oakland City",
+      "gameScores": null,
+      "baseScore": 0.4181818182,
+      "score": 0.4196630387865579
+    },
+    {
+      "id": "5653c6c077c81a43683d15b7",
+      "rank": 421,
+      "name": "Linfield",
+      "gameScores": null,
+      "baseScore": 0.4097222222,
+      "score": 0.41882254421733045
+    },
+    {
+      "id": "5653c6c077c81a43683d14d1",
+      "rank": 422,
+      "name": "Grace Bible College",
+      "gameScores": null,
+      "baseScore": 0.3918128655,
+      "score": 0.4182956534810456
+    },
+    {
+      "id": "5653c6bf77c81a43683d12ab",
+      "rank": 423,
+      "name": "Minnesota-Morris",
+      "gameScores": null,
+      "baseScore": 0.4107142857,
+      "score": 0.41659717536675966
+    },
+    {
+      "id": "5653c6c077c81a43683d149f",
+      "rank": 424,
+      "name": "Wentworth",
+      "gameScores": null,
+      "baseScore": 0.4052287582,
+      "score": 0.4157384582982961
+    },
+    {
+      "id": "5653c6c077c81a43683d147f",
+      "rank": 425,
+      "name": "Kenyon",
+      "gameScores": null,
+      "baseScore": 0.4086956522,
+      "score": 0.4148337657530874
+    },
+    {
+      "id": "5653c6c077c81a43683d1571",
+      "rank": 426,
+      "name": "Union",
+      "gameScores": null,
+      "baseScore": 0.3916666667,
+      "score": 0.41366419655187214
+    },
+    {
+      "id": "5653c6c077c81a43683d1482",
+      "rank": 427,
+      "name": "Malone",
+      "gameScores": null,
+      "baseScore": 0.4259259259,
+      "score": 0.4129240343199272
+    },
+    {
+      "id": "5653c6c077c81a43683d142f",
+      "rank": 428,
+      "name": "Molloy",
+      "gameScores": null,
+      "baseScore": 0.4,
+      "score": 0.41180201231
+    },
+    {
+      "id": "5653c6c077c81a43683d143e",
+      "rank": 429,
+      "name": "Schreiner",
+      "gameScores": null,
+      "baseScore": 0.4016393443,
+      "score": 0.4091944630266655
+    },
+    {
+      "id": "5653c6bf77c81a43683d12a5",
+      "rank": 430,
+      "name": "Milligan",
+      "gameScores": null,
+      "baseScore": 0.3827160494,
+      "score": 0.4081599728665812
+    },
+    {
+      "id": "5653c6bf77c81a43683d1302",
+      "rank": 431,
+      "name": "Southwest",
+      "gameScores": null,
+      "baseScore": 0.4012738854,
+      "score": 0.40797716612375984
+    },
+    {
+      "id": "5653c6c077c81a43683d1605",
+      "rank": 432,
+      "name": "Lsu-Shreveport",
+      "gameScores": null,
+      "baseScore": 0.4210526316,
+      "score": 0.4073442716273848
+    },
+    {
+      "id": "5653c6c077c81a43683d1487",
+      "rank": 433,
+      "name": "Mount Saint Vincent",
+      "gameScores": null,
+      "baseScore": 0.41875,
+      "score": 0.40724662495895836
+    },
+    {
+      "id": "5653c6c077c81a43683d138b",
+      "rank": 434,
+      "name": "Miss Valley St",
+      "gameScores": null,
+      "baseScore": 0.3972878879333333,
+      "score": 0.4066838128168595
+    },
+    {
+      "id": "5653c6c077c81a43683d14bd",
+      "rank": 435,
+      "name": "Belmont Abbey",
+      "gameScores": null,
+      "baseScore": 0.4042553191,
+      "score": 0.4063553008002777
+    },
+    {
+      "id": "5653c6c077c81a43683d13cf",
+      "rank": 436,
+      "name": "Hannibal-Lagrange",
+      "gameScores": null,
+      "baseScore": 0.3774834437,
+      "score": 0.404561659556336
+    },
+    {
+      "id": "5653c6c077c81a43683d156f",
+      "rank": 437,
+      "name": "Tx A&M-Kingsville",
+      "gameScores": null,
+      "baseScore": 0.4179104478,
+      "score": 0.4039946204793048
+    },
+    {
+      "id": "5653c6c077c81a43683d151f",
+      "rank": 438,
+      "name": "Mobile",
+      "gameScores": null,
+      "baseScore": 0.4202898551,
+      "score": 0.4028069366951844
+    },
+    {
+      "id": "5653c6bf77c81a43683d12c9",
+      "rank": 439,
+      "name": "Northern Mich",
+      "gameScores": null,
+      "baseScore": 0.3859649123,
+      "score": 0.4022855158739155
+    },
+    {
+      "id": "5653c6c077c81a43683d14d7",
+      "rank": 440,
+      "name": "Indiana-Northwest",
+      "gameScores": null,
+      "baseScore": 0.3786982249,
+      "score": 0.4011126111844936
+    },
+    {
+      "id": "5653c6bf77c81a43683d123f",
+      "rank": 441,
+      "name": "Chadron State",
+      "gameScores": null,
+      "baseScore": 0.3741007194,
+      "score": 0.3990024252472926
+    },
+    {
+      "id": "5653c6c077c81a43683d1397",
+      "rank": 442,
+      "name": "Piedmont Coll",
+      "gameScores": null,
+      "baseScore": 0.3956043956,
+      "score": 0.3988087491647995
+    },
+    {
+      "id": "5653c6c077c81a43683d142d",
+      "rank": 443,
+      "name": "Manchester",
+      "gameScores": null,
+      "baseScore": 0.384057971,
+      "score": 0.3976090205433292
+    },
+    {
+      "id": "5653c6bf77c81a43683d12ae",
+      "rank": 444,
+      "name": "Mit",
+      "gameScores": null,
+      "baseScore": 0.3979591837,
+      "score": 0.396412754177703
+    },
+    {
+      "id": "5653c6c077c81a43683d155f",
+      "rank": 445,
+      "name": "Holy Names",
+      "gameScores": null,
+      "baseScore": 0.3684210526,
+      "score": 0.3911968881857671
+    },
+    {
+      "id": "5653c6bf77c81a43683d127e",
+      "rank": 446,
+      "name": "Johnson",
+      "gameScores": null,
+      "baseScore": 0.408045977,
+      "score": 0.3911689224901306
+    },
+    {
+      "id": "5653c6bf77c81a43683d123c",
+      "rank": 447,
+      "name": "Bristol University",
+      "gameScores": null,
+      "baseScore": 0.3803680982,
+      "score": 0.39082203346215577
+    },
+    {
+      "id": "5653c6bf77c81a43683d1245",
+      "rank": 448,
+      "name": "Cincinnati Christian",
+      "gameScores": null,
+      "baseScore": 0.3695652174,
+      "score": 0.3892764362106087
+    },
+    {
+      "id": "5653c6c077c81a43683d15aa",
+      "rank": 449,
+      "name": "Central Pennsylvania College",
+      "gameScores": null,
+      "baseScore": 0.3676470588,
+      "score": 0.38892064401003557
+    },
+    {
+      "id": "5653c6c077c81a43683d14eb",
+      "rank": 450,
+      "name": "Toccoa Falls",
+      "gameScores": null,
+      "baseScore": 0.38996252955,
+      "score": 0.3885478956125388
+    },
+    {
+      "id": "5653c6c077c81a43683d1437",
+      "rank": 451,
+      "name": "Oakwood",
+      "gameScores": null,
+      "baseScore": 0.3846153846,
+      "score": 0.3874972761896283
+    },
+    {
+      "id": "5653c6c077c81a43683d1420",
+      "rank": 452,
+      "name": "Hiwassee College",
+      "gameScores": null,
+      "baseScore": 0.3691275168,
+      "score": 0.3874639528357425
+    },
+    {
+      "id": "5653c6c077c81a43683d13a5",
+      "rank": 453,
+      "name": "Summit University",
+      "gameScores": null,
+      "baseScore": 0.3661971831,
+      "score": 0.3873868724824759
+    },
+    {
+      "id": "5653c6c077c81a43683d14d9",
+      "rank": 454,
+      "name": "Johnson & Wales",
+      "gameScores": null,
+      "baseScore": 0.4012345679,
+      "score": 0.3862454917858486
+    },
+    {
+      "id": "5653c6c077c81a43683d1565",
+      "rank": 455,
+      "name": "Medgar Evers",
+      "gameScores": null,
+      "baseScore": 0.3764705882,
+      "score": 0.384723205573344
+    },
+    {
+      "id": "5653c6bf77c81a43683d1257",
+      "rank": 456,
+      "name": "Ferrum",
+      "gameScores": null,
+      "baseScore": 0.3673469388,
+      "score": 0.38450235764196
+    },
+    {
+      "id": "5653c6c077c81a43683d15ff",
+      "rank": 457,
+      "name": "Goucher",
+      "gameScores": null,
+      "baseScore": 0.3821138211,
+      "score": 0.3843320255530302
+    },
+    {
+      "id": "5653c6c077c81a43683d1363",
+      "rank": 458,
+      "name": "Byu Hawaii",
+      "gameScores": null,
+      "baseScore": 0.3851351351,
+      "score": 0.38410399338428325
+    },
+    {
+      "id": "5653c6c077c81a43683d1439",
+      "rank": 459,
+      "name": "Pacific Lutheran",
+      "gameScores": null,
+      "baseScore": 0.3636363636,
+      "score": 0.38402203853129474
+    },
+    {
+      "id": "5653c6bf77c81a43683d1281",
+      "rank": 460,
+      "name": "Kean",
+      "gameScores": null,
+      "baseScore": 0.3668639053,
+      "score": 0.3835234640316848
+    },
+    {
+      "id": "5653c6bf77c81a43683d1236",
+      "rank": 461,
+      "name": "Austin",
+      "gameScores": null,
+      "baseScore": 0.3647798742,
+      "score": 0.3826985759569723
+    },
+    {
+      "id": "5653c6bf77c81a43683d12f6",
+      "rank": 462,
+      "name": "Shenandoah",
+      "gameScores": null,
+      "baseScore": 0.3630952381,
+      "score": 0.3788708367845819
+    },
+    {
+      "id": "5653c6c077c81a43683d1432",
+      "rank": 463,
+      "name": "New Mexico-High",
+      "gameScores": null,
+      "baseScore": 0.37135964914999997,
+      "score": 0.37855194584362906
+    },
+    {
+      "id": "5653c6c077c81a43683d144c",
+      "rank": 464,
+      "name": "Voorhees",
+      "gameScores": null,
+      "baseScore": 0.3791208791,
+      "score": 0.3781589692987342
+    },
+    {
+      "id": "5653c6c077c81a43683d1525",
+      "rank": 465,
+      "name": "Pensacola Christian College",
+      "gameScores": null,
+      "baseScore": 0.3774834437,
+      "score": 0.37740886713973676
+    },
+    {
+      "id": "5653c6c077c81a43683d150f",
+      "rank": 466,
+      "name": "Antelope Valley",
+      "gameScores": null,
+      "baseScore": 0.37594609026666664,
+      "score": 0.3766434147786539
+    },
+    {
+      "id": "5653c6c077c81a43683d155a",
+      "rank": 467,
+      "name": "Embry-Riddle",
+      "gameScores": null,
+      "baseScore": 0.387755102,
+      "score": 0.37626422408029125
+    },
+    {
+      "id": "5653c6c077c81a43683d1448",
+      "rank": 468,
+      "name": "Texas-Tyler",
+      "gameScores": null,
+      "baseScore": 0.3684210526,
+      "score": 0.37553809663028614
+    },
+    {
+      "id": "5653c6c077c81a43683d136e",
+      "rank": 469,
+      "name": "Eureka",
+      "gameScores": null,
+      "baseScore": 0.3599415205,
+      "score": 0.3750464994875822
+    },
+    {
+      "id": "5653c6c077c81a43683d1419",
+      "rank": 470,
+      "name": "Fdu-Florham",
+      "gameScores": null,
+      "baseScore": 0.3867403315,
+      "score": 0.3748534254444966
+    },
+    {
+      "id": "5653c6c077c81a43683d14db",
+      "rank": 471,
+      "name": "Mars Hill",
+      "gameScores": null,
+      "baseScore": 0.3777777778,
+      "score": 0.3748171649281592
+    },
+    {
+      "id": "5653c6c077c81a43683d1442",
+      "rank": 472,
+      "name": "Texas College",
+      "gameScores": null,
+      "baseScore": 0.3567251462,
+      "score": 0.37167036350665494
+    },
+    {
+      "id": "5653c6c077c81a43683d13e0",
+      "rank": 473,
+      "name": "St Marys",
+      "gameScores": null,
+      "baseScore": 0.3580246914,
+      "score": 0.3704915655147332
+    },
+    {
+      "id": "5653c6c077c81a43683d14c3",
+      "rank": 474,
+      "name": "Centenary",
+      "gameScores": null,
+      "baseScore": 0.3402777778,
+      "score": 0.37019494209755566
+    },
+    {
+      "id": "5653c6c077c81a43683d131a",
+      "rank": 475,
+      "name": "Trinity Baptist",
+      "gameScores": null,
+      "baseScore": 0.3545454545,
+      "score": 0.369253472578478
+    },
+    {
+      "id": "5653c6bf77c81a43683d1290",
+      "rank": 476,
+      "name": "Lyndon State",
+      "gameScores": null,
+      "baseScore": 0.3543307087,
+      "score": 0.3657684911028202
+    },
+    {
+      "id": "5653c6c077c81a43683d14d5",
+      "rank": 477,
+      "name": "Indiana-Kokomo",
+      "gameScores": null,
+      "baseScore": 0.3389830508,
+      "score": 0.3655480385928911
+    },
+    {
+      "id": "5653c6bf77c81a43683d12f9",
+      "rank": 478,
+      "name": "Simpson",
+      "gameScores": null,
+      "baseScore": 0.3489932886,
+      "score": 0.36236322148626604
+    },
+    {
+      "id": "5653c6c077c81a43683d1385",
+      "rank": 479,
+      "name": "Loyola No",
+      "gameScores": null,
+      "baseScore": 0.3286713287,
+      "score": 0.36117846536577275
+    },
+    {
+      "id": "5653c6c077c81a43683d15cd",
+      "rank": 480,
+      "name": "Suny-Oneonta",
+      "gameScores": null,
+      "baseScore": 0.3475177305,
+      "score": 0.36106854731396804
+    },
+    {
+      "id": "5653c6bf77c81a43683d1266",
+      "rank": 481,
+      "name": "Harris Stowe",
+      "gameScores": null,
+      "baseScore": 0.34375,
+      "score": 0.3606431360125
+    },
+    {
+      "id": "5653c6c077c81a43683d135e",
+      "rank": 482,
+      "name": "Averett",
+      "gameScores": null,
+      "baseScore": 0.3554216867,
+      "score": 0.3606391259176837
+    },
+    {
+      "id": "5653c6c077c81a43683d1490",
+      "rank": 483,
+      "name": "St Josephs-In",
+      "gameScores": null,
+      "baseScore": 0.3385826772,
+      "score": 0.35714523250240526
+    },
+    {
+      "id": "5653c6c077c81a43683d13cd",
+      "rank": 484,
+      "name": "George Fox",
+      "gameScores": null,
+      "baseScore": 0.3368421053,
+      "score": 0.35225982738449335
+    },
+    {
+      "id": "5653c6bf77c81a43683d1299",
+      "rank": 485,
+      "name": "Mcmurry",
+      "gameScores": null,
+      "baseScore": 0.3282442748,
+      "score": 0.3482229537938445
+    },
+    {
+      "id": "5653c6c077c81a43683d152c",
+      "rank": 486,
+      "name": "Trinity Christian",
+      "gameScores": null,
+      "baseScore": 0.320610687,
+      "score": 0.3457358930134725
+    },
+    {
+      "id": "5653c6bf77c81a43683d1317",
+      "rank": 487,
+      "name": "Trinity",
+      "gameScores": null,
+      "baseScore": 0.3333333333,
+      "score": 0.3451310490210424
+    },
+    {
+      "id": "5653c6bf77c81a43683d12b4",
+      "rank": 488,
+      "name": "Montreat",
+      "gameScores": null,
+      "baseScore": 0.3255813953,
+      "score": 0.3411739247302193
+    },
+    {
+      "id": "5653c6c077c81a43683d142b",
+      "rank": 489,
+      "name": "Lyon College",
+      "gameScores": null,
+      "baseScore": 0.313559322,
+      "score": 0.3279470167550123
+    },
+    {
+      "id": "5653c6c077c81a43683d156a",
+      "rank": 490,
+      "name": "Siena Heights",
+      "gameScores": null,
+      "baseScore": 0.3008849558,
+      "score": 0.326297559766868
+    },
+    {
+      "id": "5653c6bf77c81a43683d1275",
+      "rank": 491,
+      "name": "Illinois Tech",
+      "gameScores": null,
+      "baseScore": 0.3010204082,
+      "score": 0.3188372007415875
+    },
+    {
+      "id": "5653c6bf77c81a43683d12d5",
+      "rank": 492,
+      "name": "Pittsburgh-Bradford",
+      "gameScores": null,
+      "baseScore": 0.3101265823,
+      "score": 0.31804734270498003
+    },
+    {
+      "id": "5653c6c077c81a43683d132c",
+      "rank": 493,
+      "name": "Webber",
+      "gameScores": null,
+      "baseScore": 0.296969697,
+      "score": 0.30421181514599155
+    },
+    {
+      "id": "5653c6bf77c81a43683d12a8",
+      "rank": 494,
+      "name": "Millsaps",
+      "gameScores": null,
+      "baseScore": 0.2578125,
+      "score": 0.2874454295453125
+    },
+    {
+      "id": "5653c6c077c81a43683d1373",
+      "rank": 495,
+      "name": "Mid-Atlantic Christian",
+      "gameScores": null,
+      "baseScore": 0.2733671171,
+      "score": 0.264421012105738
+    },
+    {
+      "id": "5653c6c077c81a43683d1388",
+      "rank": 496,
+      "name": "Merchant Marine",
+      "gameScores": null,
+      "baseScore": 0.2313432836,
+      "score": 0.24998326820343317
+    },
+    {
+      "id": "5653c6c077c81a43683d15c4",
+      "rank": 497,
+      "name": "Piedmont International",
+      "gameScores": null,
+      "baseScore": 0.2317880795,
+      "score": 0.24745472831741164
+    },
+    {
+      "id": "5653c6c077c81a43683d141e",
+      "rank": 498,
+      "name": "Hiram",
+      "gameScores": null,
+      "baseScore": 0.2307692308,
+      "score": 0.24620363980205792
+    }
+  ]
+}
