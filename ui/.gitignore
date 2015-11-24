@@ -28,3 +28,7 @@ templates.js
 
 #webstorm
 .idea
+
+#local config
+aws.json
+

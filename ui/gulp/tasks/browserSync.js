@@ -17,10 +17,8 @@ gulp.task('browserSync', function() {
       middleware: function(req, res, next) {
         let fileHref = url.parse(req.url).href;
 
-        console.log("Looking for fileHref", fileHref);
         if ( !ASSET_EXTENSION_REGEX.test(fileHref)
         && !(fileHref == '/data/teams.json')) {
-          console.log('forwarding to ' + DEFAULT_FILE + ' for ' + fileHref);
           req.url = '/' + DEFAULT_FILE;
         }
 

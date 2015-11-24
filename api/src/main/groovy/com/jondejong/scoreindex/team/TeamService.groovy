@@ -93,7 +93,8 @@ class TeamService {
         calculateBaseScores()
 
         // For some number of loops...
-        [0..2].each {
+        def loop = 0..10
+        loop.each {
             adjustScores()
         }
 
@@ -115,7 +116,6 @@ class TeamService {
                 Game game = gameRepository.load(it.game)
                 Team otherTeam
 
-                // TODO: Test this comparison thoroughly
                 if(game.home == team.id) {
                     otherTeam = teamRepository.load(game.away)
                 } else {
@@ -128,6 +128,30 @@ class TeamService {
                 it.adjustedScore = score.doubleValue()
             }
             updateTeamScore(team)
+            teamRepository.updateTeam(team)
+        }
+
+        // Remap Scores..
+        def teams = teamRepository.getTeams();
+
+        def scores = teams.collect {
+            it.score
+        }
+
+        scores.sort {a,b ->
+            a <=> b
+        }
+
+        def lowScore = new BigDecimal(scores[0])
+        def highScore = new BigDecimal(scores[scores.size() - 1])
+        teams.each { Team team ->
+            def newScore = mapRange(lowScore, highScore, new BigDecimal(team.score), (team.name == 'Louisville'))
+
+            if(team.name == 'Louisville') {
+                println "remapping ${team.name} score from ${team.score} to ${newScore.doubleValue()}"
+            }
+
+            team.score = newScore.doubleValue()
             teamRepository.updateTeam(team)
         }
     }
@@ -177,7 +201,13 @@ class TeamService {
             total += it.adjustedScore
         }
 
-        team.score = new BigDecimal(total/team.gameScores.size()).doubleValue()
+        def newScore = new BigDecimal(total/team.gameScores.size()).doubleValue()
+
+        if(team.name == 'Louisville') {
+//            println "changing ${team.name} from ${team.score} to ${newScore}"
+        }
+
+        team.score = newScore
         team
     }
 
@@ -188,8 +218,6 @@ class TeamService {
 
         String fileName = "${initialTeams.fileLocation}/${fileDate}.csv"
         String contents = new File(fileName).text
-
-        def games = []
 
         def data = parseCsv(contents)
 
@@ -230,5 +258,28 @@ class TeamService {
 
     protected scrubTeamName(String name) {
         name.split('\\(')[0].trim()
+    }
+
+    protected BigDecimal mapRange(BigDecimal baseLow, BigDecimal baseHigh, BigDecimal value, debugLog){
+        BigDecimal mapLow = new BigDecimal(0);
+        BigDecimal mapHigh = new BigDecimal(1.0D);
+        def newVal =  mapLow + ((value - baseLow)*(mapHigh - mapLow))/(baseHigh - baseLow);
+
+        if(newVal.doubleValue() > 1.0D) {
+            println "##################"
+            println "mapLow ${mapLow}"
+            println "mapHigh ${mapHigh}"
+            println "baseLow ${mapLow}"
+            println "baseHigh ${mapLow}"
+            println "value ${value}"
+            println "newValue ${newVal}"
+            println "newValue.doubleValue ${newVal.doubleValue()}"
+            println "##################"
+            throw new RuntimeException("invalid mapping occurred ");
+        }
+        if(debugLog) {
+            println "returning mapped value of ${newVal}"
+        }
+        newVal
     }
 }

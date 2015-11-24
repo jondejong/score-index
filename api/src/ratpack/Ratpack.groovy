@@ -76,7 +76,11 @@ ratpack {
                 Blocking.get {
                     teams = teamService.list()
                 }.then {
-                    render json(teams)
+                    def data = [
+                        date: '2015-11-22',
+                        teams: teams
+                    ]
+                    render json(data)
                 }
             }
 
