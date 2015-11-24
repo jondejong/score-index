@@ -9,4 +9,6 @@ class Team {
     List gameScores
     Double baseScore
     Double score
+    Integer wins
+    Integer losses
 }

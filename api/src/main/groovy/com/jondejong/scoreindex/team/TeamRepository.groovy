@@ -58,31 +58,30 @@ class TeamRepository {
         )
     }
 
-    protected Team documentToTeam(team) {
-        if (!team) {
+    protected Team documentToTeam(document) {
+        if (!document) {
             return null
         }
 
-        new Team(
-                id: team._id,
-                name: team.name,
-                gameScores: team.gameScores,
-                score: team.score,
-                baseScore: team.baseScore
-        )
+        Team team = documentToShortTeam(document)
+        team.gameScores = document.gameScores
+        team
     }
 
-    protected documentToShortTeam(team) {
-        if (!team) {
+    protected documentToShortTeam(document) {
+        if (!document) {
             return null
         }
 
         new Team(
-                id: team._id,
-                name: team.name,
-                score: team.score,
-                baseScore: team.baseScore,
-                rank: team.rank
+                id: document._id,
+                name: document.name,
+                score: document.score,
+                baseScore: document.baseScore,
+                rank: document.rank,
+                wins: document.wins,
+                losses: document.losses
+
         )
     }
 
@@ -92,7 +91,9 @@ class TeamRepository {
                 gameScores: team.gameScores,
                 score     : team.score,
                 baseScore : team.baseScore,
-                rank      : team.rank
+                rank      : team.rank,
+                wins      : team.wins,
+                losses    : team.losses
         ]
     }
 

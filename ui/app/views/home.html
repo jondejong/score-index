@@ -1,5 +1,7 @@
 <h1>Score Index</h1>
 <p>NCAA Men's basketball rankings based purely on scores through {{home.date}}</p>
+<p>A team's <strong>base score</strong> is how well they played in each game.</p>
+<p>A team's <strong>adjusted score</strong> is how well they played in each game, adjusted for the quality of opponent.</p>
 <small>Source: <a href="https://github.com/jondejong/score-index">https://github.com/jondejong/score-index</a></small>
 
 <table class="table table-striped">
@@ -14,7 +16,7 @@
     <tbody>
     <tr ng-repeat="team in home.teams">
         <td>{{team.rank}}</td>
-        <td>{{team.name}}</td>
+        <td>{{team.name}} ({{team.wins}}-{{team.losses}})</td>
         <td>{{team.score}}</td>
         <td>{{team.baseScore}}</td>
     </tr>

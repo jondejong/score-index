@@ -95,10 +95,12 @@ class TeamService {
         // For some number of loops...
         def loop = 0..25
         loop.each {
+            println "Adjusting rankings on loop ${it}..."
             adjustScores()
         }
 
         // Add rankings
+        println "Adding rankings to teams..."
         teamRepository.getTeams().sort {Team a, Team b ->
             b.score <=> a.score
         }.eachWithIndex {Team t, i ->
@@ -203,7 +205,7 @@ class TeamService {
             def homeTeam = teamRepository.getTeamByName(homeTeamName)
 
             if (!homeTeam) {
-                homeTeam = new Team(name: homeTeamName)
+                homeTeam = new Team(name: homeTeamName, wins: 0, losses: 0)
                 teamRepository.saveTeam(homeTeam)
                 homeTeam = teamRepository.getTeamByName(homeTeamName)
             }
@@ -211,7 +213,7 @@ class TeamService {
             def awayTeam = teamRepository.getTeamByName(awayTeamName)
 
             if (!awayTeam) {
-                awayTeam = new Team(name: awayTeamName)
+                awayTeam = new Team(name: awayTeamName, wins: 0, losses: 0)
                 teamRepository.saveTeam(awayTeam)
                 awayTeam = teamRepository.getTeamByName(awayTeamName)
             }
@@ -223,6 +225,17 @@ class TeamService {
                     awayScore: Integer.parseInt(line.AwayScore),
                     date: date
             )
+
+            if(game.homeScore > game.awayScore) {
+                homeTeam.wins++
+                awayTeam.losses++
+            } else {
+                homeTeam.losses++
+                awayTeam.wins++
+            }
+
+            teamRepository.updateTeam(homeTeam)
+            teamRepository.updateTeam(awayTeam)
 
             gameRepository.saveGame(game)
 
