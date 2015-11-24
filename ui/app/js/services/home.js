@@ -7,7 +7,7 @@ function HomeService($http) {
 
   service.get = function() {
     return new Promise((resolve, reject) => {
-      // For local test development
+       //For local test development
       //$http.get('http://localhost:5050/api/teams').success((data) => {
 
       // For deployment to S3
