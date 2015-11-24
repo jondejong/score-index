@@ -1,6 +1,6 @@
 # score-index
 
-Open source college basket rankings based only on scores
+Open source college basketball rankings based only on scores
 
 Totally just starting this. Nothing to see here yet.
 
