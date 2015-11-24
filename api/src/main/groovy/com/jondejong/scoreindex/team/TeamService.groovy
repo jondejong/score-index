@@ -93,7 +93,8 @@ class TeamService {
         calculateBaseScores()
 
         // For some number of loops...
-        [0..2].each {
+        def loop = 0..25
+        loop.each {
             adjustScores()
         }
 
@@ -115,7 +116,6 @@ class TeamService {
                 Game game = gameRepository.load(it.game)
                 Team otherTeam
 
-                // TODO: Test this comparison thoroughly
                 if(game.home == team.id) {
                     otherTeam = teamRepository.load(game.away)
                 } else {
@@ -124,12 +124,14 @@ class TeamService {
 
                 // Add .5 to the other teams score. That way a "positive" team increases the value
                 // of this game to a team, while a "negative" team decreases it
-                BigDecimal score = new BigDecimal(it.adjustedScore) * (new BigDecimal(0.5D) + new BigDecimal(otherTeam.score))
+
+                BigDecimal score = new BigDecimal(it.baseScore) * (new BigDecimal(0.5D) + new BigDecimal(otherTeam.score))
                 it.adjustedScore = score.doubleValue()
             }
             updateTeamScore(team)
             teamRepository.updateTeam(team)
         }
+
     }
 
     protected calculateBaseScores() {
@@ -177,7 +179,9 @@ class TeamService {
             total += it.adjustedScore
         }
 
-        team.score = new BigDecimal(total/team.gameScores.size()).doubleValue()
+        def newScore = new BigDecimal(total/team.gameScores.size()).doubleValue()
+
+        team.score = newScore
         team
     }
 
@@ -186,10 +190,8 @@ class TeamService {
         def fileDate = format.format(date)
         println "parsing games from ${fileDate}"
 
-        String fileName = "${initialTeams.fileLocation}/${fileDate}.csv"
+        String fileName = "${initialTeams.file}/${fileDate}.csv"
         String contents = new File(fileName).text
-
-        def games = []
 
         def data = parseCsv(contents)
 

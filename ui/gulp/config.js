@@ -25,6 +25,11 @@ export default {
     dest: 'build/images'
   },
 
+  data: {
+    src: 'data/*.json',
+    dest: 'build/data'
+  },
+
   fonts: {
     src: ['app/fonts/**/*'],
     dest: 'build/fonts'

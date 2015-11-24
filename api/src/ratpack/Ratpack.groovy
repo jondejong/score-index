@@ -30,7 +30,7 @@ ratpack {
         bindInstance(ServerErrorHandler, new ErrorHandler())
 
         bindInstance(MongoConfig, configData.get("/mongo", MongoConfig))
-        bindInstance(InitialTeams, configData.get("/teams/file", InitialTeams))
+        bindInstance(InitialTeams, configData.get("/teams", InitialTeams))
         bind(MongoConnection)
 
         module UserModule
@@ -71,12 +71,16 @@ ratpack {
 
         prefix('api') {
 
-            get('teams') { TeamService teamService ->
+            get('teams') { TeamService teamService, InitialTeams initialTeams ->
                 def teams
                 Blocking.get {
                     teams = teamService.list()
                 }.then {
-                    render json(teams)
+                    def data = [
+                        date: initialTeams.date,
+                        teams: teams
+                    ]
+                    render json(data)
                 }
             }
 
