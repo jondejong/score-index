@@ -6,22 +6,46 @@ function OnConfig($stateProvider, $locationProvider, $urlRouterProvider) {
   $locationProvider.html5Mode(true);
 
   $stateProvider
-  .state('Home', {
-    url: '/',
+  .state('home', {
+    url: '/home',
     controller: 'HomeCtrl as home',
     templateUrl: 'home.html',
-    title: 'Home',
-    resolve: {
-      teams: function(HomeService) {
-        'ngInject';
-        return HomeService.get().then(function(data) {
-          return data;
-        });
-      }
-    }
-  });
+    title: 'Home'
+  })
+      .state('home.ncaam', {
+        url: '/ncaam',
+        controller: 'RankingsCtrl as rankings',
+        templateUrl: 'rankings.html',
+        title: 'Rankings',
+        resolve: {
+          sport: function () {return "NCAA Men's Basketball"},
+          teams: function(RankingsService) {
+            'ngInject';
+            return RankingsService.get('ncaam').then(function(data) {
+              return data;
+            });
+          }
+        }
 
-  $urlRouterProvider.otherwise('/');
+      })
+      .state('home.nfl', {
+        url: '/nfl',
+        controller: 'RankingsCtrl as rankings',
+        templateUrl: 'rankings.html',
+        title: 'Rankings',
+        resolve: {
+          sport: function () {return "NFL"},
+          teams: function(RankingsService) {
+            'ngInject';
+            return RankingsService.get('nfl').then(function(data) {
+              return data;
+            });
+          }
+        }
+
+      });;
+
+  $urlRouterProvider.otherwise('/home');
 
 }
 

@@ -1,32 +1,32 @@
-package com.jondejong.scoreindex.team
+package com.jondejong.scoreindex.team.repositories
 
 
 import com.google.inject.Singleton
 import com.jondejong.scoreindex.datastore.MongoConnection
+import com.jondejong.scoreindex.team.Team
 import org.bson.types.ObjectId
 
 import javax.inject.Inject
 
-@Singleton
-class TeamRepository {
+abstract class TeamRepository {
     def database
+    String sport
 
-    @Inject
-    TeamRepository(MongoConnection mongoConnection) {
-        this.database = mongoConnection.database
+    protected getCollection() {
+        database["team-${sport}"]
     }
 
     def clear() {
-        database.team.drop()
+        getCollection().drop()
     }
 
     def load(id) {
-        documentToTeam(database.team.findOne(_id: id))
+        documentToTeam(getCollection().findOne(_id: id))
     }
 
     def getTeams() {
         def teams = []
-        def results = database.team.find().asList()
+        def results = getCollection().find().asList()
         results.each { team ->
             teams << documentToTeam(team)
         }
@@ -35,7 +35,7 @@ class TeamRepository {
 
     def getShortTeams() {
         def teams = []
-        def results = database.team.find().asList()
+        def results = getCollection().find().asList()
         results.each { team ->
             teams << documentToShortTeam(team)
         }
@@ -43,16 +43,16 @@ class TeamRepository {
     }
 
     def getTeamByName(name) {
-        documentToTeam(database.team.findOne(name: name))
+        documentToTeam(getCollection().findOne(name: name))
     }
 
     def saveTeam(team) {
-        database.team << teamToDocument(team)
+        getCollection() << teamToDocument(team)
     }
 
     def updateTeam(team) {
         def doc = teamToDocument(team)
-        database.team.update(
+        getCollection().update(
                 [_id: team.id],
                 [$set: doc]
         )

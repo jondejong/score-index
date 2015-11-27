@@ -1,8 +1,12 @@
-package com.jondejong.scoreindex.team
+package com.jondejong.scoreindex.team.services
 
+import com.jondejong.scoreindex.team.Game
+import com.jondejong.scoreindex.team.GameRepository
+import com.jondejong.scoreindex.team.InitialTeams
+import com.jondejong.scoreindex.team.Team
+import com.jondejong.scoreindex.team.repositories.TeamRepository
 import org.bson.types.ObjectId
 
-import javax.inject.Inject
 import java.text.SimpleDateFormat
 
 import static com.xlson.groovycsv.CsvParser.parseCsv
@@ -10,7 +14,7 @@ import static com.xlson.groovycsv.CsvParser.parseCsv
 /**
  * Created by jondejong on 11/21/15.
  */
-class TeamService {
+abstract class TeamService {
 
     SimpleDateFormat format = new SimpleDateFormat('yyyy-MM-dd')
 
@@ -18,12 +22,6 @@ class TeamService {
     InitialTeams initialTeams
     GameRepository gameRepository
 
-    @Inject
-    def UserService(TeamRepository teamRepository, InitialTeams initialTeams, GameRepository gameRepository) {
-        this.teamRepository = teamRepository
-        this.initialTeams = initialTeams
-        this.gameRepository = gameRepository
-    }
 
     def get(String id) {
         teamRepository.load(new ObjectId(id))
@@ -34,7 +32,7 @@ class TeamService {
     }
 
     def list() {
-        teamRepository.getShortTeams().sort {Team a, Team b ->
+        teamRepository.getShortTeams().sort { Team a, Team b ->
             a.rank <=> b.rank
         }
     }
@@ -47,7 +45,7 @@ class TeamService {
 
         def homeGames = gameRepository.find(home: team.id)
 
-        homeGames.each {Game game ->
+        homeGames.each { Game game ->
             games << [
                     home: name,
                     homeScore: game.homeScore,
@@ -192,8 +190,12 @@ class TeamService {
         def fileDate = format.format(date)
         println "parsing games from ${fileDate}"
 
-        String fileName = "${initialTeams.file}/${fileDate}.csv"
-        String contents = new File(fileName).text
+        String fileName = "${initialTeams.file}/${teamRepository.sport}/${fileDate}.csv"
+        File file = new File(fileName)
+        if(!file.exists()) {
+            return
+        }
+        String contents = file.text
 
         def data = parseCsv(contents)
 

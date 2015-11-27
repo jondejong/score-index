@@ -6,14 +6,16 @@ import com.jondejong.scoreindex.handlers.ErrorHandler
 import com.jondejong.scoreindex.jackson.ObjectIdObjectMapper
 import com.jondejong.scoreindex.team.InitialTeams
 import com.jondejong.scoreindex.team.TeamModule
-import com.jondejong.scoreindex.team.TeamService
+import com.jondejong.scoreindex.team.repositories.NbaRepository
+import com.jondejong.scoreindex.team.services.NcaaFootballService
+import com.jondejong.scoreindex.team.services.NcaaMenService
+import com.jondejong.scoreindex.team.services.NflService
 import com.jondejong.scoreindex.user.User
 import com.jondejong.scoreindex.user.UserModule
 import com.jondejong.scoreindex.user.UserService
 import ratpack.config.ConfigData
 import ratpack.error.ServerErrorHandler
 import ratpack.exec.Blocking
-
 
 import static ratpack.groovy.Groovy.ratpack
 import static ratpack.jackson.Jackson.json
@@ -71,34 +73,71 @@ ratpack {
 
         prefix('api') {
 
-            get('teams') { TeamService teamService, InitialTeams initialTeams ->
-                def teams
-                Blocking.get {
-                    teams = teamService.list()
-                }.then {
-                    def data = [
-                        date: initialTeams.date,
-                        teams: teams
-                    ]
-                    render json(data)
+            prefix('ncaam') {
+
+                get('teams') { NcaaMenService teamService, InitialTeams initialTeams ->
+                    def teams
+                    Blocking.get {
+                        teams = teamService.list()
+                    }.then {
+                        def data = [
+                                date : initialTeams.date,
+                                teams: teams
+                        ]
+                        render json(data)
+                    }
+                }
+
+                get('teams/:name') { NcaaMenService teamService ->
+                    def team
+                    Blocking.get {
+                        team = teamService.getByName(pathTokens.name)
+                    }.then {
+                        render json(team)
+                    }
+                }
+
+                get('games/:name') { NcaaMenService teamService ->
+                    def teams
+                    Blocking.get {
+                        teams = teamService.getGamesByTeam(pathTokens.name)
+                    }.then {
+                        render json(teams)
+                    }
                 }
             }
 
-            get('teams/:name') { TeamService teamService ->
-                def team
-                Blocking.get {
-                    team = teamService.getByName(pathTokens.name)
-                }.then {
-                    render json(team    )
-                }
-            }
+            prefix('nfl') {
 
-            get('games/:name') { TeamService teamService ->
-                def teams
-                Blocking.get {
-                    teams = teamService.getGamesByTeam(pathTokens.name)
-                }.then {
-                    render json(teams)
+                get('teams') { NflService teamService, InitialTeams initialTeams ->
+                    def teams
+                    Blocking.get {
+                        teams = teamService.list()
+                    }.then {
+                        def data = [
+                                date : initialTeams.date,
+                                teams: teams
+                        ]
+                        render json(data)
+                    }
+                }
+
+                get('teams/:name') { NflService teamService ->
+                    def team
+                    Blocking.get {
+                        team = teamService.getByName(pathTokens.name)
+                    }.then {
+                        render json(team)
+                    }
+                }
+
+                get('games/:name') { NflService teamService ->
+                    def teams
+                    Blocking.get {
+                        teams = teamService.getGamesByTeam(pathTokens.name)
+                    }.then {
+                        render json(teams)
+                    }
                 }
             }
 
@@ -112,16 +151,55 @@ ratpack {
                         next()
                     }
                 }
-                get('init/:start/:end') { TeamService teamService ->
-                    def teams
-                    Blocking.get {
-                        init = teamService.init(pathTokens.start, pathTokens.end)
-                    }.then {
-                        println "${init}"
-                    }
 
-                    render json([message: 'initialization started'])
+                prefix('ncaam') {
+                    get('init/:start/:end') { NcaaMenService teamService ->
+                        Blocking.get {
+                            init = teamService.init(pathTokens.start, pathTokens.end)
+                        }.then {
+                            println "${init}"
+                        }
+
+                        render json([message: 'initialization started'])
+                    }
                 }
+
+                prefix('ncaaf') {
+                    get('init/:start/:end') { NcaaFootballService teamService ->
+                        Blocking.get {
+                            init = teamService.init(pathTokens.start, pathTokens.end)
+                        }.then {
+                            println "${init}"
+                        }
+
+                        render json([message: 'initialization started'])
+                    }
+                }
+
+                prefix('nba') {
+                    get('init/:start/:end') { NbaRepository teamService ->
+                        Blocking.get {
+                            init = teamService.init(pathTokens.start, pathTokens.end)
+                        }.then {
+                            println "${init}"
+                        }
+
+                        render json([message: 'initialization started'])
+                    }
+                }
+
+                prefix('nfl') {
+                    get('init/:start/:end') { NflService teamService ->
+                        Blocking.get {
+                            init = teamService.init(pathTokens.start, pathTokens.end)
+                        }.then {
+                            println "${init}"
+                        }
+
+                        render json([message: 'initialization started'])
+                    }
+                }
+
                 get('users') { UserService userService ->
                     def users
                     Blocking.get {

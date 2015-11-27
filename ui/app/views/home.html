@@ -1,24 +1,16 @@
 <h1>Score Index</h1>
-<p>NCAA Men's basketball rankings based purely on scores through {{home.date}}</p>
+<p>Rankings based purely on game scores.</p>
 <p>A team's <strong>base score</strong> is how well they played in each game.</p>
 <p>A team's <strong>adjusted score</strong> is how well they played in each game, adjusted for the quality of opponent.</p>
 <small>Source: <a href="https://github.com/jondejong/score-index">https://github.com/jondejong/score-index</a></small>
+<br/>
+<br/>
+<div>
+    <strong>Select a Sport:</strong>
+    <ul>
+        <li><a href="/home/ncaam">NCAA Men</a></li>
+        <li><a href="/home/nfl">NFL</a></li>
+    </ul>
+</div>
 
-<table class="table table-striped">
-    <thead>
-    <tr>
-        <th>Rank</th>
-        <th>Team</th>
-        <th>Adjusted Score</th>
-        <th>Base Score</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr ng-repeat="team in home.teams">
-        <td>{{team.rank}}</td>
-        <td>{{team.name}} ({{team.wins}}-{{team.losses}})</td>
-        <td>{{team.score}}</td>
-        <td>{{team.baseScore}}</td>
-    </tr>
-    </tbody>
-</table>
+<ui-view></ui-view>

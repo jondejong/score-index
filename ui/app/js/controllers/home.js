@@ -1,13 +1,10 @@
 'use strict';
 
-// ngAnnotate
-function HomeCtrl(HomeService, teams) {
-  'ngInject';
+function HomeCtrl() {
 
   // ViewModel
   var vm = this;
-  vm.date = teams.date;
-  vm.teams = teams.teams;
+
 }
 
 export default {

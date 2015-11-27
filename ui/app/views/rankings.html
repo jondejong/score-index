@@ -1,0 +1,21 @@
+<h1>{{rankings.sport}}</h1>
+<p>Scores calculated on games through {{rankings.date}}</p>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Rank</th>
+        <th>Team</th>
+        <th>Adjusted Score</th>
+        <th>Base Score</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="team in rankings.teams">
+        <td>{{team.rank}}</td>
+        <td>{{team.name}} ({{team.wins}}-{{team.losses}})</td>
+        <td>{{team.score}}</td>
+        <td>{{team.baseScore}}</td>
+    </tr>
+    </tbody>
+</table>
