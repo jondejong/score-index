@@ -3,7 +3,7 @@
 function OnConfig($stateProvider, $locationProvider, $urlRouterProvider) {
   'ngInject';
 
-  $locationProvider.html5Mode(true);
+  $locationProvider.html5Mode(false);
 
   $stateProvider
   .state('home', {
@@ -43,9 +43,25 @@ function OnConfig($stateProvider, $locationProvider, $urlRouterProvider) {
           }
         }
 
-      });;
+      })
+      .state('home.ncaaf', {
+        url: '/ncaaf',
+        controller: 'RankingsCtrl as rankings',
+        templateUrl: 'rankings.html',
+        title: 'Rankings',
+        resolve: {
+          sport: function () {return "NCAA Football"},
+          teams: function(RankingsService) {
+            'ngInject';
+            return RankingsService.get('ncaaf').then(function(data) {
+              return data;
+            });
+          }
+        }
 
-  $urlRouterProvider.otherwise('/home');
+      });
+
+  $urlRouterProvider.otherwise('home');
 
 }
 
