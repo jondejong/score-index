@@ -1,0 +1,86 @@
+Sport,Rotation,Away,AwayScore,Home,HomeScore,Status
+NCAAB,519,Seton Hall (+7.5),64,Geo Washington (-7.5),72,Final Lines Recap Box
+NCAAB,521,St Bonaventure (-1.5),60,Buffalo (+1.5),58,Final Lines Recap Box
+NCAAB,523,St Johns (+6.5),57,Fordham (-6.5),73,Final Lines Recap Box
+NCAAB,525,George Mason (-1.5),54,Towson St (+1.5),75,Final Lines Recap Box
+NCAAB,527,Hofstra (-3),84,Lasalle (+3),80,Final Lines Recap Box
+NCAAB,529,Butler (+5.5),78,Cincinnati (-5.5),76,Final Preview Lines Recap Box (O/U 135.5)
+NCAAB,531,Cleveland St (+9),65,Toledo (-9),76,Final Lines Recap Box
+NCAAB,535,Harvard (+7.5),71,Northeastern (-7.5),80,Final Lines Recap Box
+NCAAB,537,Louisville (+5.5),67,Michigan St (-5.5),71,Final Preview Lines Recap Box (O/U 136)
+NCAAB,539,Wisconsin (+3),66,Syracuse (-3),58,Final OT Preview Lines Recap Box (O/U 130)
+NCAAB,541,Penn St (+1),67,Boston College (-1),58,Final Lines Recap Box (O/U 130.5)
+NCAAB,543,Va Commonwealth (-4.5),62,Middle Tenn St (+4.5),56,Final Lines Recap Box
+NCAAB,545,Depaul (-9.5),82,Illinois Chi (+9.5),55,Final Lines Recap Box
+NCAAB,547,Detroit Mercy (+19.5),52,Vanderbilt (-19.5),102,Final Preview Lines Recap Box
+NCAAB,549,Texas San Ant (+10),51,Texas State (-10),76,Final Lines Recap Box
+NCAAB,551,Smu (-7),75,Tcu (+7),70,Final Preview Lines Recap Box
+NCAAB,553,Tulsa (+2.5),66,Oklahoma St (-2.5),56,Final Lines Recap Box
+NCAAB,555,Arizona St (+8.5),79,Creighton (-8.5),77,Final Lines Recap Box (O/U 154.5)
+NCAAB,559,Notre Dame (-2.5),84,Illinois (+2.5),79,Final Lines Recap Box (O/U 143)
+NCAAB,561,Florida St (+5.5),75,Iowa (-5.5),78,Final OT Lines Recap Box (O/U 155.5)
+NCAAB,563,Indiana (+10),74,Duke (-10),94,Final Preview Lines Recap Box (O/U 165)
+NCAAB,565,Byu (+10),75,Utah (-10),83,Final Lines Recap Box (O/U 155.5)
+NCAAB,567,Loyola Marymnt (+14),70,Oregon St (-14),79,Final Lines Recap Box
+NCAAB,569,Gonzaga (-10),69,Washington St (+10),60,Final Preview Lines Recap Box (O/U 149.5)
+NCAAB,571,St Peters (+6),73,Rider (-6),61,Final Lines Recap Box
+NCAAB,573,Murray St (+8),78,Houston (-8),93,Final Lines Recap Box
+NCAAB,575,Morehead St (+3.5),60,St Louis (-3.5),46,Final Lines Recap Box
+NCAAB,577,Se Missouri St (+13.5),50,Southern Ill (-13.5),74,Final Lines Recap Box
+NCAAB,579,E Tennessee St (+2.5),61,Tennessee Tech (-2.5),63,Final Lines Recap Box
+NCAAB,583,Wyoming (+5),68,Denver (-5),52,Final Lines Recap Box
+NCAAB,585,The Citadel (+15.5),93,Air Force (-15.5),97,Final Lines Recap Box
+NCAAB,587,Portland (+2),78,Portland St (-2),72,Final Lines Recap Box
+NCAAB,589,Sacramento St (+6),61,Cal Davis (-6),66,Final Lines Recap Box
+NCAAB,591,Grambling (+28),49,Marquette (-28),95,Final Lines Recap Box (O/U 136.5)
+NCAAB,593,Texas Southern (+12),73,Mississippi St (-12),86,Final Lines Recap Box (O/U 150)
+NCAAB,595,Texas El Paso (+4.5),59,New Mexico St (-4.5),73,Final Lines Recap Box
+NCAAB,998,Antelope Valley,60,San Jose St,90,Final Lines Recap Box
+NCAAB,998,Army,84,Maine,71,Final Lines Recap Box
+NCAAB,998,Auburn,81,Coast Carolina,78,Final Lines Recap Box
+NCAAB,998,Austin Peay,48,Texas A&M Cc,61,Final Lines Recap Box
+NCAAB,998,Bethesda,56,San Diego,71,Final Lines Recap Box
+NCAAB,998,Boston U,69,Massachusetts,99,Final Lines Recap Box
+NCAAB,998,Bryant,40,Yale,79,Final Lines Recap Box
+NCAAB,998,Central Conn,64,Brown,82,Final Lines Recap Box
+NCAAB,998,Central Florida,94,Stetson,85,Final Lines Recap Box
+NCAAB,998,Central Pennsylvania College,72,Vmi,107,Final Lines Recap Box
+NCAAB,998,Chicago St,58,Northern Illinois,80,Final Lines Recap Box
+NCAAB,998,Coker,73,Nc Wilmington,93,Final Lines Recap Box
+NCAAB,998,Columbia,72,Bucknell,61,Final Lines Recap Box
+NCAAB,998,Coppin St,71,Akron,77,Final Lines Recap Box
+NCAAB,998,Cs-Bakersfield,67,Idaho,63,Final Lines Recap Box
+NCAAB,998,Fair Dickinson,70,Temple,79,Final Lines Recap Box
+NCAAB,998,Fisk,59,Jackson St,94,Final Lines Recap Box
+NCAAB,998,Fla Gulf Coast,65,Texas A&M,75,Final Preview Lines Recap Box
+NCAAB,998,Florida A&M,41,Kennesaw State,61,Final Lines Recap Box
+NCAAB,998,Florida Memorial,73,Jacksonville,92,Final Lines Recap Box
+NCAAB,998,Fort Lewis,71,Colorado,95,Final Lines Recap Box
+NCAAB,998,Gardner Webb,87,Presbyterian,76,Final Lines Recap Box
+NCAAB,998,Geo Southern,67,Savannah St,76,Final Lines Recap Box
+NCAAB,998,Hampton,98,Northrn Arizona,94,Final OT Lines Recap Box
+NCAAB,998,Hartford,66,Providence,89,Final Preview Lines Recap Box
+NCAAB,998,Hiwassee College,47,Mercer,82,Final Lines Recap Box
+NCAAB,998,Holy Cross,56,Rhode Island,74,Final Lines Recap Box
+NCAAB,998,Lehigh,73,St Francis Pa,84,Final Lines Recap Box
+NCAAB,998,Longwood,66,High Point,90,Final Lines Recap Box
+NCAAB,998,Mercy,65,Norfolk St,71,Final Lines Recap Box
+NCAAB,998,Morgan St,61,Wagner,62,Final Lines Recap Box
+NCAAB,998,Navy,65,Pennsylvania,59,Final Lines Recap Box
+NCAAB,998,Nc Greensboro,68,No Carolina A&T,77,Final Lines Recap Box
+NCAAB,998,New Orleans,62,Tulane,64,Final Lines Recap Box
+NCAAB,998,North Florida,108,Lsu,119,Final Lines Recap Box
+NCAAB,998,Prairie View,41,Baylor,80,Final Preview Lines Recap Box
+NCAAB,998,Rice,73,Houston Baptist,77,Final Lines Recap Box
+NCAAB,998,Robert Morris,58,Youngstown St,65,Final Lines Recap Box
+NCAAB,998,Sacred Heart,49,Connecticut,82,Final Lines Recap Box
+NCAAB,998,Sam Houston,56,Texas Tech,71,Final Lines Recap Box
+NCAAB,998,Silver Lake,49,Western Illinois,84,Final Lines Recap Box
+NCAAB,998,St Francis Ny,69,Lafayette,62,Final Lines Recap Box
+NCAAB,998,Texas-Rio Grande Valley,60,Lamar,83,Final Lines Recap Box
+NCAAB,998,Umbc,64,Bowling Green,72,Final Lines Recap Box
+NCAAB,998,Usc Upstate,56,Clemson,76,Final Lines Recap Box
+NCAAB,998,Vermont,68,Dartmouth,63,Final Lines Recap Box
+NCAAB,998,Wayne St-Ne,53,South Dakota St,80,Final Lines Recap Box
+NCAAB,998,Williamette,36,Boise St,100,Final Lines Recap Box
+NCAAB,998,Winthrop,83,Charleston Sou,82,Final Lines Recap Box
