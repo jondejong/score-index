@@ -9,6 +9,7 @@ function RankingsService($http) {
     return new Promise((resolve, reject) => {
       // For deployment to S3
       $http.get('/data/' + sport + '.json').success((data) => {
+      //$http.get('http://localhost:5050/api/' + sport + '/teams').success((data) => {
         resolve(data);
       }).error((err, status) => {
         reject(err, status);
