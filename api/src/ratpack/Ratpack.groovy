@@ -73,6 +73,40 @@ ratpack {
 
         prefix('api') {
 
+            prefix('ncaaf') {
+
+                get('teams') { NcaaFootballService teamService, InitialTeams initialTeams ->
+                    def teams
+                    Blocking.get {
+                        teams = teamService.list()
+                    }.then {
+                        def data = [
+                                date : initialTeams.date,
+                                teams: teams
+                        ]
+                        render json(data)
+                    }
+                }
+
+                get('teams/:name') { NcaaFootballService teamService ->
+                    def team
+                    Blocking.get {
+                        team = teamService.getByName(pathTokens.name)
+                    }.then {
+                        render json(team)
+                    }
+                }
+
+                get('games/:name') { NcaaFootballService teamService ->
+                    def teams
+                    Blocking.get {
+                        teams = teamService.getGamesByTeam(pathTokens.name)
+                    }.then {
+                        render json(teams)
+                    }
+                }
+            }
+
             prefix('ncaam') {
 
                 get('teams') { NcaaMenService teamService, InitialTeams initialTeams ->
