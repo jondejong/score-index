@@ -28,6 +28,22 @@ function OnConfig($stateProvider, $locationProvider, $urlRouterProvider) {
         }
 
       })
+    .state('home.ncaaf', {
+      url: '/ncaaf',
+      controller: 'RankingsCtrl as rankings',
+      templateUrl: 'rankings.html',
+      title: 'Rankings',
+      resolve: {
+        sport: function () {return "NCAA Men's Football"},
+        teams: function(RankingsService) {
+          'ngInject';
+          return RankingsService.get('ncaaf').then(function(data) {
+            return data;
+          });
+        }
+      }
+
+    })
       .state('home.nfl', {
         url: '/nfl',
         controller: 'RankingsCtrl as rankings',

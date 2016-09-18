@@ -1,0 +1,2955 @@
+{
+  "date": "2016-09-17",
+  "teams": [
+    {
+      "id": "57df0d9cd4c604fcb0d0b105",
+      "rank": 1,
+      "name": "Ohio St",
+      "gameScores": null,
+      "baseScore": 0.8261359516333333,
+      "score": 0.7822142185630688,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0fd",
+      "rank": 2,
+      "name": "Michigan",
+      "gameScores": null,
+      "baseScore": 0.7851997317666667,
+      "score": 0.7501031909119643,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b120",
+      "rank": 3,
+      "name": "Florida",
+      "gameScores": null,
+      "baseScore": 0.8798593879333333,
+      "score": 0.7379637771653943,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b082",
+      "rank": 4,
+      "name": "Louisville",
+      "gameScores": null,
+      "baseScore": 0.7604194556,
+      "score": 0.7376052144212973,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b13b",
+      "rank": 5,
+      "name": "Alabama",
+      "gameScores": null,
+      "baseScore": 0.7385636394333334,
+      "score": 0.7191222797357598,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b10b",
+      "rank": 6,
+      "name": "West Virginia",
+      "gameScores": null,
+      "baseScore": 0.67338524965,
+      "score": 0.716398480255295,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b12c",
+      "rank": 7,
+      "name": "Washington",
+      "gameScores": null,
+      "baseScore": 0.8423075352666668,
+      "score": 0.7115875472124175,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b135",
+      "rank": 8,
+      "name": "Houston",
+      "gameScores": null,
+      "baseScore": 0.7678571428666666,
+      "score": 0.704622587888716,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1aa",
+      "rank": 9,
+      "name": "Miami Fla",
+      "gameScores": null,
+      "baseScore": 0.8562508648333335,
+      "score": 0.7013048856814454,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b126",
+      "rank": 10,
+      "name": "Texas A&M",
+      "gameScores": null,
+      "baseScore": 0.736026936,
+      "score": 0.6954919136275546,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0df",
+      "rank": 11,
+      "name": "Stanford",
+      "gameScores": null,
+      "baseScore": 0.6981981982000001,
+      "score": 0.6902317506202957,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0f1",
+      "rank": 12,
+      "name": "Baylor",
+      "gameScores": null,
+      "baseScore": 0.8111601406666665,
+      "score": 0.6883063989515176,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1cd",
+      "rank": 13,
+      "name": "Memphis",
+      "gameScores": null,
+      "baseScore": 0.7665384615499999,
+      "score": 0.6879525916958766,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b085",
+      "rank": 14,
+      "name": "Wake Forest",
+      "gameScores": null,
+      "baseScore": 0.6585489146666667,
+      "score": 0.6785360622431282,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b150",
+      "rank": 15,
+      "name": "Virginia Tech",
+      "gameScores": null,
+      "baseScore": 0.6941733215333334,
+      "score": 0.6684788486422791,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b138",
+      "rank": 16,
+      "name": "Nebraska",
+      "gameScores": null,
+      "baseScore": 0.6957773342666665,
+      "score": 0.6674570020226741,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0dc",
+      "rank": 17,
+      "name": "Colorado",
+      "gameScores": null,
+      "baseScore": 0.7117318769000001,
+      "score": 0.6673582071831863,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b171",
+      "rank": 18,
+      "name": "South Florida",
+      "gameScores": null,
+      "baseScore": 0.7225371120333334,
+      "score": 0.6666836998779123,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0fb",
+      "rank": 19,
+      "name": "Georgia Tech",
+      "gameScores": null,
+      "baseScore": 0.7235364396666667,
+      "score": 0.6642859979559139,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b13f",
+      "rank": 20,
+      "name": "Boise St",
+      "gameScores": null,
+      "baseScore": 0.6718027735000001,
+      "score": 0.6621651639146107,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0e3",
+      "rank": 21,
+      "name": "Toledo",
+      "gameScores": null,
+      "baseScore": 0.8157402498,
+      "score": 0.6592086280286265,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0da",
+      "rank": 22,
+      "name": "Army",
+      "gameScores": null,
+      "baseScore": 0.7322719060666666,
+      "score": 0.6497547523142347,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b091",
+      "rank": 23,
+      "name": "Tennessee",
+      "gameScores": null,
+      "baseScore": 0.6179930666666668,
+      "score": 0.6412074979710172,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b153",
+      "rank": 24,
+      "name": "Air Force",
+      "gameScores": null,
+      "baseScore": 0.70606229145,
+      "score": 0.6409117569517002,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b094",
+      "rank": 25,
+      "name": "Central Mich",
+      "gameScores": null,
+      "baseScore": 0.7151821862333333,
+      "score": 0.6406313234025175,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b186",
+      "rank": 26,
+      "name": "San Diego St",
+      "gameScores": null,
+      "baseScore": 0.7098039215666666,
+      "score": 0.638548640981722,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b08e",
+      "rank": 27,
+      "name": "Minnesota",
+      "gameScores": null,
+      "baseScore": 0.6202281702500001,
+      "score": 0.6378880153227267,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b12f",
+      "rank": 28,
+      "name": "Wisconsin",
+      "gameScores": null,
+      "baseScore": 0.6506944444333332,
+      "score": 0.6339869836125888,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1cb",
+      "rank": 29,
+      "name": "Sacred Heart",
+      "gameScores": null,
+      "baseScore": 0.7167792792666666,
+      "score": 0.6308073350316162,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0d0",
+      "rank": 30,
+      "name": "No Carolina St",
+      "gameScores": null,
+      "baseScore": 0.6468416232333333,
+      "score": 0.6300482208619665,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b103",
+      "rank": 31,
+      "name": "Western Michigan",
+      "gameScores": null,
+      "baseScore": 0.6947850599000001,
+      "score": 0.6278393093815002,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b108",
+      "rank": 32,
+      "name": "Penn St",
+      "gameScores": null,
+      "baseScore": 0.5854166116666666,
+      "score": 0.620239667078048,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b165",
+      "rank": 33,
+      "name": "East Carolina",
+      "gameScores": null,
+      "baseScore": 0.6112456282,
+      "score": 0.6186425892596895,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0ee",
+      "rank": 34,
+      "name": "Michigan St",
+      "gameScores": null,
+      "baseScore": 0.62271341465,
+      "score": 0.6169469724948551,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0ff",
+      "rank": 35,
+      "name": "Iowa",
+      "gameScores": null,
+      "baseScore": 0.6974747474666666,
+      "score": 0.6141706818227061,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1e5",
+      "rank": 36,
+      "name": "Pittsburgh",
+      "gameScores": null,
+      "baseScore": 0.5921166146,
+      "score": 0.6129789634294117,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b147",
+      "rank": 37,
+      "name": "Navy",
+      "gameScores": null,
+      "baseScore": 0.6343891403,
+      "score": 0.6098554919514277,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b189",
+      "rank": 38,
+      "name": "Arizona St",
+      "gameScores": null,
+      "baseScore": 0.6193695621333334,
+      "score": 0.6017116536905568,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b132",
+      "rank": 39,
+      "name": "North Carolina",
+      "gameScores": null,
+      "baseScore": 0.5879252121,
+      "score": 0.6016547953864526,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b080",
+      "rank": 40,
+      "name": "Indiana",
+      "gameScores": null,
+      "baseScore": 0.6617021276499999,
+      "score": 0.6003441922438252,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0af",
+      "rank": 41,
+      "name": "Youngstown",
+      "gameScores": null,
+      "baseScore": 0.6792501284,
+      "score": 0.5994405677765445,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0ce",
+      "rank": 42,
+      "name": "Western Illinois",
+      "gameScores": null,
+      "baseScore": 0.6368487131,
+      "score": 0.5985452637288071,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0d9",
+      "rank": 43,
+      "name": "Temple",
+      "gameScores": null,
+      "baseScore": 0.5865653738333334,
+      "score": 0.5978624842454844,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b09a",
+      "rank": 44,
+      "name": "Utah",
+      "gameScores": null,
+      "baseScore": 0.7264957264999999,
+      "score": 0.596506786233689,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0b2",
+      "rank": 45,
+      "name": "Central Arkansas",
+      "gameScores": null,
+      "baseScore": 0.6568671852666667,
+      "score": 0.5956100958974853,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b15c",
+      "rank": 46,
+      "name": "Oklahoma St",
+      "gameScores": null,
+      "baseScore": 0.6376372362333332,
+      "score": 0.5945097599066157,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0ac",
+      "rank": 47,
+      "name": "Delaware",
+      "gameScores": null,
+      "baseScore": 0.6519774011333334,
+      "score": 0.5944798394991669,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0be",
+      "rank": 48,
+      "name": "Tennessee Chat",
+      "gameScores": null,
+      "baseScore": 0.8666666666666667,
+      "score": 0.5937971087866649,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1f8",
+      "rank": 49,
+      "name": "Notre Dame",
+      "gameScores": null,
+      "baseScore": 0.5726514832666667,
+      "score": 0.5931053719467586,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b11d",
+      "rank": 50,
+      "name": "Arkansas",
+      "gameScores": null,
+      "baseScore": 0.6548385990333333,
+      "score": 0.5910201771795041,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b183",
+      "rank": 51,
+      "name": "Texas Tech",
+      "gameScores": null,
+      "baseScore": 0.6055959150666667,
+      "score": 0.5902402312063116,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b201",
+      "rank": 52,
+      "name": "Mississippi",
+      "gameScores": null,
+      "baseScore": 0.5493350861666667,
+      "score": 0.5888577938533714,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1a7",
+      "rank": 53,
+      "name": "Washington St",
+      "gameScores": null,
+      "baseScore": 0.6201868994666667,
+      "score": 0.5881974295129361,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b124",
+      "rank": 54,
+      "name": "Clemson",
+      "gameScores": null,
+      "baseScore": 0.7164351851999999,
+      "score": 0.5848376595527988,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1bb",
+      "rank": 55,
+      "name": "James Madison",
+      "gameScores": null,
+      "baseScore": 0.6600487635,
+      "score": 0.5847128133400513,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b18c",
+      "rank": 56,
+      "name": "Tennessee St",
+      "gameScores": null,
+      "baseScore": 0.7232323232333333,
+      "score": 0.5837004909715038,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2de",
+      "rank": 57,
+      "name": "Cornell",
+      "gameScores": null,
+      "baseScore": 0.6,
+      "score": 0.5799516394598216,
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b130",
+      "rank": 58,
+      "name": "Lsu",
+      "gameScores": null,
+      "baseScore": 0.5749848809666666,
+      "score": 0.5787419986496486,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1f7",
+      "rank": 59,
+      "name": "Texas",
+      "gameScores": null,
+      "baseScore": 0.6106653918666666,
+      "score": 0.5780688205415593,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1e2",
+      "rank": 60,
+      "name": "Illinois St",
+      "gameScores": null,
+      "baseScore": 0.6076058201333333,
+      "score": 0.5744222409983752,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b127",
+      "rank": 61,
+      "name": "Ucla",
+      "gameScores": null,
+      "baseScore": 0.5504724666333333,
+      "score": 0.574418810147225,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b08f",
+      "rank": 62,
+      "name": "Oregon St",
+      "gameScores": null,
+      "baseScore": 0.63743567755,
+      "score": 0.5711566949225415,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1a1",
+      "rank": 63,
+      "name": "Georgetown",
+      "gameScores": null,
+      "baseScore": 0.63565488565,
+      "score": 0.5710862819574362,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0b5",
+      "rank": 64,
+      "name": "Samford",
+      "gameScores": null,
+      "baseScore": 0.7317708333499999,
+      "score": 0.5696003431409695,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b15f",
+      "rank": 65,
+      "name": "Oregon",
+      "gameScores": null,
+      "baseScore": 0.5868347855333335,
+      "score": 0.5690315299913712,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2d6",
+      "rank": 66,
+      "name": "Brown",
+      "gameScores": null,
+      "baseScore": 0.564516129,
+      "score": 0.5659072009627343,
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b133",
+      "rank": 67,
+      "name": "Georgia",
+      "gameScores": null,
+      "baseScore": 0.5360127591666667,
+      "score": 0.5637159106035244,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0c7",
+      "rank": 68,
+      "name": "Cincinnati",
+      "gameScores": null,
+      "baseScore": 0.5802955665000001,
+      "score": 0.5593468346575615,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0e0",
+      "rank": 69,
+      "name": "Kansas St",
+      "gameScores": null,
+      "baseScore": 0.61666666665,
+      "score": 0.5589042252435902,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b136",
+      "rank": 70,
+      "name": "Oklahoma",
+      "gameScores": null,
+      "baseScore": 0.5116187207333334,
+      "score": 0.5582565662183586,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b200",
+      "rank": 71,
+      "name": "Florida St",
+      "gameScores": null,
+      "baseScore": 0.5590835917666667,
+      "score": 0.5568747464982525,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b14d",
+      "rank": 72,
+      "name": "Maryland",
+      "gameScores": null,
+      "baseScore": 0.7003367003666666,
+      "score": 0.5566441753083082,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b102",
+      "rank": 73,
+      "name": "Northwestern",
+      "gameScores": null,
+      "baseScore": 0.5248402472,
+      "score": 0.5560832819875273,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b168",
+      "rank": 74,
+      "name": "Geo Southern",
+      "gameScores": null,
+      "baseScore": 0.75,
+      "score": 0.5522359567883036,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1d6",
+      "rank": 75,
+      "name": "Montana",
+      "gameScores": null,
+      "baseScore": 0.57883986925,
+      "score": 0.5516148434206802,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0f5",
+      "rank": 76,
+      "name": "Cal Poly Slo",
+      "gameScores": null,
+      "baseScore": 0.5760375173000001,
+      "score": 0.550619245861196,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1e0",
+      "rank": 77,
+      "name": "Texas A&M-Kingsville",
+      "gameScores": null,
+      "baseScore": 0.5849056604,
+      "score": 0.5490143568549485,
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1d3",
+      "rank": 78,
+      "name": "Tcu",
+      "gameScores": null,
+      "baseScore": 0.5810479352333333,
+      "score": 0.5486570959566378,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b07c",
+      "rank": 79,
+      "name": "No Dakota St",
+      "gameScores": null,
+      "baseScore": 0.5466693400000001,
+      "score": 0.5440423959247506,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b079",
+      "rank": 80,
+      "name": "California",
+      "gameScores": null,
+      "baseScore": 0.5433912878,
+      "score": 0.5429341641850886,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0d7",
+      "rank": 81,
+      "name": "Ball St",
+      "gameScores": null,
+      "baseScore": 0.5805361305666666,
+      "score": 0.5419026367477143,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0e9",
+      "rank": 82,
+      "name": "Albany",
+      "gameScores": null,
+      "baseScore": 0.6762396859666667,
+      "score": 0.5365826346723894,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b114",
+      "rank": 83,
+      "name": "Mississippi St",
+      "gameScores": null,
+      "baseScore": 0.5371525808333333,
+      "score": 0.5364100115671689,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b141",
+      "rank": 84,
+      "name": "Arizona",
+      "gameScores": null,
+      "baseScore": 0.5644695827333334,
+      "score": 0.5339509905757412,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0c4",
+      "rank": 85,
+      "name": "Wagner",
+      "gameScores": null,
+      "baseScore": 0.85185185185,
+      "score": 0.5336906584990713,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0a4",
+      "rank": 86,
+      "name": "Montana St",
+      "gameScores": null,
+      "baseScore": 0.6629570747333333,
+      "score": 0.5332338275168721,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b16e",
+      "rank": 87,
+      "name": "Middle Tenn St",
+      "gameScores": null,
+      "baseScore": 0.6664394972,
+      "score": 0.5320569417909832,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b10c",
+      "rank": 88,
+      "name": "Missouri",
+      "gameScores": null,
+      "baseScore": 0.5107029423999999,
+      "score": 0.5312792219891055,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1c1",
+      "rank": 89,
+      "name": "Sam Houston",
+      "gameScores": null,
+      "baseScore": 0.66208333335,
+      "score": 0.5291884730706131,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1ca",
+      "rank": 90,
+      "name": "Stetson",
+      "gameScores": null,
+      "baseScore": 0.5520833333499999,
+      "score": 0.5282846176083851,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b19f",
+      "rank": 91,
+      "name": "Coastal Carolina",
+      "gameScores": null,
+      "baseScore": 0.6839479143666667,
+      "score": 0.5226543889613383,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b198",
+      "rank": 92,
+      "name": "Dayton",
+      "gameScores": null,
+      "baseScore": 0.6634567901333334,
+      "score": 0.5224176371234431,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b142",
+      "rank": 93,
+      "name": "Byu",
+      "gameScores": null,
+      "baseScore": 0.48940138503333336,
+      "score": 0.5222676101553142,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1a8",
+      "rank": 94,
+      "name": "Eastern Wash",
+      "gameScores": null,
+      "baseScore": 0.5055254952333333,
+      "score": 0.5183716873630184,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1a5",
+      "rank": 95,
+      "name": "E Tennessee",
+      "gameScores": null,
+      "baseScore": 0.5318087318,
+      "score": 0.5162359742775566,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b237",
+      "rank": 96,
+      "name": "Nicholls St",
+      "gameScores": null,
+      "baseScore": 0.5177777778,
+      "score": 0.5160244432268685,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b16b",
+      "rank": 97,
+      "name": "Troy",
+      "gameScores": null,
+      "baseScore": 0.5862774539333333,
+      "score": 0.5144872224043213,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1e8",
+      "rank": 98,
+      "name": "Grambling",
+      "gameScores": null,
+      "baseScore": 0.6584249083999999,
+      "score": 0.512298009498486,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1d4",
+      "rank": 99,
+      "name": "South Dakota St",
+      "gameScores": null,
+      "baseScore": 0.5086473429999999,
+      "score": 0.5119572937727948,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b157",
+      "rank": 100,
+      "name": "Richmond",
+      "gameScores": null,
+      "baseScore": 0.6330409356666666,
+      "score": 0.5117230865400357,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0cb",
+      "rank": 101,
+      "name": "The Citadel",
+      "gameScores": null,
+      "baseScore": 0.5500107457666666,
+      "score": 0.5079218610144435,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b08c",
+      "rank": 102,
+      "name": "South Carolina",
+      "gameScores": null,
+      "baseScore": 0.4927031257666667,
+      "score": 0.5070198586059232,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1b5",
+      "rank": 103,
+      "name": "Bryant",
+      "gameScores": null,
+      "baseScore": 0.5260677512666666,
+      "score": 0.5024641846198415,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b086",
+      "rank": 104,
+      "name": "Tulane",
+      "gameScores": null,
+      "baseScore": 0.48620689656666666,
+      "score": 0.5004864865013005,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b244",
+      "rank": 105,
+      "name": "Marshall",
+      "gameScores": null,
+      "baseScore": 0.6844660194,
+      "score": 0.4999935004213446,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1be",
+      "rank": 106,
+      "name": "Duke",
+      "gameScores": null,
+      "baseScore": 0.5368938316333334,
+      "score": 0.49805167687121105,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1a4",
+      "rank": 107,
+      "name": "Kennesaw State",
+      "gameScores": null,
+      "baseScore": 0.7008835759,
+      "score": 0.49611283062004413,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b196",
+      "rank": 108,
+      "name": "Butler",
+      "gameScores": null,
+      "baseScore": 0.6151812141,
+      "score": 0.4958965293731696,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1c5",
+      "rank": 109,
+      "name": "Quincy",
+      "gameScores": null,
+      "baseScore": 0.5205479452,
+      "score": 0.49496701901379087,
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b109",
+      "rank": 110,
+      "name": "Kent",
+      "gameScores": null,
+      "baseScore": 0.5189087809333334,
+      "score": 0.4937629364539356,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b123",
+      "rank": 111,
+      "name": "Auburn",
+      "gameScores": null,
+      "baseScore": 0.5154736467333333,
+      "score": 0.4934565678341,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2ed",
+      "rank": 112,
+      "name": "Princeton",
+      "gameScores": null,
+      "baseScore": 0.5303030303,
+      "score": 0.4926535311305792,
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b195",
+      "rank": 113,
+      "name": "Indiana St",
+      "gameScores": null,
+      "baseScore": 0.49206842706666665,
+      "score": 0.4926489508133917,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0a0",
+      "rank": 114,
+      "name": "New Mexico",
+      "gameScores": null,
+      "baseScore": 0.5394949656,
+      "score": 0.4889875674937992,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b129",
+      "rank": 115,
+      "name": "Tulsa",
+      "gameScores": null,
+      "baseScore": 0.5370608542666667,
+      "score": 0.4879093460408553,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0cd",
+      "rank": 116,
+      "name": "Eastern Ill",
+      "gameScores": null,
+      "baseScore": 0.4806323718666667,
+      "score": 0.4878841845578459,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0d4",
+      "rank": 117,
+      "name": "Woffard",
+      "gameScores": null,
+      "baseScore": 0.6683006535999999,
+      "score": 0.48731587998910647,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b112",
+      "rank": 118,
+      "name": "Smu",
+      "gameScores": null,
+      "baseScore": 0.5126278139333333,
+      "score": 0.485916458817528,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b11b",
+      "rank": 119,
+      "name": "Southern Miss",
+      "gameScores": null,
+      "baseScore": 0.6709481260666667,
+      "score": 0.4835466379602463,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b290",
+      "rank": 120,
+      "name": "Harvard",
+      "gameScores": null,
+      "baseScore": 0.7083333333,
+      "score": 0.4830288091298965,
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0eb",
+      "rank": 121,
+      "name": "Syracuse",
+      "gameScores": null,
+      "baseScore": 0.48126780626666665,
+      "score": 0.48292504276064624,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1fe",
+      "rank": 122,
+      "name": "Texas Southern",
+      "gameScores": null,
+      "baseScore": 0.6391694725,
+      "score": 0.4800341378360348,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b163",
+      "rank": 123,
+      "name": "Southern Ill",
+      "gameScores": null,
+      "baseScore": 0.5881227347333332,
+      "score": 0.47953314963523336,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0b0",
+      "rank": 124,
+      "name": "Duquesne",
+      "gameScores": null,
+      "baseScore": 0.4745642364666667,
+      "score": 0.4784767034773947,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b151",
+      "rank": 125,
+      "name": "Liberty",
+      "gameScores": null,
+      "baseScore": 0.4926614306333333,
+      "score": 0.4771204394461022,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b097",
+      "rank": 126,
+      "name": "Connecticut",
+      "gameScores": null,
+      "baseScore": 0.5200297287,
+      "score": 0.4745453470252798,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b11e",
+      "rank": 127,
+      "name": "La Tech",
+      "gameScores": null,
+      "baseScore": 0.5362696246666666,
+      "score": 0.47254974173257364,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0dd",
+      "rank": 128,
+      "name": "Colorado St",
+      "gameScores": null,
+      "baseScore": 0.48335099806666665,
+      "score": 0.4702376971735152,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b14a",
+      "rank": 129,
+      "name": "Purdue",
+      "gameScores": null,
+      "baseScore": 0.4985007496,
+      "score": 0.4700020393731095,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b117",
+      "rank": 130,
+      "name": "Ohio",
+      "gameScores": null,
+      "baseScore": 0.5110318148333334,
+      "score": 0.46843223803578865,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1eb",
+      "rank": 131,
+      "name": "Akron",
+      "gameScores": null,
+      "baseScore": 0.48309659740000005,
+      "score": 0.4679807451309821,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b193",
+      "rank": 132,
+      "name": "Bucknell",
+      "gameScores": null,
+      "baseScore": 0.5033257747333333,
+      "score": 0.46658606576636935,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b17a",
+      "rank": 133,
+      "name": "Texas San Antonio",
+      "gameScores": null,
+      "baseScore": 0.5039039039333333,
+      "score": 0.465295388401259,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0f4",
+      "rank": 134,
+      "name": "Nevada",
+      "gameScores": null,
+      "baseScore": 0.48705555100000003,
+      "score": 0.46528564230706876,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b092",
+      "rank": 135,
+      "name": "Appalachian St",
+      "gameScores": null,
+      "baseScore": 0.46384901646666665,
+      "score": 0.4646439818560215,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1b8",
+      "rank": 136,
+      "name": "Lehigh",
+      "gameScores": null,
+      "baseScore": 0.5201482914333333,
+      "score": 0.46441383709077305,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0a6",
+      "rank": 137,
+      "name": "Nev Las Vegas",
+      "gameScores": null,
+      "baseScore": 0.4951192082666667,
+      "score": 0.46148329720984615,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1a2",
+      "rank": 138,
+      "name": "Davidson",
+      "gameScores": null,
+      "baseScore": 0.5514102564,
+      "score": 0.4603768094420613,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0d1",
+      "rank": 139,
+      "name": "William & Mary",
+      "gameScores": null,
+      "baseScore": 0.5450543922666666,
+      "score": 0.46012467600850665,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b144",
+      "rank": 140,
+      "name": "Wyoming",
+      "gameScores": null,
+      "baseScore": 0.48618638103333334,
+      "score": 0.45961190121773227,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1d7",
+      "rank": 141,
+      "name": "St Francis Pa",
+      "gameScores": null,
+      "baseScore": 0.4886363636333333,
+      "score": 0.45823510553858354,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0c1",
+      "rank": 142,
+      "name": "Missouri St",
+      "gameScores": null,
+      "baseScore": 0.78,
+      "score": 0.4572831070193957,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b12d",
+      "rank": 143,
+      "name": "Rutgers",
+      "gameScores": null,
+      "baseScore": 0.5234081037333334,
+      "score": 0.4545845639678629,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0e5",
+      "rank": 144,
+      "name": "E Michigan",
+      "gameScores": null,
+      "baseScore": 0.5767150600000001,
+      "score": 0.4544502578211713,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b09d",
+      "rank": 145,
+      "name": "Utah St",
+      "gameScores": null,
+      "baseScore": 0.5488659851333333,
+      "score": 0.4536297712464064,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b088",
+      "rank": 146,
+      "name": "Western Kentucky",
+      "gameScores": null,
+      "baseScore": 0.5128787878666667,
+      "score": 0.4527932067224052,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1c4",
+      "rank": 147,
+      "name": "Drake",
+      "gameScores": null,
+      "baseScore": 0.48304967483333333,
+      "score": 0.4508576944312388,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1dc",
+      "rank": 148,
+      "name": "Mcneese St",
+      "gameScores": null,
+      "baseScore": 0.604773287,
+      "score": 0.44989288988274606,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b181",
+      "rank": 149,
+      "name": "Northern Iowa",
+      "gameScores": null,
+      "baseScore": 0.47869008716666667,
+      "score": 0.4478656502861586,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b174",
+      "rank": 150,
+      "name": "Central Florida",
+      "gameScores": null,
+      "baseScore": 0.5532763532666667,
+      "score": 0.44663891914108306,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1e6",
+      "rank": 151,
+      "name": "Villanova",
+      "gameScores": null,
+      "baseScore": 0.46964306476666673,
+      "score": 0.446213779772702,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b17d",
+      "rank": 152,
+      "name": "La Monroe",
+      "gameScores": null,
+      "baseScore": 0.4483415781333333,
+      "score": 0.4455255818852842,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b166",
+      "rank": 153,
+      "name": "Westrn Carolina",
+      "gameScores": null,
+      "baseScore": 0.4513959448,
+      "score": 0.44447405128274475,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1ae",
+      "rank": 154,
+      "name": "Gardner Webb",
+      "gameScores": null,
+      "baseScore": 0.5051935948333334,
+      "score": 0.443864923086105,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1c7",
+      "rank": 155,
+      "name": "No Colorado",
+      "gameScores": null,
+      "baseScore": 0.49918033873333334,
+      "score": 0.4410606382029943,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1d9",
+      "rank": 156,
+      "name": "No Carolina A&T",
+      "gameScores": null,
+      "baseScore": 0.5952742616000001,
+      "score": 0.43898479936520424,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b18f",
+      "rank": 157,
+      "name": "Campbell",
+      "gameScores": null,
+      "baseScore": 0.6585141027666667,
+      "score": 0.4389072041004969,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1df",
+      "rank": 158,
+      "name": "Incarnate Word",
+      "gameScores": null,
+      "baseScore": 0.4660001075,
+      "score": 0.43863744878019034,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b159",
+      "rank": 159,
+      "name": "Illinois",
+      "gameScores": null,
+      "baseScore": 0.4988903116,
+      "score": 0.4377060630836989,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0aa",
+      "rank": 160,
+      "name": "Alderson-Broaddus",
+      "gameScores": null,
+      "baseScore": 0.6666666667,
+      "score": 0.43598169133470077,
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b08b",
+      "rank": 161,
+      "name": "Vanderbilt",
+      "gameScores": null,
+      "baseScore": 0.41743666510000005,
+      "score": 0.43404616662678625,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0bb",
+      "rank": 162,
+      "name": "Stony Brook",
+      "gameScores": null,
+      "baseScore": 0.4469696969666666,
+      "score": 0.4331872808474903,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b154",
+      "rank": 163,
+      "name": "Abilene Christian",
+      "gameScores": null,
+      "baseScore": 0.4395461697333333,
+      "score": 0.43314891953781975,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0f8",
+      "rank": 164,
+      "name": "Lafayette",
+      "gameScores": null,
+      "baseScore": 0.45852644086666666,
+      "score": 0.4290038015658293,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b17e",
+      "rank": 165,
+      "name": "Southern",
+      "gameScores": null,
+      "baseScore": 0.5038657426666667,
+      "score": 0.4279425852843199,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b13c",
+      "rank": 166,
+      "name": "Usc",
+      "gameScores": null,
+      "baseScore": 0.41303438719999996,
+      "score": 0.4243522959112642,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1ce",
+      "rank": 167,
+      "name": "Se Missouri St",
+      "gameScores": null,
+      "baseScore": 0.4068627451,
+      "score": 0.42330530184878074,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b148",
+      "rank": 168,
+      "name": "Fordham",
+      "gameScores": null,
+      "baseScore": 0.51668552035,
+      "score": 0.4212945960937915,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2fa",
+      "rank": 169,
+      "name": "Dartmouth",
+      "gameScores": null,
+      "baseScore": 0.511627907,
+      "score": 0.4211789131765432,
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0ca",
+      "rank": 170,
+      "name": "Mercer",
+      "gameScores": null,
+      "baseScore": 0.42298699116666666,
+      "score": 0.42019682850463563,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b13e",
+      "rank": 171,
+      "name": "La Lafayette",
+      "gameScores": null,
+      "baseScore": 0.43592028883333334,
+      "score": 0.41980237155551,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0bc",
+      "rank": 172,
+      "name": "North Dakota",
+      "gameScores": null,
+      "baseScore": 0.4720468211,
+      "score": 0.41514843140052293,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0d3",
+      "rank": 173,
+      "name": "Tennessee Tech",
+      "gameScores": null,
+      "baseScore": 0.5155965391666667,
+      "score": 0.41252753770897715,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0b3",
+      "rank": 174,
+      "name": "Houston Baptist",
+      "gameScores": null,
+      "baseScore": 0.4210907024333334,
+      "score": 0.4116677949588758,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b115",
+      "rank": 175,
+      "name": "South Alabama",
+      "gameScores": null,
+      "baseScore": 0.4119675956333333,
+      "score": 0.4108768097730035,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0ef",
+      "rank": 176,
+      "name": "Furman",
+      "gameScores": null,
+      "baseScore": 0.38043853163333335,
+      "score": 0.4064253251027728,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1f1",
+      "rank": 177,
+      "name": "Cal San Diego",
+      "gameScores": null,
+      "baseScore": 0.64814814815,
+      "score": 0.40564729568508573,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b184",
+      "rank": 178,
+      "name": "Stephen Austin",
+      "gameScores": null,
+      "baseScore": 0.426217901,
+      "score": 0.40530636013231264,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b100",
+      "rank": 179,
+      "name": "Miami-Ohio",
+      "gameScores": null,
+      "baseScore": 0.4006379585666666,
+      "score": 0.4040737832084642,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b287",
+      "rank": 180,
+      "name": "West Alabama",
+      "gameScores": null,
+      "baseScore": 0.4444444444,
+      "score": 0.402358382240792,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0b8",
+      "rank": 181,
+      "name": "Jacksonville",
+      "gameScores": null,
+      "baseScore": 0.49480596641999997,
+      "score": 0.40222475480123465,
+      "wins": 3,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b145",
+      "rank": 182,
+      "name": "Northern Illinois",
+      "gameScores": null,
+      "baseScore": 0.3736659736666666,
+      "score": 0.4004849605930508,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b160",
+      "rank": 183,
+      "name": "Uc-Davis",
+      "gameScores": null,
+      "baseScore": 0.42391279023333334,
+      "score": 0.3999629722321237,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1ec",
+      "rank": 184,
+      "name": "Vmi",
+      "gameScores": null,
+      "baseScore": 0.45234741785,
+      "score": 0.39987652311345845,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1b9",
+      "rank": 185,
+      "name": "Monmouth",
+      "gameScores": null,
+      "baseScore": 0.4527464184,
+      "score": 0.3990942804124211,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b24e",
+      "rank": 186,
+      "name": "Alcorn St",
+      "gameScores": null,
+      "baseScore": 0.51354895105,
+      "score": 0.3982216875262912,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1b1",
+      "rank": 187,
+      "name": "Holy Cross",
+      "gameScores": null,
+      "baseScore": 0.4938240305333333,
+      "score": 0.3929243188898302,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0a1",
+      "rank": 188,
+      "name": "South Dakota",
+      "gameScores": null,
+      "baseScore": 0.4342385982333334,
+      "score": 0.3923935988827316,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b309",
+      "rank": 189,
+      "name": "Columbia",
+      "gameScores": null,
+      "baseScore": 0.4090909091,
+      "score": 0.3920052704563136,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b156",
+      "rank": 190,
+      "name": "Virginia",
+      "gameScores": null,
+      "baseScore": 0.3856961243666666,
+      "score": 0.39192492631360437,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1f5",
+      "rank": 191,
+      "name": "Hampton",
+      "gameScores": null,
+      "baseScore": 0.4925631151,
+      "score": 0.3913271641020745,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b18a",
+      "rank": 192,
+      "name": "Northrn Arizona",
+      "gameScores": null,
+      "baseScore": 0.5196556205333334,
+      "score": 0.3907238653456387,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0fa",
+      "rank": 193,
+      "name": "Boston College",
+      "gameScores": null,
+      "baseScore": 0.41316389703333334,
+      "score": 0.39061040291364496,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1f4",
+      "rank": 194,
+      "name": "Old Dominion",
+      "gameScores": null,
+      "baseScore": 0.40468989373333336,
+      "score": 0.38986964015195213,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b199",
+      "rank": 195,
+      "name": "Central State",
+      "gameScores": null,
+      "baseScore": 0.38,
+      "score": 0.3885187021069084,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b172",
+      "rank": 196,
+      "name": "Towson St",
+      "gameScores": null,
+      "baseScore": 0.3876585818,
+      "score": 0.38837353005779557,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b139",
+      "rank": 197,
+      "name": "Fresno St",
+      "gameScores": null,
+      "baseScore": 0.44894025426666667,
+      "score": 0.38834892311108077,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0d6",
+      "rank": 198,
+      "name": "Georgia State",
+      "gameScores": null,
+      "baseScore": 0.35155086846666667,
+      "score": 0.3867793586486594,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b10f",
+      "rank": 199,
+      "name": "New Mexico St",
+      "gameScores": null,
+      "baseScore": 0.4261497761333333,
+      "score": 0.3839540101499655,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b314",
+      "rank": 200,
+      "name": "Tuskegee",
+      "gameScores": null,
+      "baseScore": 0.5405405405,
+      "score": 0.3835407380253556,
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b14b",
+      "rank": 201,
+      "name": "Eastern Ky",
+      "gameScores": null,
+      "baseScore": 0.46649099693333335,
+      "score": 0.3812251691561322,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b083",
+      "rank": 202,
+      "name": "Charlotte",
+      "gameScores": null,
+      "baseScore": 0.42548139476666663,
+      "score": 0.3801800437680747,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2d4",
+      "rank": 203,
+      "name": "Bowie St",
+      "gameScores": null,
+      "baseScore": 0.4430379747,
+      "score": 0.37775538331861097,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b177",
+      "rank": 204,
+      "name": "Kansas",
+      "gameScores": null,
+      "baseScore": 0.4679027699333334,
+      "score": 0.37726708342030135,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b11a",
+      "rank": 205,
+      "name": "Kentucky",
+      "gameScores": null,
+      "baseScore": 0.3912690685,
+      "score": 0.37645668783456854,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0c8",
+      "rank": 206,
+      "name": "Tenn Martin",
+      "gameScores": null,
+      "baseScore": 0.5336219336,
+      "score": 0.3729300552612147,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b248",
+      "rank": 207,
+      "name": "Bethune Cookman",
+      "gameScores": null,
+      "baseScore": 0.38211624445,
+      "score": 0.370970930440814,
+      "wins": 0,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b07d",
+      "rank": 208,
+      "name": "Char Southern",
+      "gameScores": null,
+      "baseScore": 0.47953082653333334,
+      "score": 0.3678892268871277,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b27c",
+      "rank": 209,
+      "name": "Southern Oregon",
+      "gameScores": null,
+      "baseScore": 0.4022988506,
+      "score": 0.36205406931154305,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b25a",
+      "rank": 210,
+      "name": "Ky Wesleyan",
+      "gameScores": null,
+      "baseScore": 0.375,
+      "score": 0.360141303540773,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0ec",
+      "rank": 211,
+      "name": "Colgate",
+      "gameScores": null,
+      "baseScore": 0.4919117647,
+      "score": 0.35425793327123145,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b12a",
+      "rank": 212,
+      "name": "San Jose St",
+      "gameScores": null,
+      "baseScore": 0.38953895386666665,
+      "score": 0.3542385221470408,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0f7",
+      "rank": 213,
+      "name": "Central Conn",
+      "gameScores": null,
+      "baseScore": 0.37460231503333336,
+      "score": 0.35264786517319496,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1c2",
+      "rank": 214,
+      "name": "Panhandle State",
+      "gameScores": null,
+      "baseScore": 0.4090277778,
+      "score": 0.3515422008839274,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2ef",
+      "rank": 215,
+      "name": "Pennsylvania",
+      "gameScores": null,
+      "baseScore": 0.3636363636,
+      "score": 0.35069594072521154,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0e8",
+      "rank": 216,
+      "name": "Buffalo",
+      "gameScores": null,
+      "baseScore": 0.34514170040000003,
+      "score": 0.34817022108785955,
+      "wins": 0,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2f6",
+      "rank": 217,
+      "name": "Mckendree",
+      "gameScores": null,
+      "baseScore": 0.3636363636,
+      "score": 0.3457664343040557,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b284",
+      "rank": 218,
+      "name": "Warner",
+      "gameScores": null,
+      "baseScore": 0.3333333333,
+      "score": 0.34276153916851887,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b09e",
+      "rank": 219,
+      "name": "Weber St",
+      "gameScores": null,
+      "baseScore": 0.42315408013333333,
+      "score": 0.3423695795030512,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1e3",
+      "rank": 220,
+      "name": "Valparaiso",
+      "gameScores": null,
+      "baseScore": 0.37586069433333336,
+      "score": 0.3419411442514935,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1fd",
+      "rank": 221,
+      "name": "Prairie View",
+      "gameScores": null,
+      "baseScore": 0.40305606150000006,
+      "score": 0.34066666385446503,
+      "wins": 2,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2d8",
+      "rank": 222,
+      "name": "Taylor University",
+      "gameScores": null,
+      "baseScore": 0.3414634146,
+      "score": 0.3400622295080517,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1bc",
+      "rank": 223,
+      "name": "Morehead St",
+      "gameScores": null,
+      "baseScore": 0.4723396366333333,
+      "score": 0.333908742285715,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1b6",
+      "rank": 224,
+      "name": "Merrimack",
+      "gameScores": null,
+      "baseScore": 0.3278688525,
+      "score": 0.32867678188365557,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b07a",
+      "rank": 225,
+      "name": "Hawaii",
+      "gameScores": null,
+      "baseScore": 0.33232604795,
+      "score": 0.32547953590836715,
+      "wins": 1,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b187",
+      "rank": 226,
+      "name": "N Hampshire",
+      "gameScores": null,
+      "baseScore": 0.3568205484,
+      "score": 0.32321333026218835,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b106",
+      "rank": 227,
+      "name": "Bowling Green",
+      "gameScores": null,
+      "baseScore": 0.3210287228,
+      "score": 0.3210521033100621,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b111",
+      "rank": 228,
+      "name": "North Texas",
+      "gameScores": null,
+      "baseScore": 0.3513164431,
+      "score": 0.32061584020957673,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b121",
+      "rank": 229,
+      "name": "Massachusetts",
+      "gameScores": null,
+      "baseScore": 0.35185824083333334,
+      "score": 0.31995433684775193,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b192",
+      "rank": 230,
+      "name": "Marist",
+      "gameScores": null,
+      "baseScore": 0.2997997998333333,
+      "score": 0.3146636720224672,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0c5",
+      "rank": 231,
+      "name": "St Anselm",
+      "gameScores": null,
+      "baseScore": 0.2962962963,
+      "score": 0.30627871363318293,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1c8",
+      "rank": 232,
+      "name": "Rocky Mountain",
+      "gameScores": null,
+      "baseScore": 0.3253012048,
+      "score": 0.306128159397291,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b10e",
+      "rank": 233,
+      "name": "Texas El Paso",
+      "gameScores": null,
+      "baseScore": 0.3180555555333333,
+      "score": 0.30608766367118195,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b162",
+      "rank": 234,
+      "name": "Fla Atlantic",
+      "gameScores": null,
+      "baseScore": 0.2890522875666667,
+      "score": 0.3011828151704698,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0a3",
+      "rank": 235,
+      "name": "Idaho",
+      "gameScores": null,
+      "baseScore": 0.2763651853,
+      "score": 0.29872448526898127,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b19c",
+      "rank": 236,
+      "name": "Central Wash",
+      "gameScores": null,
+      "baseScore": 0.3768115942,
+      "score": 0.29846296216477175,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0f2",
+      "rank": 237,
+      "name": "Northwestern St",
+      "gameScores": null,
+      "baseScore": 0.28951977813333335,
+      "score": 0.296539724413692,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b07f",
+      "rank": 238,
+      "name": "Florida Intl",
+      "gameScores": null,
+      "baseScore": 0.3044980468,
+      "score": 0.2956088151573551,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0a7",
+      "rank": 239,
+      "name": "Jackson St",
+      "gameScores": null,
+      "baseScore": 0.2835687704,
+      "score": 0.2935348551696758,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1ad",
+      "rank": 240,
+      "name": "Elon",
+      "gameScores": null,
+      "baseScore": 0.429407361,
+      "score": 0.2922748242394086,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b19b",
+      "rank": 241,
+      "name": "Portland St",
+      "gameScores": null,
+      "baseScore": 0.3459682925,
+      "score": 0.2920747842126026,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0e2",
+      "rank": 242,
+      "name": "Arkansas St",
+      "gameScores": null,
+      "baseScore": 0.2765524749333333,
+      "score": 0.28330176135552537,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b118",
+      "rank": 243,
+      "name": "Texas State",
+      "gameScores": null,
+      "baseScore": 0.2878787879,
+      "score": 0.28287736348919407,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b180",
+      "rank": 244,
+      "name": "Iowa St",
+      "gameScores": null,
+      "baseScore": 0.2796599878666667,
+      "score": 0.2797912221721826,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b18d",
+      "rank": 245,
+      "name": "Ark Pine Bluff",
+      "gameScores": null,
+      "baseScore": 0.3186026936,
+      "score": 0.2792603695939331,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b312",
+      "rank": 246,
+      "name": "Trinity International",
+      "gameScores": null,
+      "baseScore": 0.3287671233,
+      "score": 0.27680256798347386,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0ad",
+      "rank": 247,
+      "name": "Delaware St",
+      "gameScores": null,
+      "baseScore": 0.2851851852,
+      "score": 0.27594692478035165,
+      "wins": 0,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b089",
+      "rank": 248,
+      "name": "Rice",
+      "gameScores": null,
+      "baseScore": 0.2509259259,
+      "score": 0.2758612421434703,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1bf",
+      "rank": 249,
+      "name": "Nc Central",
+      "gameScores": null,
+      "baseScore": 0.40395622896666666,
+      "score": 0.273256500303263,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b17b",
+      "rank": 250,
+      "name": "Alabama St",
+      "gameScores": null,
+      "baseScore": 0.29352869349999994,
+      "score": 0.271955640349995,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1d0",
+      "rank": 251,
+      "name": "Idaho St",
+      "gameScores": null,
+      "baseScore": 0.4034006734,
+      "score": 0.2712045657819019,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b098",
+      "rank": 252,
+      "name": "Maine",
+      "gameScores": null,
+      "baseScore": 0.26458333335,
+      "score": 0.26361918394803563,
+      "wins": 0,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0b9",
+      "rank": 253,
+      "name": "No Alabama",
+      "gameScores": null,
+      "baseScore": 0.2790697674,
+      "score": 0.2517836524649026,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b15a",
+      "rank": 254,
+      "name": "Murray St",
+      "gameScores": null,
+      "baseScore": 0.24942559926666666,
+      "score": 0.24029681078355594,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b095",
+      "rank": 255,
+      "name": "Presbyterian",
+      "gameScores": null,
+      "baseScore": 0.24886039886666667,
+      "score": 0.23753613129833104,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b16f",
+      "rank": 256,
+      "name": "Alabama A&M",
+      "gameScores": null,
+      "baseScore": 0.33804778743333336,
+      "score": 0.23748309963730876,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b19e",
+      "rank": 257,
+      "name": "Lamar",
+      "gameScores": null,
+      "baseScore": 0.2275213675,
+      "score": 0.233575976644677,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2f3",
+      "rank": 258,
+      "name": "Livingstone",
+      "gameScores": null,
+      "baseScore": 0.24,
+      "score": 0.2304904342660947,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1fb",
+      "rank": 259,
+      "name": "Elizabeth City State",
+      "gameScores": null,
+      "baseScore": 0.28846153845,
+      "score": 0.228559749963478,
+      "wins": 0,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1ee",
+      "rank": 260,
+      "name": "Sacramento State",
+      "gameScores": null,
+      "baseScore": 0.28758169933333333,
+      "score": 0.22296035726436206,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1fa",
+      "rank": 261,
+      "name": "Norfolk St",
+      "gameScores": null,
+      "baseScore": 0.2824074074,
+      "score": 0.22290362760627971,
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b254",
+      "rank": 262,
+      "name": "Chowan",
+      "gameScores": null,
+      "baseScore": 0.2295081967,
+      "score": 0.2154868992817439,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b15d",
+      "rank": 263,
+      "name": "Se Louisiana",
+      "gameScores": null,
+      "baseScore": 0.27696078435,
+      "score": 0.21322848122105514,
+      "wins": 0,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1ab",
+      "rank": 264,
+      "name": "Florida A&M",
+      "gameScores": null,
+      "baseScore": 0.22334895843333333,
+      "score": 0.20955036540012414,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1ef",
+      "rank": 265,
+      "name": "Western Oregon",
+      "gameScores": null,
+      "baseScore": 0.2794117647,
+      "score": 0.20200362923137788,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b09b",
+      "rank": 266,
+      "name": "Southern Utah",
+      "gameScores": null,
+      "baseScore": 0.2745098039,
+      "score": 0.19578821051588668,
+      "wins": 1,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b261",
+      "rank": 267,
+      "name": "Franklin College",
+      "gameScores": null,
+      "baseScore": 0.1917808219,
+      "score": 0.19099385493054397,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b14e",
+      "rank": 268,
+      "name": "Howard",
+      "gameScores": null,
+      "baseScore": 0.1942843064666667,
+      "score": 0.18866475943749642,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b16c",
+      "rank": 269,
+      "name": "Austin Peay",
+      "gameScores": null,
+      "baseScore": 0.1877815315,
+      "score": 0.18306740396959506,
+      "wins": 0,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b178",
+      "rank": 270,
+      "name": "Rhode Island",
+      "gameScores": null,
+      "baseScore": 0.18556466303333333,
+      "score": 0.18192302468606195,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b204",
+      "rank": 271,
+      "name": "Pikeville College",
+      "gameScores": null,
+      "baseScore": 0.2028985507,
+      "score": 0.17879930966214158,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2dc",
+      "rank": 272,
+      "name": "Yale",
+      "gameScores": null,
+      "baseScore": 0.1911764706,
+      "score": 0.16331401666484435,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0a9",
+      "rank": 273,
+      "name": "Robert Morris",
+      "gameScores": null,
+      "baseScore": 0.15656565656666666,
+      "score": 0.1539725369693526,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1e9",
+      "rank": 274,
+      "name": "Virginia-Lynchburg",
+      "gameScores": null,
+      "baseScore": 0.1428571429,
+      "score": 0.14461400140031078,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1b0",
+      "rank": 275,
+      "name": "Morgan St",
+      "gameScores": null,
+      "baseScore": 0.16,
+      "score": 0.14286789102237282,
+      "wins": 0,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0e6",
+      "rank": 276,
+      "name": "Miss Valley",
+      "gameScores": null,
+      "baseScore": 0.16679738563333335,
+      "score": 0.13651043170212127,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2e2",
+      "rank": 277,
+      "name": "Edward Waters",
+      "gameScores": null,
+      "baseScore": 0.1458333333,
+      "score": 0.13157444337843924,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b175",
+      "rank": 278,
+      "name": "So Carolina St",
+      "gameScores": null,
+      "baseScore": 0.1038961039,
+      "score": 0.10104412901496564,
+      "wins": 0,
+      "losses": 3
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b190",
+      "rank": 279,
+      "name": "Bluefield College",
+      "gameScores": null,
+      "baseScore": 0.1060606061,
+      "score": 0.09958106713855511,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1b3",
+      "rank": 280,
+      "name": "Kentucky St",
+      "gameScores": null,
+      "baseScore": 0.109375,
+      "score": 0.09492538419077959,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0b6",
+      "rank": 281,
+      "name": "Mars Hill",
+      "gameScores": null,
+      "baseScore": 0.0833333333,
+      "score": 0.08913336189276079,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2e4",
+      "rank": 282,
+      "name": "Fayetteville State",
+      "gameScores": null,
+      "baseScore": 0.1034482759,
+      "score": 0.08195946460654234,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2f1",
+      "rank": 283,
+      "name": "Lincoln",
+      "gameScores": null,
+      "baseScore": 0.0967741935,
+      "score": 0.08070084598729942,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1dd",
+      "rank": 284,
+      "name": "Tarleton St",
+      "gameScores": null,
+      "baseScore": 0.0833333333,
+      "score": 0.07915774079189908,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2d2",
+      "rank": 285,
+      "name": "Bacone College",
+      "gameScores": null,
+      "baseScore": 0.0666666667,
+      "score": 0.05819533704651198,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b272",
+      "rank": 286,
+      "name": "Point University",
+      "gameScores": null,
+      "baseScore": 0.0576923077,
+      "score": 0.05746804792804957,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1d1",
+      "rank": 287,
+      "name": "Simon Fraser",
+      "gameScores": null,
+      "baseScore": 0.06,
+      "score": 0.04627227394691411,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1da",
+      "rank": 288,
+      "name": "St. Augustine's College",
+      "gameScores": null,
+      "baseScore": 0.0486111111,
+      "score": 0.0375888576450391,
+      "wins": 0,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2fc",
+      "rank": 289,
+      "name": "Nm Highlands",
+      "gameScores": null,
+      "baseScore": 0.0394736842,
+      "score": 0.035160152570057064,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0bf",
+      "rank": 290,
+      "name": "Shorter",
+      "gameScores": null,
+      "baseScore": 0,
+      "score": 0,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b0c2",
+      "rank": 291,
+      "name": "Southwestern College",
+      "gameScores": null,
+      "baseScore": 0,
+      "score": 0,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9cd4c604fcb0d0b169",
+      "rank": 292,
+      "name": "Savannah St",
+      "gameScores": null,
+      "baseScore": 0,
+      "score": 0,
+      "wins": 0,
+      "losses": 2
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b1f2",
+      "rank": 293,
+      "name": "Wstn New Mexico",
+      "gameScores": null,
+      "baseScore": 0,
+      "score": 0,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b258",
+      "rank": 294,
+      "name": "Concordia",
+      "gameScores": null,
+      "baseScore": 0,
+      "score": 0,
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "id": "57df0d9dd4c604fcb0d0b2eb",
+      "rank": 295,
+      "name": "Johnson C. Smith",
+      "gameScores": null,
+      "baseScore": 0,
+      "score": 0,
+      "wins": 0,
+      "losses": 1
+    }
+  ]
+}
